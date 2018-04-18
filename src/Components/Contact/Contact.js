@@ -1,8 +1,11 @@
 import React from 'react';
+import RevealExampleMoveUp from './ContactImage/ContactImage';
 
 const Contact = () => (
-  <div className="Contact">
-    <a className="" href="https://www.google.com" target="_blank">
+  <div className="ContactSuper">
+    <div className="Contact">
+      <RevealExampleMoveUp />
+    {/* <a href="https://www.google.com" target="_blank">
       <button className="FacebookLink">Facebook</button>
       <button className="FacebookLink"></button>
     </a>&nbsp;&nbsp;
@@ -13,7 +16,8 @@ const Contact = () => (
     <a href="https://www.reddit.com" target="_blank">
       <button className="FacebookLink">Email</button>
       <button className="FacebookLink" style={{color: '#fe584c'}}></button>
-    </a>
+    </a> */}
+    </div>
   </div>
 );
 
