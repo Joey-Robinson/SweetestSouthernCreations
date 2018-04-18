@@ -1,11 +1,10 @@
 import React from 'react';
-import RevealExampleMoveUp from './ContactImage/ContactImage';
+import MainCarousel from '../../containers/Carousel/MainCarousel';
 
 const Contact = () => (
   <div className="ContactSuper">
-    <div className="Contact">
-      <RevealExampleMoveUp />
-    {/* <a href="https://www.google.com" target="_blank">
+    {/* <div className="Contact">
+    <a href="https://www.google.com" target="_blank">
       <button className="FacebookLink">Facebook</button>
       <button className="FacebookLink"></button>
     </a>&nbsp;&nbsp;
@@ -16,8 +15,9 @@ const Contact = () => (
     <a href="https://www.reddit.com" target="_blank">
       <button className="FacebookLink">Email</button>
       <button className="FacebookLink" style={{color: '#fe584c'}}></button>
-    </a> */}
-    </div>
+    </a>
+    </div> */}
+    <MainCarousel />
   </div>
 );
 
