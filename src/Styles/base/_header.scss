@@ -1,0 +1,16 @@
+.Header {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  margin-top: 3.5rem;
+}
+
+.Header a {
+  color: $lightwhite;
+  box-shadow: .5px .5px $brightgrey;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  color: yellow;
+}

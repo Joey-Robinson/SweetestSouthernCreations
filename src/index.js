@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './Containers/Hello';
+import SSC from './containers/SSC';
 import './Styles/styles.scss';
 import 'normalize.css';
 
-ReactDOM.render(<Hello />, document.getElementById('app'));
+ReactDOM.render(<SSC />, document.getElementById('app'));
 
 module.hot.accept();

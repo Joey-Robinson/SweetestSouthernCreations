@@ -1,0 +1,52 @@
+.Home {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+  height: 75vh;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.HomeSuper {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 2rem;
+}
+
+.HomeOne {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+}
+
+.HomeTwo {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+}
+
+.HomeThree {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+}
+
+.HomeFour {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+}
+
+.HomeFive {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+}
+
+.HomeSix {
+  display: grid;
+  justify-items: center;
+  border: .1px solid $soulblack;
+}

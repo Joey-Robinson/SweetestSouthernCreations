@@ -1,0 +1,10 @@
+.Banner {
+  text-align: center;
+  font-family: cursive;
+  font-size: 5.5rem;
+  padding: .5rem;
+  margin: .5rem;
+  color: $lightwhite;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: linear-gradient(to top left, $pinkpink, $allyshafive, $allysha, $pinkpink);
+}

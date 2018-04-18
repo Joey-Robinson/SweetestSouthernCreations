@@ -1,0 +1,70 @@
+.AboutModal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background: rgba(238, 155, 111, 0.85);
+  border: none;
+  outline: none;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+.ButtonModalOpen {
+  margin-bottom: 2rem;
+  transition: all .2s;
+  background: $lightwhite;
+  color: $soulblack;
+  border: 0.1px solid $soulblack;
+}
+
+.ButtonModalOpen:hover {
+  background: #f7d676;
+}
+
+.ButtonModalOpen:active {
+  color: $lightwhite;
+  background-color: $brightgrey;
+  box-shadow: 0 2px $soulblack;
+  transform: translateY(2px);
+}
+
+.ButtonModalClose {
+  transition: all .2s;
+  background: $lightwhite;
+  color: $soulblack;
+  border: 0.1px solid $soulblack;
+  border: none;
+  outline: none;
+  position: relative;
+  left: 50%;
+}
+
+.ButtonModalClose:hover {
+  background: #f7d676;
+}
+
+.ButtonModalClose:active {
+  color: $lightwhite;
+  background-color: $brightgrey;
+  box-shadow: 0 2px $soulblack;
+  transform: translateY(2px);
+}
+
+.ModalText {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  text-align: center;
+  padding: 1rem;
+}
