@@ -7,13 +7,13 @@ class MainCarousel extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img width={900} height={500} alt="900x500" src="http://via.placeholder.com/350x150" />
+            <a href="https://github.com/elamahpla" target="_blank"><img src="http://via.placeholder.com/350x150" /></a>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={900} height={500} alt="900x500" src="http://via.placeholder.com/450x150" />
+            <img alt="shit" src="http://via.placeholder.com/350x150" />
          </Carousel.Item>
           <Carousel.Item>
-            <img width={900} height={500} alt="900x500" src="http://via.placeholder.com/550x150" />
+            <img alt="fuck" src="http://via.placeholder.com/350x150" />
           </Carousel.Item>
         </Carousel>
       </div>

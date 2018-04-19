@@ -34,7 +34,9 @@ const images = [
   'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc031.jpg'
 ];
 const imageArray = images.map((image, index) => {
-  return <a 
+  return <li
+    style={{listStyle: 'none'}}>
+      <a 
     target="_blank" 
     href={image}>
     <img 
@@ -44,7 +46,8 @@ const imageArray = images.map((image, index) => {
       key={index} 
       src={image} 
     />
-  </a>
+    </a>
+  </li>
 })
 
 const Work = () => (
