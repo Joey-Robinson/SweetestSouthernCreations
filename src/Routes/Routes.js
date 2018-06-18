@@ -10,7 +10,7 @@ class Routes extends Component {
   render() {
     return (
       <Router>
-        <div className="Home">
+        <div>
           <CollapsingSidebar />
           <Switch>
             <Route exact path="/" component={Home} />

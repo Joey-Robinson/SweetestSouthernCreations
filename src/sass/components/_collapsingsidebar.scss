@@ -1,3 +1,4 @@
+// Styling for react-burger-menu
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -9,14 +10,14 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: $darkGrey;
 }
 
 /* Position and sizing of clickable cross button */
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: black;
+  background: $black;
   border: none;
   outline: none;
   &-button {
@@ -24,6 +25,9 @@
     border: none;
     background: white;
     border-radius: 50%; 
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 
@@ -33,6 +37,12 @@
   font-size: 2.2rem;
   margin: 0;
   padding: 0;
+}
+
+.bm-menu-wrap {
+  display: grid;
+  grid-template-columns: max-content;
+  justify-content: center;
 }
 
 /* Morph shape necessary with bubble or elastic */
