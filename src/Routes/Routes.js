@@ -4,18 +4,20 @@ import Contact from '../Components/Contact/Contact';
 import About from '../Components/About/About';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import CollapsingSidebar from '../Containers/CollapsingSidebar/CollapsingSidebar';
+import Footer from '../Components/Layout/Footer/Footer';
 
 class Routes extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="Home">
           <CollapsingSidebar />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );

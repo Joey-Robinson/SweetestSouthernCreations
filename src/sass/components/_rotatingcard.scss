@@ -1,0 +1,43 @@
+.DummyComponent {
+  grid-column: 8 / -1;
+  grid-row: 2 / 2;
+  -moz-perspective: 150rem;
+  perspective: 150rem;
+  position: relative;
+  width: 50%;
+  &-Side {
+    background-image: linear-gradient(to right bottom, yellowgreen, blue);
+    font-size: 2.2rem;
+    color: white;
+    height: 100%;
+    width: 100%;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+  }
+  &-Side-Front {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  &-Side-Back {
+    transform: rotateY(180deg);
+    width: 100%;
+    text-align: center;
+    &-1 {
+      background-image: linear-gradient(to right bottom, blue, yellowgreen);
+    }
+  }
+  &:hover &-Side-Front {
+    transform: rotateY(-180deg);
+    transition: all .9s ease;
+    // color: transparent;
+  }
+  &:hover &-Side-Back {
+    transform: rotateY(0);
+  }
+}
