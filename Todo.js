@@ -11,3 +11,8 @@
 // Add FavIcon: Request something for FavIcon so it can be added (Do it yourself)
 // Future: When I go to add the images, make sure you have at least 2 per, so you can use 
 // varying sizes? 
+
+// Modal: Using a button inside of the Modal itself results in the button (opening button)
+// Not being able to be moved. So this means, even using a Button component (see file structure)
+// I would have to retrace my steps to see the best way to fix this. Very interesting and I want to 
+// Figure out the best way to handle this in the future

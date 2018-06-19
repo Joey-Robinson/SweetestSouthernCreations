@@ -1,0 +1,33 @@
+// .Button {
+//   &-Open {
+//     width: 25%;
+//     height: 25%;
+//     border-radius: 20rem;
+//     border: none;
+//     outline: none;
+//     box-shadow: .25rem .35rem black;
+//     cursor: pointer;
+//   }
+//   &-Close {
+//     width: 75%;
+//     height: 25%;
+//     justify-self: center;
+//     align-self: center;
+//     border-radius: 20rem;
+//     border: none;
+//     outline: none;
+//     box-shadow: .25rem .35rem black;
+//     cursor: pointer;
+//   }
+//   &-Open:hover,
+//   &-Close:hover {
+//     box-shadow: .5rem .7rem black;
+//     transform: translateY(-.5rem);
+//     transition: all .3s;
+//   }
+//   &-Open:active,
+//   &-Close:active {
+//     transform: translateY(.25rem);
+//     transition: all .3s;
+//   }
+// }
