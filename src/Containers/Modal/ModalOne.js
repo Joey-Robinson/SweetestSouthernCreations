@@ -13,7 +13,7 @@ class Modal extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="ModalMover">
         <button
           className="ModalDiv-Button-Open" 
           onClick={this.openModalHandler}>
