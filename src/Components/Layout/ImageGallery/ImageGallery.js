@@ -2,7 +2,26 @@ import React from 'react';
 
 const ImageGallery = () => (
   <section className="ImageGallery">
-    From Image Gallery
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
+    <img className="ImageGallery-Image" src="http://via.placeholder.com/100x100" alt=""/>
   </section>
 );
 

@@ -13,6 +13,18 @@ const RotatingCard = () => (
         Back
       </div>  
     </div>
+
+    <div className="RotatingCard-Side">
+      <div className="RotatingCard-Side-Front">
+        Front
+      </div>
+      <div className="RotatingCard-Picture RotatingCard-Picture-2">
+        &nbsp;
+      </div>
+      <div className="RotatingCard-Side RotatingCard-Side-Back RotatingCard-Side-Back-2">
+        Back
+      </div>  
+    </div>
   </div>
 );
 

@@ -5,13 +5,15 @@
   -moz-perspective: 150rem;
   perspective: 150rem;
   position: relative;
-  width: 50%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   &-Side {
     background-image: linear-gradient(to right bottom, yellowgreen, blue);
     font-size: 2.2rem;
     color: white;
     height: 100%;
-    width: 100%;
+    width: 50%;
     transition: all .8s ease;
     position: absolute;
     top: 0;
