@@ -1,0 +1,10 @@
+.RotatingCardContainer {
+  grid-column: 8 / -1;
+  // grid-row: 2 / 2;
+  -moz-perspective: 150rem;
+  perspective: 150rem;
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
