@@ -34,15 +34,54 @@
 /* General sidebar styles */
 .bm-menu {
   background: black;
-  font-size: 2.2rem;
-  margin: 0;
-  padding: 0;
+  font-size: 2rem;
+  &-item {
+    position: relative;
+    margin-top: 3rem;
+    &:note(:last-child) {
+      margin-bottom: .5rem;
+    }
+    &-active {
+      background: $mediumPink;
+    }
+  }
+  &-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: .5rem;
+    background-color: $mediumPink;
+    transform: scaleY(0);
+    transition: transform .2s, width .4s cubic-bezier(1, 0, 0, 1) .2s, background-color .1s;
+  }
+  &-item:hover::before,
+  &-item-active::before {
+    transform: scaleY(1);
+    width: 100%;
+  }
+  &-item:active::before {
+    background-color: $mediumPink;
+  }
+  &-link:link,
+  &-link:visited {
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .bm-menu-wrap {
-  display: grid;
-  grid-template-columns: max-content;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -57,9 +96,6 @@
 }
 
 /* Individual item */
-.bm-item {
-  display: inline-block;
-}
 
 /* Styling of overlay */
 .bm-overlay {

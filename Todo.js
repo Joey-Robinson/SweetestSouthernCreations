@@ -3,6 +3,7 @@
 // Add the Modal: Take modal from CSSGridStuf and import it here
 // Take Full DummyComponent/RotatingCard: Take the CSS so there's a top and bottom portion, not the entire thing.
 // Design the menu: Clean it up, make it look better with hover effects
+  // Find SVG's to use
 // Add more Routes: Create and add Components for routing and display
   // Work, Requests, anything else
 // Look into any external libraries needed: Material-UI would be on of the only ones

@@ -10,5 +10,18 @@ $lightBlue: #2998ff;
 $mediumPurple: #5643fa;
 $lightGreen: #0ee70e;
 $darkGreen: #095209;
+$mediumPink: #d47c8a;
 // Font-Sizes
 $smallFont: 1.6rem;
+
+// Box Shadows
+$darkShadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+$darkShadowOne: 0 2rem 5rem rgba(0, 0, 0, .06);
+// Borders
+$greyBorder: 1px solid $lightGrey;
+// breakPoints
+$breakPointLargest: 75em;   // 1200px
+$breakPointLarge: 68.75em;  // 1100px
+$breakPointMedium: 56.25em; // 900px
+$breakPointSmall: 37.5em;   // 600px
+$breakPointSmallest: 31.25em  // 500px

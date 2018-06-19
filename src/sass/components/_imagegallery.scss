@@ -1,6 +1,6 @@
 // Styling for ImageGallery Component. Will be shown on main page. Here I'm creating a nested grid to showcase images
 .ImageGallery {
-  background: #ffd1dc;
+  background: lighten($mediumPink, 7%);
   color: black;
   font-size: 2.2rem;
   grid-column: 8 / -1;

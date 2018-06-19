@@ -6,7 +6,7 @@
   width: 100%;
   grid-column: 1 / span 2;
   &-Side {
-    background-image: linear-gradient(to right bottom, $lightBlue, black);
+    background-image: linear-gradient(to right bottom, black, $lightBlue);
     font-size: 2.2rem;
     color: white;
     height: 100%;
