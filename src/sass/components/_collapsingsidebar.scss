@@ -10,14 +10,14 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: $darkGrey;
+  background: $darkerGrey;
 }
 
 /* Position and sizing of clickable cross button */
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: $black;
+  background: darken($darkerGrey, 10%);
   border: none;
   outline: none;
   &-button {
@@ -33,16 +33,18 @@
 
 /* General sidebar styles */
 .bm-menu {
-  background: black;
+  background: darken($darkerGrey, 10%);
   font-size: 2rem;
+  list-style: none;
   &-item {
     position: relative;
     margin-top: 3rem;
+    width: 75%;
     &:note(:last-child) {
       margin-bottom: .5rem;
     }
     &-active {
-      background: $mediumPink;
+      background: $mediumPurple;
     }
   }
   &-item::before {

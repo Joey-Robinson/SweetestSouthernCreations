@@ -9,3 +9,5 @@
 // Look into any external libraries needed: Material-UI would be on of the only ones
 // -: ~
 // Add FavIcon: Request something for FavIcon so it can be added (Do it yourself)
+// Future: When I go to add the images, make sure you have at least 2 per, so you can use 
+// varying sizes?
