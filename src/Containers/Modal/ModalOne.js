@@ -17,7 +17,7 @@ class Modal extends Component {
         <button
           className="ModalDiv-Button-Open" 
           onClick={this.openModalHandler}>
-          Open modal
+          Read More
         </button>
         <ModalTwo
           isOpen={this.state.isModalOpen} 

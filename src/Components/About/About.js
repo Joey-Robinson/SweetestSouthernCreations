@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../Layout/Header/Header';
+import Footer from '../Layout/Footer/Footer';
 
 const About = () => (
   <div className="About">
-    From About
+    <Header />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, laborum!
+    <Footer />
   </div>
 );
 
