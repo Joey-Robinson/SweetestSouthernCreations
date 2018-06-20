@@ -3,24 +3,24 @@
   width: 12.5rem;
   height: 12.5rem;
   border-radius: 50%;
-  background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
+  background-image: linear-gradient(to left top, $lightSilver, darken($brightPink, 30%));
   border: $blackBorder;
   box-shadow: $midnightShadow;
   transition: all .5s ease-in-out;
   & p {
-    display: none;
+    font-size: 0.001px;
   }
   &:hover {
     font-size: 2rem;
     width: 40vw;
     height: 40vh;
     border-radius: 2.5rem;
-    &:active {
-      & p {
-        
-        display: inline-block;
-        color: yellow;
-      }
+    & p {
+      transition-delay: .375s;
+      font-size: 2rem;
+      content: "";
+      display: inline-block;
+      color: yellow;
     }
   }
 }
@@ -30,16 +30,26 @@
   width: 12.5rem;
   height: 12.5rem;
   border-radius: 50%;
-  background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
+  background-image: linear-gradient(to right bottom, $lightBlue, darken($mediumPurple, 30%));
   border: $blackBorder;
   box-shadow: $midnightShadow;
   transition: all .5s ease-in-out;
+  & p {
+    font-size: 0.001px;
+  }
   &:hover {
     font-size: 2rem;
     width: 50vw;
     height: 50vh;
     border-radius: 2.5rem;
     transform: translateY(-20rem);
+    & p {
+      transition-delay: .375s;
+      font-size: 2rem;
+      content: "";
+      display: inline-block;
+      color: yellow;
+    }
   }
 }
 

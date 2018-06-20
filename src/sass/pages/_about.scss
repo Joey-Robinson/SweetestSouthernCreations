@@ -2,13 +2,12 @@
 // I'm trying to basically say everything while saying very litte.
 .About {
   font-size: 2rem;
-  text-align: center;
   height: 100vh;
   background-image: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
   color: white;
   display: grid;
   &-Dummy {
-    justify-content: center;
+    text-align: center;
     justify-items: center;
     align-content: center;
     display: grid;
