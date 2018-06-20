@@ -15,12 +15,15 @@ class InformationToggle extends Component {
     return (
       <div>
         <button
+          className="ButtonToggle"
           onMouseEnter={this.handleToggleVisibility}
-          onMouseLeave={this.handleToggleVisibility}>
+          onMouseLeave={this.handleToggleVisibility}
+          onClick={this.handleToggleVisibility}>
             {this.state.visibility ? <p>&uarr;</p> : <p>&darr;</p>}
         </button>
         {this.state.visibility && (
           <div>
+            <br/>
             <p>test</p>
           </div>
         )}
