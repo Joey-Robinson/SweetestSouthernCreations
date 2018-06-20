@@ -7,8 +7,6 @@
   background-image: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
   color: white;
   display: grid;
-  // grid-template-rows: 5rem repeat(4, 20rem) 5rem;
-  // grid-template-columns: repeat(12, 1fr);
   &-Dummy {
     justify-content: center;
     justify-items: center;
@@ -25,12 +23,13 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
+        
       }
     }
     &-Two {
@@ -42,11 +41,11 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
       }
     }
@@ -59,11 +58,11 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
       }
     }
@@ -76,17 +75,17 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
       }
     }
     &-Five {
       grid-column: 2;
-      grid-row: 5;
+      grid-row: 4;
       font-size: 1rem;
       width: 12.5rem;
       height: 12.5rem;
@@ -94,17 +93,18 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
+        transform: translateY(-20rem);
       }
     }
     &-Six {
       grid-column: 5;
-      grid-row: 5;
+      grid-row: 4;
       font-size: 1rem;
       width: 12.5rem;
       height: 12.5rem;
@@ -112,17 +112,18 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
+        transform: translateY(-20rem);
       }
     }
     &-Seven {
       grid-column: 8;
-      grid-row: 5;
+      grid-row: 4;
       font-size: 1rem;
       width: 12.5rem;
       height: 12.5rem;
@@ -130,17 +131,18 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
+        transform: translateY(-20rem);
       }
     }
     &-Eight {
       grid-column: 11;
-      grid-row: 5;
+      grid-row: 4;
       font-size: 1rem;
       width: 12.5rem;
       height: 12.5rem;
@@ -148,12 +150,13 @@
       background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
       border: $blackBorder;
       box-shadow: $midnightShadow;
-      transition: all .4s ease-out;
+      transition: all .5s ease-in-out;
       &:hover {
         font-size: 2rem;
-        width: 25rem;
-        height: 25rem;
+        width: 50vw;
+        height: 50vh;
         border-radius: 2.5rem;
+        transform: translateY(-20rem);
       }
     }
   }

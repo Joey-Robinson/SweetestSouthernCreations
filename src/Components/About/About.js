@@ -4,7 +4,6 @@ import Footer from '../Layout/Footer/Footer';
 
 const About = () => (
   <section className="About">
-    {/* <Header /> */}
       <div className="About-Dummy">
         <div className="About-Dummy-One">
           <h1>Test</h1>
