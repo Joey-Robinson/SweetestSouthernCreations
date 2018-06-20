@@ -17,7 +17,6 @@ class InformationToggle extends Component {
         <button
           className="ButtonToggle"
           onMouseEnter={this.handleToggleVisibility}
-          onMouseLeave={this.handleToggleVisibility}
           onClick={this.handleToggleVisibility}>
             {this.state.visibility ? <p>&uarr;</p> : <p>&darr;</p>}
         </button>
