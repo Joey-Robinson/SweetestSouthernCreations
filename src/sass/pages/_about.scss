@@ -16,148 +16,39 @@
     grid-template-columns: repeat(12, 1fr);
     &-One {
       grid-column: 2;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-        
-      }
+      @include aboutLayout;
     }
     &-Two {
       grid-column: 5;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-      }
+      @include aboutLayout;
     }
     &-Three {
       grid-column: 8;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-      }
+      @include aboutLayout;
     }
     &-Four {
       grid-column: 11;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-      }
+      @include aboutLayout;
     }
     &-Five {
       grid-column: 2;
       grid-row: 4;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-        transform: translateY(-20rem);
-      }
+      @include aboutLayoutBottom;
     }
     &-Six {
       grid-column: 5;
       grid-row: 4;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-        transform: translateY(-20rem);
-      }
+      @include aboutLayoutBottom;
     }
     &-Seven {
       grid-column: 8;
       grid-row: 4;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-        transform: translateY(-20rem);
-      }
+      @include aboutLayoutBottom;
     }
     &-Eight {
       grid-column: 11;
       grid-row: 4;
-      font-size: 1rem;
-      width: 12.5rem;
-      height: 12.5rem;
-      border-radius: 50%;
-      background-image: linear-gradient(to left top, $lightGreen, darken($mediumPurple, 30%));
-      border: $blackBorder;
-      box-shadow: $midnightShadow;
-      transition: all .5s ease-in-out;
-      &:hover {
-        font-size: 2rem;
-        width: 50vw;
-        height: 50vh;
-        border-radius: 2.5rem;
-        transform: translateY(-20rem);
-      }
+      @include aboutLayoutBottom;
     }
   }
 }
