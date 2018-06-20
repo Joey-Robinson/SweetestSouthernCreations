@@ -22,6 +22,22 @@ const About = () => (
           <h1>Test</h1>
           Lorem ipsum dolor sit amet.
         </div>
+        <div className="About-Dummy-Five">
+          <h1>Test</h1>
+          Lorem ipsum dolor sit amet.
+        </div>
+        <div className="About-Dummy-Six">
+          <h1>Test</h1>
+          Lorem ipsum dolor sit amet.
+        </div>
+        <div className="About-Dummy-Seven">
+          <h1>Test</h1>
+          Lorem ipsum dolor sit amet.
+        </div>
+        <div className="About-Dummy-Eight">
+          <h1>Test</h1>
+          Lorem ipsum dolor sit amet.
+        </div>
       </div>
   </section>
 );
