@@ -16,3 +16,5 @@
 // Not being able to be moved. So this means, even using a Button component (see file structure)
 // I would have to retrace my steps to see the best way to fix this. Very interesting and I want to 
 // Figure out the best way to handle this in the future
+
+// Contact Page: Add a DnD/Todo type list for all contact information.
