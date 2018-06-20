@@ -17,8 +17,10 @@ $smallFont: 1.6rem;
 // Box Shadows
 $darkShadow: 0 2rem 6rem rgba(0, 0, 0, 0.47);
 $darkShadowOne: 0 2rem 5rem rgba(0, 0, 0, .06);
+$midnightShadow: 1rem 2rem 5rem $black;
 // Borders
 $greyBorder: 1px solid $lightGrey;
+$blackBorder: 1px solid $black;
 // breakPoints
 $breakPointLargest: 75em;   // 1200px
 $breakPointLarge: 68.75em;  // 1100px

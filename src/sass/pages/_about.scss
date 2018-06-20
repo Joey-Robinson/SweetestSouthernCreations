@@ -1,3 +1,5 @@
+// For the About section. I think this will be one of the harder ones to do, since 
+// I'm trying to basically say everything while saying very litte.
 .About {
   font-size: 2rem;
   text-align: center;
@@ -5,30 +7,12 @@
   background-image: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
   color: white;
   display: grid;
-  grid-template-columns: repeat(3, 10%) repeat(3, 20%) 10%;
-  grid-template-rows: 5% 10% repeat(3, 20%);
-  &-One {
-    margin: 2rem 2rem 0 0;
-    border: $greyBorder;
-    box-shadow: $darkShadow;
-    height: 100%;
-    grid-column: 1 / span 3;
-    grid-row: 2 / span 4;
-  }
-  &-Two {
-    margin: 2rem 0 0 0;
-    border: $greyBorder;
-    box-shadow: $darkShadow;
-    height: 100%;
-    grid-column: 4 / 6;
-    grid-row: 2 / span 4;
-  }
-  &-Three {
-    margin: 2rem 0 0 2rem;
-    border: $greyBorder;
-    box-shadow: $darkShadow;
-    height: 100%;
-    grid-column: 6 / -1;
-    grid-row: 2 / span 4;
+  grid-template-rows: 5rem repeat(4, 20rem) 5rem;
+  &-Dummy {
+    width: 50rem;
+    height: 50rem;
+    background: black;
+    border-radius: 50%;
+    text-align: center;
   }
 }

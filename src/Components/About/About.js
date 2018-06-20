@@ -6,16 +6,7 @@ import InformationToggle from '../../Containers/InformationToggle/InformationTog
 const About = () => (
   <section className="About">
     <Header />
-    <div className="About-One">
-      <h1>Who are we?</h1>
-        <InformationToggle />
-    </div>
-    <div className="About-Two">
-      <h1>What we do.</h1>
-    </div>
-    <div className="About-Three">
-      <h1>What is this?</h1>
-    </div>
+  <div className="About-Dummy">test</div>
   </section>
 );
 
