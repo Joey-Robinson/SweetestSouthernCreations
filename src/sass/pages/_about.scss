@@ -8,11 +8,28 @@
   color: white;
   display: grid;
   grid-template-rows: 5rem repeat(4, 20rem) 5rem;
+  grid-template-columns: repeat(12, 1fr);
   &-Dummy {
-    width: 50rem;
-    height: 50rem;
+    margin: 2rem 0 0 2rem;
+    width: 12.5rem;
+    height: 12.5rem;
     background: black;
     border-radius: 50%;
     text-align: center;
+    transition: all .4s ease-out;
+    &:hover {
+      width: 25rem;
+      height: 25rem;
+      border-radius: 5rem;
+    }
+    &-One {
+      margin: 2rem 0 0 2rem;
+      width: 12.5rem;
+      height: 12.5rem;
+      background: black;
+      border-radius: 50%;
+      text-align: center;
+      transition: all .4s ease-out;
+    }
   }
 }
