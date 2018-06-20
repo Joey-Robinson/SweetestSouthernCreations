@@ -1,11 +1,19 @@
 .About {
   font-size: 2rem;
   text-align: center;
-  width: 100vw;
   height: 100vh;
-  background: #000;
+  background-image: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
+  color: white;
   display: grid;
-  grid-template-rows: 5rem 25vh min-content 10rem 30.1vw repeat(3, min-content);
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
-
+  grid-template-columns: repeat(3, 10%) repeat(3, 20%) 10%;
+  // grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 5% 10% repeat(3, 20%);
+  &-One {
+    margin: 2rem 0 0 2rem;
+    border: $greyBorder;
+    box-shadow: $darkShadow;
+    height: 100%;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 4;
+  }
 }

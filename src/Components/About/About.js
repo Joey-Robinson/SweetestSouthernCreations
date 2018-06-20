@@ -1,13 +1,16 @@
 import React from 'react';
 import Header from '../Layout/Header/Header';
 import Footer from '../Layout/Footer/Footer';
+import InformationToggle from '../../Containers/InformationToggle/InformationToggle';
 
 const About = () => (
-  <div className="About">
+  <section className="About">
     <Header />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, laborum!
-    <Footer />
-  </div>
+    <div className="About-One">
+      <h1>Who are we?</h1>
+        <InformationToggle />
+    </div>
+  </section>
 );
 
 export default About;
