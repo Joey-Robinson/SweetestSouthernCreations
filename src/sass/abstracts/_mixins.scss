@@ -6,7 +6,7 @@
   background-image: linear-gradient(to left top, $lightSilver, darken($brightPink, 30%));
   border: $blackBorder;
   box-shadow: $midnightShadow;
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
   & p {
     font-size: 0.001px;
   }
@@ -20,7 +20,7 @@
       font-size: 2rem;
       content: "";
       display: inline-block;
-      color: yellow;
+      color: $black;
     }
   }
 }
@@ -33,7 +33,7 @@
   background-image: linear-gradient(to right bottom, $lightBlue, darken($mediumPurple, 30%));
   border: $blackBorder;
   box-shadow: $midnightShadow;
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
   & p {
     font-size: 0.001px;
   }
@@ -48,7 +48,7 @@
       font-size: 2rem;
       content: "";
       display: inline-block;
-      color: yellow;
+      color: $black;
     }
   }
 }
