@@ -14,7 +14,7 @@ class App extends Component {
         >
           <div
             data-header={<img 
-            src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-facebook.svg" />}
+            src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-facebook(2).svg" />}
             className="Accordion-Item-One"
           >
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
@@ -26,7 +26,7 @@ class App extends Component {
         >
         <div
           data-header={<img 
-          src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-instagram.svg" />}
+          src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-instagram(1).svg" />}
           className="Accordion-Item-Two"
           >
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
