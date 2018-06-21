@@ -6,11 +6,8 @@
   // Find SVG's to use
 // Add more Routes: Create and add Components for routing and display
   // Work, Requests, anything else
-// Look into any external libraries needed: Material-UI would be on of the only ones
-// -: ~
+// Look into any external libraries needed: Material-UI would be one of the only ones
 // Add FavIcon: Request something for FavIcon so it can be added (Do it yourself)
-// Future: When I go to add the images, make sure you have at least 2 per, so you can use 
-// varying sizes? 
 
 // Modal: Using a button inside of the Modal itself results in the button (opening button)
 // Not being able to be moved. So this means, even using a Button component (see file structure)
@@ -18,3 +15,8 @@
 // Figure out the best way to handle this in the future
 
 // Contact Page: Add a DnD/Todo type list for all contact information.
+  // This is done. I instead added an accordion.
+
+// Add/Research lazy loading for react. When I go to add the images, make sure you have at least 2 per, so you can use 
+// varying sizes?
+// Possibly research a way to pull images from somewhere. Last time the images felt sluggish. Find what causes this.
