@@ -1,9 +1,10 @@
 @mixin accordionLayout {
-  background-image: linear-gradient(to top right, $darkerGrey, $lightBlue);
   cursor: auto;
   border-radius: 5rem;
   text-align: center;
   padding: .5rem;
+  border: 1px solid black;
+  outline: black;
 }
 
 @mixin aboutLayout {
