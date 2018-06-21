@@ -4,9 +4,6 @@
   background-image: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
   color: white;
   display: grid;
-  &-One {
-    display: grid;
-    grid-template-rows: 5rem repeat(4, 20rem) 5rem;
-    grid-template-columns: repeat(12, 1fr);
-  }
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
  }

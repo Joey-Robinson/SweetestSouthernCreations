@@ -1,12 +1,10 @@
 import React from 'react';
 import Header from '../Layout/Header/Header';
+import AccordionInformation from '../../Containers/Accordion/AccordionInformaiton';
 
 const Contact = () => (
   <section className="Contact">
-    <Header />
-    <div className="Contact-One">
-      shitidk
-    </div>
+    <AccordionInformation />
   </section>
 );
 
