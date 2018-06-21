@@ -1,3 +1,10 @@
+@mixin accordionLayout {
+  background-image: linear-gradient(to top right, $darkerGrey, $lightBlue);
+  cursor: auto;
+  border-radius: 5rem;
+  text-align: center;
+}
+
 @mixin aboutLayout {
   font-size: 1rem;
   width: 12.5rem;

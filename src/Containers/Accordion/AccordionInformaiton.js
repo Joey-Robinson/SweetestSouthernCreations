@@ -23,7 +23,10 @@ class App extends Component {
           >
           <p>Facebook</p>
           </div>
-          <div data-header="Instagram" className="Accordion-Item-Two">
+          <div 
+            data-header="Instagram" 
+            className="Accordion-Item-Two"
+          >
             <p>
               The Gram
             </p>
