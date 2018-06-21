@@ -8,11 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="AccordionContainer">
-        <p>
-          <button onClick={() => this.setState({ selectedIndex: -1 })}>
-            Close
-          </button>
-        </p>
         <Accordion
           className="Accordion"
           selectedIndex={this.state.selectedIndex}
@@ -21,23 +16,19 @@ class App extends Component {
             data-header="Facebook"
             className="Accordion-Item-One"
           >
-          <p>Facebook</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
           </div>
           <div 
             data-header="Instagram" 
             className="Accordion-Item-Two"
           >
-            <p>
-              The Gram
-            </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
           </div>
           <div
             data-header="Email"
             className="Accordion-Item-Three"
           >
-            <p>
-              Email
-            </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
             {/* <Accordion className="accordion">
               <div data-header="Well" className="Accordion-Item">
                 Mauris nec scelerisque ligula. Sed aliquam blandit metus, sed
