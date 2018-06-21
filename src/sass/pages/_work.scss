@@ -4,6 +4,17 @@
   background-image: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
   color: white;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  &-UL {
+    list-style: none;
+  }
+  &-Images {
+    transition: all .2s ease-out;
+    width: 10rem;
+    height: 10rem;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
  }
