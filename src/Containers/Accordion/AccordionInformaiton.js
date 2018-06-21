@@ -13,19 +13,32 @@ class App extends Component {
           selectedIndex={this.state.selectedIndex}
         >
           <div
-            data-header="Facebook"
+            data-header={<img 
+            src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-facebook.svg" />}
             className="Accordion-Item-One"
           >
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
           </div>
-          <div 
-            data-header="Instagram" 
-            className="Accordion-Item-Two"
+        </Accordion>
+        <Accordion
+          className="Accordion"
+          selectedIndex={this.state.selectedIndex}
+        >
+        <div
+          data-header={<img 
+          src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-instagram.svg" />}
+          className="Accordion-Item-Two"
           >
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
           </div>
+          </Accordion>
+          <Accordion
+          className="Accordion"
+          selectedIndex={this.state.selectedIndex}
+          >
           <div
-            data-header="Email"
+            data-header={<img 
+            src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-gmail.svg" />}
             className="Accordion-Item-Three"
           >
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
@@ -47,7 +60,7 @@ class App extends Component {
               />
             </Accordion> */}
           </div>
-        </Accordion>
+          </Accordion>
       </div>
     );
   }

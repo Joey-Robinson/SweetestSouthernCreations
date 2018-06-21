@@ -4,35 +4,24 @@
 }
 
 .Accordion {
-  background-image: linear-gradient(to left top, yellow, green);
-  padding: 1rem;
-  color: $black;
+  color: $white;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
   user-select: none;
   font-weight: 200;
   cursor: pointer;
-  border-radius: 2rem;
-  box-shadow: 0 1rem 3rem 2px rgba(0, 0, 0, 0.1) inset;
   text-align: center;
-  displaY: block;
-  border: 1px solid black;
-  outline: black;
   &-Item {
-    padding: 2rem;
     &-One {
       @include accordionLayout;
       background: #3b5998;
-      color: $white;
     }
     &-Two {
       @include accordionLayout;
       background-image: linear-gradient(to right top, #ffc838, #fb3958, #fb3958);
-      color: $white;
     }
     &-Three {
       @include accordionLayout;
-      background-image: linear-gradient(to right bottom, #4285f4, #34a853, #fbbc05, #ea4335);
-      color: $white;
     }
   }
 }
