@@ -13,6 +13,25 @@ const images = [
   'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc010.jpg',
   'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc011.jpg',
   'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc012.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc013.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc014.png',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc015.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc016.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc017.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc018.jpeg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc019.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc020.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc021.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc022.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc023.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc024.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc025.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc026.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc027.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc028.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc029.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc030.jpg',
+  'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc031.jpg'
 ];
 
 const Work = () => (
