@@ -1,28 +1,23 @@
 import React from 'react';
 
-// const images = ['http://via.placeholder.com/350x150', 'http://via.placeholder.com/350x150', 'http://via.placeholder.com/350x150'];
-
 const images = [
   'https://placeimg.com/250/250/any',
   'https://placeimg.com/250/250/any',
   'https://placeimg.com/250/250/any'
 ];
 
-const Work = () => (
+const Work = (props) => (
   <div className="Work">
     From Work
-      <ul className="Work-UL">
         {images.map((image, index) => {
-          return <li>
+          return <li className="Work-List">
             <img
-              id="Work-Test"
-              className="Work-Images" 
+              className={index}
               key={index} 
               src={image} 
             />
           </li>
         })}
-      </ul>
   </div>
 );
 
