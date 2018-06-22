@@ -20,3 +20,5 @@
 // Add/Research lazy loading for react. When I go to add the images, make sure you have at least 2 per, so you can use 
 // varying sizes?
 // Possibly research a way to pull images from somewhere. Last time the images felt sluggish. Find what causes this.
+// There's a possibility that I'll need to srcSet the Work.js images. After I've deployed, I'll 
+// Assess the website and then determine that.
