@@ -10,9 +10,12 @@
     list-style: none;
   }
   &-Images {
-    transition: all .2s ease-out;
+    transition: all .2s ease-in;
     width: 10rem;
     height: 10rem;
+    &-Test {
+      grid-column: 1;
+    }
     &:hover {
       transform: scale(1.5);
     }

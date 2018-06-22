@@ -11,11 +11,11 @@ const images = [
 const Work = () => (
   <div className="Work">
     From Work
-    <div>
       <ul className="Work-UL">
         {images.map((image, index) => {
           return <li>
             <img
+              id="Work-Test"
               className="Work-Images" 
               key={index} 
               src={image} 
@@ -23,7 +23,6 @@ const Work = () => (
           </li>
         })}
       </ul>
-    </div>
   </div>
 );
 
