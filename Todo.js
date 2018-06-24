@@ -22,3 +22,6 @@
 // Possibly research a way to pull images from somewhere. Last time the images felt sluggish. Find what causes this.
 // There's a possibility that I'll need to srcSet the Work.js images. After I've deployed, I'll 
 // Assess the website and then determine that.
+// Add lazy loading. 
+
+// About.js: Update the <p></p> tag to have text-align: center; That shit is mad annoying.

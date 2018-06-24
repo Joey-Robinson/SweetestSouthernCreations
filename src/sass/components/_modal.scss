@@ -45,6 +45,11 @@
       outline: none;
       box-shadow: .25rem .35rem black;
       cursor: pointer;
+      &:hover, 
+      &:active {
+        border: none;
+        outline: none;
+      }
     }
     &-Close {
       grid-column: 3 / 4;
