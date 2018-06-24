@@ -68,6 +68,8 @@
   }
   &-link:link,
   &-link:visited {
+    border: none;
+    outline: none;
     color: $white;
     text-decoration: none;
     text-transform: uppercase;
@@ -77,6 +79,10 @@
     z-index: 10;
     display: flex;
     align-items: center;
+    &:active {
+      border: none;
+      outline: none;
+    }
   }
 }
 
