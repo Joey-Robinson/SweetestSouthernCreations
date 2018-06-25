@@ -17,7 +17,7 @@ class App extends Component {
             src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-facebook(2).svg" />}
             className="Accordion-Item-One"
           >
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
+          <p>Find us on Facebook. We have a Facebook group!</p>
           </div>
         </Accordion>
         <Accordion
@@ -29,7 +29,7 @@ class App extends Component {
           src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-instagram(1).svg" />}
           className="Accordion-Item-Two"
           >
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
+          <p>Do it for the G. Do it for the instagram.</p>
           </div>
           </Accordion>
           <Accordion
@@ -41,7 +41,7 @@ class App extends Component {
               src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-gmail.svg" />}
               className="Accordion-Item-Three"
             >
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
+            <p>Email us to comment or ask about requests!</p>
             </div>
           </Accordion>
           <Accordion
@@ -53,7 +53,7 @@ class App extends Component {
               src="https://s3-us-west-2.amazonaws.com/sscstaticsitejr/icons/icons8-twitter.svg" />}
               className="Accordion-Item-Four"
             >
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, commodi mollitia nemo adipisci omnis incidunt voluptatum minima ex voluptas laudantium.</p>
+            <p>Something</p>
             </div>
           </Accordion>
       </div>
