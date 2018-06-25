@@ -4,7 +4,7 @@ import Contact from '../Components/Contact/Contact';
 import About from '../Components/About/About';
 // import Work from '../Components/Work/Work';
 import Work from '../Containers/Work/Work';
-import Requests from '../Components/Requests/Requests';
+import Requests from '../Containers/Requests/Requests';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import CollapsingSidebar from '../Containers/CollapsingSidebar/CollapsingSidebar';
 
