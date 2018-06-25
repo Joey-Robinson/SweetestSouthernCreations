@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import Home from '../Components/Home/Home';
 import Contact from '../Components/Contact/Contact';
 import About from '../Components/About/About';
-// import Work from '../Components/Work/Work';
 import Work from '../Containers/Work/Work';
-import Requests from '../Containers/Requests/Requests';
+// import Requests from '../Containers/Requests/Requests';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import CollapsingSidebar from '../Containers/CollapsingSidebar/CollapsingSidebar';
 
@@ -19,7 +18,7 @@ class Routes extends Component {
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
             <Route path="/work" component={Work} />
-            <Route path="/requests" component={Requests} />
+            {/* <Route path="/requests" component={Requests} /> */}
           </Switch>
         </div>
       </Router>
