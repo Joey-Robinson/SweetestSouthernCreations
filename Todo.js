@@ -29,3 +29,9 @@
 
 // Possible for pre-deployment: Make a reusable button component. I don't think it matters for this, but I'd like to see
 // If I could cut down on the amount of code I have floating around.
+  // This is done.
+
+
+// Add a back button to each page for fallbacks. Some kind of html arrow should work.
+
+// Add a readme.md

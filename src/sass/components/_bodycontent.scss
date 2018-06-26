@@ -1,10 +1,21 @@
 // BodyContent component. Will be shown on a majority of things. Possibly just the main page?
+// .BodyContent {
+//   background: rgb(52, 46, 80);
+//   color: black;
+//   font-size: 2.2rem;
+//   grid-column: 1 / span 7;
+//   grid-row: 2 / -1;
+//   display: grid;
+//   grid-template-columns: repeat(5, 20%);
+//   grid-template-rows: repeat(3, 1fr) 10rem;
+// }
+
 .BodyContent {
   background: rgb(52, 46, 80);
   color: black;
   font-size: 2.2rem;
   grid-column: 1 / span 7;
-  grid-row: 2 / -1;
+  grid-row: 2 / span 8;
   display: grid;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(3, 1fr) 10rem;

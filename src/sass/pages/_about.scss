@@ -1,17 +1,18 @@
 // For the About section. I think this will be one of the harder ones to do, since 
 // I'm trying to basically say everything while saying very litte.
-.About {
+.About { 
   font-size: 2rem;
   height: 100vh;
   color: white;
   display: grid;
   grid-template-rows: 5rem;
   &-Dummy {
+    padding: 2rem;
     text-align: center;
     justify-items: center;
     align-content: center;
     display: grid;
-    grid-template-rows: 5rem repeat(4, 20rem) 5rem;
+    grid-template-rows: 5rem repeat(4, 20rem) 2.5rem;
     grid-template-columns: repeat(12, 1fr);
     &-One {
       grid-column: 2;
