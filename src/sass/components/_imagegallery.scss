@@ -10,6 +10,11 @@
   grid-template-rows: repeat(5, 1fr);
   justify-items: center;
   align-items: center;
+  & a {
+    text-decoration: none;
+    color: transparent;
+    font-size: 0.00001px;
+  }
   &-Image {
     width: 7.5rem;
     height: 7.5rem;
