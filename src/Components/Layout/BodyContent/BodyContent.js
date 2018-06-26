@@ -3,7 +3,6 @@ import Modal from '../../../Containers/Modal/ModalOne';
 
 const BodyContent = (props) => (
   <div className="BodyContent">
-    
     <Modal />
   </div>
 );

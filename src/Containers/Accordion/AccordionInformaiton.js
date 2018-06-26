@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Accordion from './Accordion/Accordion';
 
-class App extends Component {
+class AccordionInformation extends Component {
   state = {
     selectedIndex: 0
   }
@@ -61,4 +61,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AccordionInformation;

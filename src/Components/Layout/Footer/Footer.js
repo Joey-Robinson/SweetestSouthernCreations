@@ -2,7 +2,8 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="Footer">
-    From Footer
+    &copy; Joey Robinson &nbsp;&nbsp;
+    <a href="mailto:joeyrobinsonedev@gmail.com">joeyrobinsonedev@gmail.com</a>
   </footer>
 );
 
