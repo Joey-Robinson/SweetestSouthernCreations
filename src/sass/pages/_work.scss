@@ -2,6 +2,7 @@
 // &-Images going through each photo eg: &-Images { &-0 to target each image and place inside
 // Of the grid I've created. Pretty cool stuff.
 
+
 .Work {
   font-size: 2rem;
   height: 100vh;
@@ -22,9 +23,11 @@
 }
 
 .image-gallery-play-button {
-  top: -95%;
+  top: -85%;
+  margin-right: 1rem;
 }
 
 .image-gallery-fullscreen-button {
-  top: -95%;
+  top: -85%;
+  margin-right: 1rem;
 }
