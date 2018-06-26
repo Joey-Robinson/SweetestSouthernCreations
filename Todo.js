@@ -25,3 +25,7 @@
 // Add lazy loading. 
 
 // About.js: Update the <p></p> tag to have text-align: center; That shit is mad annoying.
+
+
+// Possible for pre-deployment: Make a reusable button component. I don't think it matters for this, but I'd like to see
+// If I could cut down on the amount of code I have floating around.
