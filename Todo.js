@@ -35,3 +35,13 @@
 // Add a back button to each page for fallbacks. Some kind of html arrow should work.
 
 // Add a readme.md
+
+
+
+// Make a final pass for each page.
+  // Home.js = 
+  // About.js = 
+  // Work.js = COMPLETED.
+  // Contact.js = 
+  // Events.js = 
+  // (Not sure I'll even use Events.js)

@@ -6,12 +6,12 @@ const About = () => (
   <section className="About">
     <Header />
       <div className="About-Dummy">
-        <div className="About-Dummy-One">
+        {/* <div className="About-Dummy-One">
           <h1>Test</h1>
             <p>Lorem ipsum dolor sit amet.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
             </p>
-        </div>
+        </div> */}
         <div className="About-Dummy-Two">
           <h1>Test</h1>
             <p>Lorem ipsum dolor sit amet.
@@ -24,18 +24,18 @@ const About = () => (
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
             </p>
         </div>
-        <div className="About-Dummy-Four">
+        {/* <div className="About-Dummy-Four">
           <h1>Test</h1>
             <p>Lorem ipsum dolor sit amet.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
             </p>
-        </div>
-        <div className="About-Dummy-Five">
+        </div> */}
+        {/* <div className="About-Dummy-Five">
           <h1>Test</h1>
             <p>Lorem ipsum dolor sit amet.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
             </p>
-        </div>
+        </div> */}
         <div className="About-Dummy-Six">
           <h1>Test</h1>
             <p>Lorem ipsum dolor sit amet.
@@ -48,12 +48,12 @@ const About = () => (
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
             </p>
         </div>
-        <div className="About-Dummy-Eight">
+        {/* <div className="About-Dummy-Eight">
           <h1>Test</h1>
             <p>Lorem ipsum dolor sit amet.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
             </p>
-        </div>
+        </div> */}
       </div>
     <Footer />
   </section>
