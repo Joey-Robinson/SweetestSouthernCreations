@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Requests extends Component {
+class Events extends Component {
   render() {
     return (
       <div className="Requests">
@@ -13,4 +13,4 @@ class Requests extends Component {
   }
 };
 
-export default Requests;
+export default Events;

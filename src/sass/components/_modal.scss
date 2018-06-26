@@ -34,46 +34,4 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  &-Button {
-    &-Open {
-      text-align: center;
-      width: 100%;
-      height: 50%;
-      padding: 0 2rem;
-      border-radius: 20rem;
-      border: none;
-      outline: none;
-      box-shadow: .25rem .35rem black;
-      cursor: pointer;
-      &:hover, 
-      &:active {
-        border: none;
-        outline: none;
-      }
-    }
-    &-Close {
-      grid-column: 3 / 4;
-      grid-row: 5;
-      width: 75%;
-      height: 25%;
-      justify-self: center;
-      align-self: center;
-      border-radius: 20rem;
-      border: none;
-      outline: none;
-      box-shadow: .25rem .35rem black;
-      cursor: pointer;
-    }
-    &-Open:hover,
-    &-Close:hover {
-      box-shadow: .5rem .7rem black;
-      transform: translateY(-.5rem);
-      transition: all .3s;
-    }
-    &-Open:active,
-    &-Close:active {
-      transform: translateY(.25rem);
-      transition: all .3s;
-    }
-  }
 }

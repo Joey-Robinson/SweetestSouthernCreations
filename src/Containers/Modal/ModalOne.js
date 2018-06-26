@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ModalTwo from './ModalTwo';
+import Button from '../../Components/Button/Button';
 
 class Modal extends Component {
   state = { 
@@ -14,11 +15,11 @@ class Modal extends Component {
   render() {
     return (
       <div className="ModalMover">
-        <button
-          className="ModalDiv-Button-Open" 
+        <Button
+          className="Button Button-Open" 
           onClick={this.openModalHandler}>
           Read More
-        </button>
+        </Button>
         <ModalTwo
           isOpen={this.state.isModalOpen} 
           onClose={this.closeModalHandler}
@@ -26,11 +27,11 @@ class Modal extends Component {
         <div className="ModalDiv">
           <h1>Test</h1>
           <p>test</p>
-          <button
-            className="ModalDiv-Button-Close"
+          <Button
+            className="Button Button-Close"
             onClick={this.closeModalHandler}>
               Close
-          </button>
+          </Button>
         </div>
         </ModalTwo>
       </div>
