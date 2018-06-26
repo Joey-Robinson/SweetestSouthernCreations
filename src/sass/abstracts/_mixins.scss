@@ -19,8 +19,8 @@
   }
   &:hover {
     font-size: 2rem;
-    width: 40vw;
-    height: 40vh;
+    width: 30vw;
+    height: 30vh;
     border-radius: 2.5rem;
     & p {
       transition-delay: .375s;
@@ -46,15 +46,14 @@
   }
   &:hover {
     font-size: 2rem;
-    width: 50vw;
-    height: 50vh;
+    width: 30vw;
+    height: 30vh;
     border-radius: 2.5rem;
-    transform: translateY(-20rem);
+    transform: translateY(-10rem);
     & p {
       transition-delay: .375s;
       font-size: 2rem;
       content: "";
-      display: inline-block;
       color: $black;
     }
   }
