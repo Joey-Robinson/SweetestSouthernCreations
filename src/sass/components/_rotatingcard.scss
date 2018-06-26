@@ -6,7 +6,7 @@
   width: 100%;
   grid-column: 1 / span 2;
   &-Side {
-    background-image: linear-gradient(to right bottom, black, $lightBlue);
+    background-image: linear-gradient(to right bottom, $mediumPurple, $mediumPink);
     font-size: 2.2rem;
     color: white;
     height: 100%;
@@ -29,7 +29,7 @@
     width: 100%;
     text-align: center;
     &-1 {
-      background-image: linear-gradient(to right bottom, $mediumPurple, black);
+      background-image: linear-gradient(to right bottom, $mediumPink, $mediumPurple);
     }
   }
   &:hover &-Side-Front {
@@ -47,7 +47,7 @@
   perspective: 150rem;
   width: 100%;
   &-Side {
-    background-image: linear-gradient(to right bottom, rgba($lightGreen, .25), black);
+    background-image: linear-gradient(to right bottom, $burntOrange, $lightBlue);
     width: 100%;
     color: white;
     height: 100%;
@@ -70,7 +70,7 @@
     width: 100%;
     text-align: center;
     &-1 {
-      background-image: linear-gradient(to right bottom, $darkGreen, black);
+      background-image: linear-gradient(to right bottom, $lightBlue, $burntOrange);
     }
   }
   &:hover &-Side-Front {
