@@ -6,7 +6,10 @@
   width: 100%;
   grid-column: 1 / span 2;
   &-Side {
-    background-image: linear-gradient(to right bottom, $mediumPurple, $mediumPink);
+    background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc034.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     font-size: 2.2rem;
     color: white;
     height: 100%;
@@ -29,7 +32,10 @@
     width: 100%;
     text-align: center;
     &-1 {
-      background-image: linear-gradient(to right bottom, $mediumPink, $mediumPurple);
+      background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc033.jpg');
+      background-position: center;
+      background-size: 40rem 30rem;
+      background-repeat: no-repeat;
     }
   }
   &:hover &-Side-Front {
@@ -47,7 +53,8 @@
   perspective: 150rem;
   width: 100%;
   &-Side {
-    background-image: linear-gradient(to right bottom, $burntOrange, $lightBlue);
+    background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc035.jpg');
+    background-size: 100% 100%;
     width: 100%;
     color: white;
     height: 100%;
@@ -70,7 +77,7 @@
     width: 100%;
     text-align: center;
     &-1 {
-      background-image: linear-gradient(to right bottom, $lightBlue, $burntOrange);
+      background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc036.jpg')
     }
   }
   &:hover &-Side-Front {
