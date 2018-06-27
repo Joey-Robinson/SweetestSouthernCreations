@@ -10,6 +10,6 @@
     display: none;
   }
   @include respond(tabLand) {
-    height: 50%;
+    display: none;
   }
 }

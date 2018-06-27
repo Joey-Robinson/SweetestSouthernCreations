@@ -5,35 +5,34 @@
 .Work {
   font-size: 2rem;
   height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  display: grid;
   margin: 0;
   padding: 0;
  }
 
 .image-gallery-image {
+  margin-top: 5rem;
   img {
     width: 100vw;
     height: 100vh;
     @include respond(customSmall) {
-      width: 50vw;
+      width: 100%;
       height: 90vh;
     }
     @include respond(tabLand) {
-      width: 50vw;
+      width: 100%;
       height: 85vh;
     }
   }
 }
 
 .image-gallery-play-button {
-  top: -85%;
+  top: -75%;
   margin-right: 1rem;
 }
 
 .image-gallery-fullscreen-button {
-  top: -85%;
+  top: -75%;
   margin-right: 1rem;
 }

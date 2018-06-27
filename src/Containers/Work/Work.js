@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../../Components/Layout/Footer/Footer';
 import ImageGallery from 'react-image-gallery';
 
 class Work extends Component {
@@ -63,7 +64,9 @@ class Work extends Component {
       <div className="Work">
         <ImageGallery
           showThumbnails={false}
-          items={images} />
+          items={images} 
+        />
+        <Footer />
       </div>
     );
   }
