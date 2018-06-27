@@ -15,21 +15,33 @@
       grid-column: 5;
       grid-row: 2;
       @include aboutLayout;
+      @include respond(tabLand) {
+        grid-column: 4;
+      }
     }
     &-Three {
       grid-column: 8;
       grid-row: 2;
       @include aboutLayout;
+      @include respond(tabLand) {
+        grid-column: 8;
+      }
     }
     &-Six {
       grid-column: 5;
       grid-row: 4;
       @include aboutLayoutBottom;
+      @include respond(tabLand) {
+        grid-column: 4;
+      }
     }
     &-Seven {
       grid-column: 8;
       grid-row: 4;
       @include aboutLayoutBottom;
+      @include respond(tabLand) {
+        grid-column: 8;
+      }
     }
   }
 }

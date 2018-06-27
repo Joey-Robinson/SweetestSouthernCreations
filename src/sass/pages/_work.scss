@@ -17,6 +17,14 @@
   img {
     width: 100vw;
     height: 100vh;
+    @include respond(customSmall) {
+      width: 50vw;
+      height: 90vh;
+    }
+    @include respond(tabLand) {
+      width: 50vw;
+      height: 85vh;
+    }
   }
 }
 

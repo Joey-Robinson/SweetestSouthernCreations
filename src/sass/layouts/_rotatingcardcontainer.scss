@@ -6,4 +6,10 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 25%);
+  @include respond(customSmall) {
+    display: none;
+  }
+  @include respond(tabLand) {
+    height: 50%;
+  }
 }

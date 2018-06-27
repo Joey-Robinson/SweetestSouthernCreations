@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header className="Header">
-    From Header
+    <h1>From Header</h1>
   </header>
 );
 

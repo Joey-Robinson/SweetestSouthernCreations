@@ -6,11 +6,23 @@
   height: 30px;
   left: 1rem;
   top: 1rem;
+  @include respond(customSmall) {
+    width: 2rem;
+    height: 2rem;
+    top: .2rem;
+  }
+  @include respond(tabLand) {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: darken($black, 25%);
+  @include respond(tabLand) {
+    background: $black;
+  }
 }
 
 /* Position and sizing of clickable cross button */

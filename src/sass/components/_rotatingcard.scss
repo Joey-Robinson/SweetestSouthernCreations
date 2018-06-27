@@ -5,6 +5,9 @@
   position: relative;
   width: 100%;
   grid-column: 1 / span 2;
+  @include respond(tabLand) {
+    height: 100%;
+  }
   &-Side {
     background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc034.jpg');
     background-position: center;
@@ -25,12 +28,10 @@
   &-Side-Front {
     height: 100%;
     width: 100%;
-    text-align: center;
   }
   &-Side-Back {
     transform: rotateY(180deg);
     width: 100%;
-    text-align: center;
     &-1 {
       background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc033.jpg');
       background-position: center;
@@ -52,6 +53,9 @@
   -moz-perspective: 150rem;
   perspective: 150rem;
   width: 100%;
+  @include respond(tabLand) {
+    height: 26rem;
+  }
   &-Side {
     background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc036.jpg');
     background-size: 100% 100%;
@@ -77,7 +81,7 @@
     width: 100%;
     text-align: center;
     &-1 {
-      background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc037.jpg')
+      background-image: url('https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc037.jpg');
     }
   }
   &:hover &-Side-Front {

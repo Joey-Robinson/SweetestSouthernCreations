@@ -17,13 +17,13 @@ const About = () => (
           </p>
       </div>
       <div className="About-Dummy-Six">
-        <h1>Test</h1>
+        <h1>What we lorem</h1>
           <p>Lorem ipsum dolor sit amet.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
           </p>
       </div>
       <div className="About-Dummy-Seven">
-        <h1>Test</h1>
+        <h1>What we lorem</h1>
           <p>Lorem ipsum dolor sit amet.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, maxime!
           </p>

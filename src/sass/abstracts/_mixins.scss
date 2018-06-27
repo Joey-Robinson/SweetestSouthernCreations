@@ -3,6 +3,11 @@
   text-align: center;
   border: 1px solid black;
   outline: black;
+  @include respond(customSmall) {
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 1rem;
+  }
 }
 
 @mixin aboutLayout {
@@ -15,6 +20,15 @@
   border: $blackBorder;
   box-shadow: $midnightShadow;
   transition: all .4s ease-in-out;
+  @include respond(customSmall) {
+    border-radius: 0;
+  }
+  @include respond(tabLand) {
+    border-radius: 0;
+    width: 20rem;
+    height: 20rem;
+    padding: 0;
+  }
   & p {
     font-size: 0.001px;
   }
@@ -23,12 +37,22 @@
     width: 30vw;
     height: 30vh;
     border-radius: 2.5rem;
+    @include respond(tabLand) {
+      h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 1.2rem;
+        transition: .2s ease-in-out;
+      }
+    }
     & p {
       transition-delay: .375s;
       font-size: 1.65rem;
-      margin-top: -2rem;
       font-weight: bold;
       color: $black;
+      @include respond(tabLand) {
+        margin-top: 2rem;
+      }
     }
   }
 }
@@ -42,6 +66,15 @@
   border: $blackBorder;
   box-shadow: $midnightShadow;
   transition: all .4s ease-in-out;
+  @include respond(customSmall) {
+    border-radius: 0;
+  }
+  @include respond(tabLand) {
+    border-radius: 0;
+    width: 20rem;
+    height: 20rem;
+    padding: 0;
+  }
   & p {
     font-size: 0.001px;
   }
@@ -51,15 +84,22 @@
     height: 30vh;
     border-radius: 2.5rem;
     transform: translateY(-10rem);
+    @include respond(tabLand) {
+      h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 1.2rem;
+        transition: .2s ease-in-out;
+      }
+    }
     & p {
       transition-delay: .375s;
-      font-size: 2rem;
-      transition-delay: .375s;
       font-size: 1.65rem;
-      margin-top: -2rem;
       font-weight: bold;
       color: $black;
-      color: $black;
+      @include respond(tabLand) {
+        margin-top: 2rem;
+      }
     }
   }
 }
@@ -95,4 +135,24 @@
       @content
     };
   }
+}
+
+@include respond(customSmall) {
+
+}
+
+@include respond(tabPort) {
+
+}
+
+@include respond(customMedium) {
+
+}
+
+@include respond(tabLand) {
+
+}
+
+@include respond(bigDesktop) {
+
 }

@@ -19,4 +19,12 @@
   display: grid;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(3, 1fr) 10rem;
+  @include respond(customSmall) {
+    grid-column: 1 / -1;
+    grid-row: 1 / span 10;
+    height: 100vh;
+  }
+  @include respond(tabLand) {
+    height: 90.5vh;
+  }
 }

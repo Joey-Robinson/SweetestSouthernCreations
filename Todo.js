@@ -45,3 +45,15 @@
   // Contact.js = 
   // Events.js = 
   // (Not sure I'll even use Events.js)
+
+
+  // Media Queries, you'll need to go over every page to ensure that the media queries are in shape
+    // <= 800px {
+      // Sidebar: Done
+      // BodyContent: Done
+      // Header: Done
+      // RotatingCardContainer: Done
+      // ImageGallery: Done
+      // Contact: Done
+      // Work: Done
+    // }

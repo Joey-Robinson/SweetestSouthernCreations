@@ -10,6 +10,9 @@
   grid-template-rows: repeat(5, 1fr);
   justify-items: center;
   align-items: center;
+  @include respond(customSmall) {
+    display: none;
+  }
   & a {
     text-decoration: none;
     color: transparent;
@@ -20,6 +23,10 @@
     height: 7.5rem;
     border-radius: 50%;
     transition: all .2s ease-in-out;
+    @include respond(tabLand) {
+      width: 3.75rem;
+      height: 3.75rem;
+    }
     &:hover {
       transform: scale(1.5);
     }
