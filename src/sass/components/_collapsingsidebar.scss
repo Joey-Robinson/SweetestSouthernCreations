@@ -19,10 +19,7 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: darken($black, 25%);
-  @include respond(tabLand) {
-    background: $black;
-  }
+  background: $white;
 }
 
 /* Position and sizing of clickable cross button */

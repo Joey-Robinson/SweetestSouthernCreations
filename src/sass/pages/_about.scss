@@ -1,13 +1,11 @@
 // For the About section. I think this will be one of the harder ones to do, since 
 // I'm trying to basically say everything while saying very litte.
 .About { 
-  height: 100vh;
   color: white;
   display: grid;
+  height: 110vh;
   grid-template-rows: 1fr;
-  @include respond(tabLand) {
-    height: 100%;
-  }
+  grid-template-columns: 1fr;
   &-Dummy {
     display: grid;
     grid-template-rows: 5rem repeat(4, 20rem) 5rem;

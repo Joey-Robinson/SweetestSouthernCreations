@@ -19,8 +19,6 @@
     }
   }
   &-Close {
-    grid-column: 3 / 4;
-    grid-row: 5;
     width: 75%;
     height: 25%;
     border-radius: 20rem;
@@ -28,12 +26,6 @@
     outline: none;
     box-shadow: .25rem .35rem black;
     cursor: pointer;
-    @include respond(tabLand) {
-      display: block;
-      grid-row: 4;
-      width: 20rem;
-      margin: 0 auto;
-    }
   }
   &-Open:hover,
   &-Close:hover {

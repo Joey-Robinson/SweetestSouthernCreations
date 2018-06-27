@@ -29,7 +29,7 @@ const About = () => (
           </p>
       </div>
     </div>
-    <Footer />
+<Footer />
   </section>
 );
 
