@@ -8,6 +8,9 @@
     border: none;
     outline: none;
     box-shadow: .25rem .35rem black;
+    @include respond(customSmall) {
+      width: 15rem;
+    }
     cursor: pointer;
     &:hover, 
     &:active {
@@ -20,13 +23,17 @@
     grid-row: 5;
     width: 75%;
     height: 25%;
-    justify-self: center;
-    align-self: center;
     border-radius: 20rem;
     border: none;
     outline: none;
     box-shadow: .25rem .35rem black;
     cursor: pointer;
+    @include respond(tabLand) {
+      display: block;
+      grid-row: 4;
+      width: 20rem;
+      margin: 0 auto;
+    }
   }
   &-Open:hover,
   &-Close:hover {
