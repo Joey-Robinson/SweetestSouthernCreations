@@ -57,3 +57,11 @@
       // Contact: Done
       // Work: Done
     // }
+
+    // <= 801-1200px {
+      // Sidebar: Done?
+      // Header: Done
+      // RotatingCard: Done
+      // ImageGallery: Done
+      // Work: Done
+    //}
