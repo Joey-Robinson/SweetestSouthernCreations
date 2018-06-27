@@ -6,12 +6,8 @@
   grid-column: 1 / -1;
   grid-row: 1 / 2;
   text-align: center;
-  display: grid;
-  justify-content: center;
-  @include respond(customSmall) {
-    grid-row: 1 / 1;
-    font-size: 1.3rem;
-    height: 4vh;
+  & h1 {
+    font-size: 1.6rem;
   }
   @include respond(tabLand) {
     grid-row: 1;

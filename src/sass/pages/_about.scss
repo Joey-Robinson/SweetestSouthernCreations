@@ -4,7 +4,7 @@
   height: 100vh;
   color: white;
   display: grid;
-  height: 100%;
+  grid-template-rows: 1fr;
   &-Dummy {
     display: grid;
     grid-template-rows: 5rem repeat(4, 20rem) 5rem;

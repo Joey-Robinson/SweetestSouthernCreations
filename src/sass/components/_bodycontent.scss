@@ -21,8 +21,6 @@
   grid-template-rows: repeat(3, 1fr) 10rem;
   @include respond(tabLand) {
     height: 95vh;
-  }
-  @include respond(customSmall) {
     grid-column: 1 / -1;
     grid-row: 1 / span 10;
     height: 100vh;
