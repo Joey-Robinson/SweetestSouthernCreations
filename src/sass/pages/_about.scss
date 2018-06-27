@@ -5,7 +5,12 @@
   display: grid;
   height: 110vh;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
+  @include respond(tabLand) {
+    height: 100%;
+  }
+  @include respond(bigDesktop) {
+    height: 100%;
+  }
   &-Dummy {
     display: grid;
     grid-template-rows: 5rem repeat(4, 20rem) 5rem;

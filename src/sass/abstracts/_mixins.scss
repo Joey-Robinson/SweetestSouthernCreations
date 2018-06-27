@@ -72,9 +72,8 @@
     height: 20rem;
     padding: 0;
   }
-  
-  & h1 {
-    position: relative;
+  h1 {
+    display: none;
   }
   & p {
     font-size: 0.001px;
@@ -85,6 +84,9 @@
     height: 45vh;
     border-radius: 2.5rem;
     transform: translateY(-10rem);
+    h1 {
+      display: inline-block;
+    }
     @include respond(tabLand) {
       h1 {
         display: none;
@@ -134,7 +136,7 @@
     };
   }
   @if $breakpoint == bigDesktop {
-    @media only screen and (min-width:  112.5em) { // 1800px
+    @media only screen and (max-width:  112.5em) { // 1800px
       @content
     };
   }
