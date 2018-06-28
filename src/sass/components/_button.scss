@@ -8,6 +8,7 @@
     border: none;
     outline: none;
     box-shadow: .25rem .35rem black;
+    grid-row: 5;
     @include respond(customSmall) {
       width: 15rem;
     }
