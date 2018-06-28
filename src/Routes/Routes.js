@@ -3,7 +3,6 @@ import Home from '../Components/Home/Home';
 import Contact from '../Components/Contact/Contact';
 import About from '../Components/About/About';
 import Work from '../Containers/Work/Work';
-import Events from '../Containers/Events/Events';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import CollapsingSidebar from '../Containers/CollapsingSidebar/CollapsingSidebar';
 import FourOhFour from '../Components/FourOhFour/FourOhFour';
@@ -19,7 +18,6 @@ class Routes extends Component {
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
             <Route path="/work" component={Work} />
-            <Route path="/events" component={Events} />
             <Route path="*" component={FourOhFour} />
           </Switch>
         </div>

@@ -11,7 +11,6 @@ class CollapsingSidebar extends Component {
           <li className="bm-menu-item"><NavLink className="bm-menu-link" to="/about" activeClassName="bm-menu-item-active">About</NavLink></li>
           <li className="bm-menu-item"><NavLink className="bm-menu-link" to="/work" activeClassName="bm-menu-item-active">My Work</NavLink></li>
           <li className="bm-menu-item"><NavLink className="bm-menu-link" to="/contact" activeClassName="bm-menu-item-active">Contact</NavLink></li>
-          <li className="bm-menu-item"><NavLink className="bm-menu-link" to="/events" activeClassName="bm-menu-item-active">Events</NavLink></li>
         </ul>
       </Menu>
     );

@@ -19,6 +19,13 @@
   display: grid;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(3, 1fr) 10rem;
+  &-Section {
+    width: 100%;
+    height: 25%;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    word-wrap: break-word;
+  }
   @include respond(customSmall) {
     grid-column: 1 / -1;
     grid-row: 1 / span -1;

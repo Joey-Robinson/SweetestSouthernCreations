@@ -8,6 +8,36 @@
   z-index: 5;
   width: 75%;
   height: 75%;
+  @include respond(bigDesktop) {
+    height: 100%;
+    width: 100%;
+    & * {
+      font-size: 2.5rem;
+    }
+    & button {
+      margin-top: 0;
+    }
+  }
+  @include respond(tabLand) {
+    width: 100%;
+    height: 100%;
+    & * {
+      font-size: 2rem;
+    }
+    & button {
+      margin-top: 0;
+    }
+  }
+  @include respond(tabPort) {
+    width: 100%;
+    height: 100%;
+    & * {
+      font-size: 1.48rem;
+    }
+    & button {
+      margin: 0 auto;
+    }
+  }
 }
 
 .Backdrop {
@@ -31,7 +61,10 @@
 }
 
 .ModalDiv {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  & p {
+    padding: 1.5rem;
+  }
 }

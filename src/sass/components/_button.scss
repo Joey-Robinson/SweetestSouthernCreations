@@ -19,13 +19,14 @@
     }
   }
   &-Close {
-    width: 75%;
+    width: 25%;
     height: 25%;
     border-radius: 20rem;
     border: none;
     outline: none;
     box-shadow: .25rem .35rem black;
     cursor: pointer;
+    margin: 0 auto;
   }
   &-Open:hover,
   &-Close:hover {
