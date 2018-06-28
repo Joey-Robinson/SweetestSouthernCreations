@@ -4,9 +4,20 @@ import Modal from '../../../Containers/Modal/ModalOne';
 const BodyContent = () => (
   <div className="BodyContent">
     <Modal />
-    <section className="BodyContent-Section">
-      
-    </section>
+    <div className="BodyContent-One">
+      <h1>Sweetest Southern Creations</h1>
+    </div>
+    <div className="BodyContent-Two">
+      <span>
+        hi
+      </span>
+    </div>
+    {/* <div className="BodyContent-Two">
+      <img src="http://via.placeholder.com/200x400" alt=""/>
+    </div>
+    <div className="BodyContent-Three">
+      <h1>Sweetest Southern Creations</h1>
+    </div> */}
   </div>
 );
 

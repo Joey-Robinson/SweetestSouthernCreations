@@ -19,12 +19,19 @@
   display: grid;
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(3, 1fr) 10rem;
-  &-Section {
-    width: 100%;
-    height: 25%;
+  &-One {
+    grid-column: 1 / span 5;
+    justify-self: center;
+    text-decoration: underline;
+  }
+  &-Two {
     grid-column: 1 / -1;
-    grid-row: 2 / 3;
-    word-wrap: break-word;
+    grid-row: 2 / 4;
+    background: #000;
+    display: flex;
+    height: 50%;
+    width: 75%;
+    justify-self: center;
   }
   @include respond(customSmall) {
     grid-column: 1 / -1;
