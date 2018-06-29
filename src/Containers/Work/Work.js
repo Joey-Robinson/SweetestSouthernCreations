@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Footer from '../../Components/Layout/Footer/Footer';
 import ImageGallery from 'react-image-gallery';
+import LazyLoad from 'react-lazy-load';
 
 class Work extends Component {
   render() {
     const images = [
-      {
+      { 
         original: 'https://s3-us-west-2.amazonaws.com/sscstaticsitejr/ssc001.jpg'
       },
       {

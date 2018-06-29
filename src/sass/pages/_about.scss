@@ -3,7 +3,7 @@
 .About { 
   color: white;
   display: grid;
-  height: 110vh;
+  height: 100vh;
   grid-template-rows: 1fr;
   @include respond(tabLand) {
     height: 100%;

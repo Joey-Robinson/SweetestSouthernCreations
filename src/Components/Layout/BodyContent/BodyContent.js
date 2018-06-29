@@ -6,10 +6,12 @@ const BodyContent = () => (
   <div className="BodyContent">
     <Modal />
     <div className="BodyContent-One">
-      <h1>Sweetest Southern Creations</h1>
+      <h1>Sweetest Southern Creations</h1> 
     </div>
     <div className="BodyContent-Two">
-      {/* <Video src="https://i.imgur.com/35bDxLp.mp4" /> */}
+      {/* <img src="https://i.imgur.com/h3kd1CF.gifv" alt=""/> */}
+      {/* <Video src="https://i.imgur.com/h3kd1CF.mp4" /> */}
+      <Video className="BodyContent-Video" src="https://i.imgur.com/h3kd1CF.gifv" />
     </div>
   </div>
 );
