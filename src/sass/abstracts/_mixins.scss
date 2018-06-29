@@ -47,6 +47,11 @@
       font-size: 1.65rem;
       font-weight: bold;
       color: $white;
+      @include respond(tabPort) {
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        font-weight: normal;
+      }
     }
   }
 }
@@ -75,8 +80,8 @@
   }
   &:hover {
     font-size: 2rem;
-    width: 40vw;
-    height: 45vh;
+    width: 30vw;
+    height: 35vh;
     border-radius: 2.5rem;
     transform: translateY(-10rem);
     @include respond(tabLand) {
@@ -89,8 +94,11 @@
       font-size: 1.65rem;
       font-weight: bold;
       color: $white;
-      @include respond(tabLand) {
-        margin-top: 2rem;
+      padding: 1rem;
+      @include respond(tabPort) {
+        font-size: 1.3rem;
+        letter-spacing: .1rem;
+        font-weight: normal;
       }
     }
     & h1 {

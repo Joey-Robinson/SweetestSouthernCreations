@@ -23,7 +23,13 @@
     grid-column: 1 / span 5;
     grid-row: 1;
     justify-self: center;
-    text-decoration: underline;
+    & h1 {
+      @include respond(phone) {
+        font-size: 1.6rem;
+        font-weight: normal;
+        margin-top: 2rem;
+      }
+    }
   }
   &-Two {
     grid-column: 1 / -1;
@@ -33,6 +39,9 @@
     height: 100%;
     width: 75%;
     justify-self: center;
+    & h1 {
+      color: $white;
+    }
   }
   &-Video {
     width: 100%;
