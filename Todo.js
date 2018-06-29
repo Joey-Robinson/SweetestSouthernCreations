@@ -65,3 +65,6 @@
       // ImageGallery: Done
       // Work: Done
     //}
+// Media Queries are done. I'll update when I have content.
+
+// FavIcon: I added just a placeholder one for now, I'll add when I get a 'real' one.
