@@ -68,3 +68,8 @@
 // Media Queries are done. I'll update when I have content.
 
 // FavIcon: I added just a placeholder one for now, I'll add when I get a 'real' one.
+  // Done
+
+// I want to add more to the header. Maybe some succulents spanning the entire header. 
+
+// Right now I'm just making things ready for deployment. >MOST OF THE SITE IS DONE. I NEED TO MAKE A FINAL PASS BEFORE STAGE 1 OF DEPLOYMENT<

@@ -46,7 +46,7 @@
       padding: 1rem;
       font-size: 1.65rem;
       font-weight: bold;
-      color: $black;
+      color: $white;
     }
   }
 }
@@ -88,7 +88,7 @@
       transition-delay: .375s;
       font-size: 1.65rem;
       font-weight: bold;
-      color: $black;
+      color: $white;
       @include respond(tabLand) {
         margin-top: 2rem;
       }
