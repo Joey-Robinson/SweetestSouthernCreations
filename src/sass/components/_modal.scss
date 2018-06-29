@@ -14,18 +14,12 @@
     & * {
       font-size: 2.5rem;
     }
-    & button {
-      margin-top: 0;
-    }
   }
   @include respond(tabLand) {
     width: 100%;
     height: 100%;
     & * {
       font-size: 2rem;
-    }
-    & button {
-      margin-top: 0;
     }
   }
   @include respond(tabPort) {
