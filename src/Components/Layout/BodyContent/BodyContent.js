@@ -10,7 +10,7 @@ const BodyContent = () => (
     </div>
     <div className="BodyContent-Two">
       {/* <Video src="https://i.imgur.com/h3kd1CF.mp4" /> */}
-      <h1>Ignore this for now :)</h1>
+      <h1>This is a WIP. First Deploy while I wait on content</h1>
     </div>
   </div>
 );
