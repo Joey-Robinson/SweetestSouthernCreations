@@ -21,16 +21,18 @@
 }
 
 @mixin aboutLayout {
-  font-size: 1rem;
-  padding: 1.5rem;
-  width: 16rem;
-  height: 16rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
   background-image: linear-gradient(to left top, $lightSilver, darken($brightPink, 30%));
   border: $blackBorder;
   box-shadow: $midnightShadow;
   transition: all .4s ease-in-out;
   text-align: center;
+  & h1 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+  }
   @include respond(customSmall) {
     border-radius: 0;
   }
@@ -45,16 +47,22 @@
   }
   &:hover {
     font-size: 2rem;
-    width: 30vw;
-    height: 30vh;
+    width: 70rem;
+    height: 35rem;
     border-radius: 2.5rem;
+    @include respond(tabLand) {
+      width: 40rem;
+      height: 35rem;
+    }
     & h1 {
-      display: none;
+      // display: none;
+      color: transparent;
     }
     & p {
       transition-delay: .375s;
       padding: 1rem;
-      font-size: 1.65rem;
+      margin-top: 5rem;
+      font-size: 1.8rem;
       font-weight: bold;
       color: $white;
       @include respond(tabPort) {
@@ -67,15 +75,18 @@
 }
 
 @mixin aboutLayoutBottom {
-  padding: 1.5rem;
   font-size: 1rem;
-  width: 16rem;
-  height: 16rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
   background-image: linear-gradient(to right bottom, $lightBlue, darken($mediumPurple, 30%));
   border: $blackBorder;
   box-shadow: $midnightShadow;
   transition: all .4s ease-in-out;
+  & h1 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+  }
   @include respond(customSmall) {
     border-radius: 0;
   }
@@ -90,10 +101,14 @@
   }
   &:hover {
     font-size: 2rem;
-    width: 30vw;
-    height: 35vh;
+    width: 70rem;
+    height: 35rem;
     border-radius: 2.5rem;
     transform: translateY(-10rem);
+    @include respond(tabLand) {
+      width: 40rem;
+      height: 35rem;
+    }
     @include respond(tabLand) {
       h1 {
         display: none;
@@ -110,9 +125,6 @@
         letter-spacing: .1rem;
         font-weight: normal;
       }
-    }
-    & h1 {
-      display: none;
     }
   }
 }
