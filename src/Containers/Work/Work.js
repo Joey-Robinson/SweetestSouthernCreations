@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from '../../Components/Layout/Header/Header';
 import Footer from '../../Components/Layout/Footer/Footer';
 import ImageGallery from 'react-image-gallery';
 import LazyLoad from 'react-lazy-load';
@@ -63,10 +64,13 @@ class Work extends Component {
     ]
     return (
       <div className="Work">
+        <Header />
+        <div className="Work-Container">
         <ImageGallery
           showThumbnails={false}
           items={images} 
         />
+        </div>
         <Footer />
       </div>
     );

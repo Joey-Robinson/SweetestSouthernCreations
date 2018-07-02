@@ -2,39 +2,45 @@
 .ImageGallery {
   background: $burntOrange;
   color: black;
-  font-size: 2.2rem;
   grid-column: 8 / -1;
   grid-row: 4 / 10;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(5, 1fr);
-  justify-items: center;
-  align-items: center;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
   @include respond(customSmall) {
     display: none;
   }
   @include respond(tabLand) {
     grid-row: 2 / 10;
   }
-  & a {
-    text-decoration: none;
-    color: transparent;
-    font-size: 0.00001px;
-  }
   &-Image {
-    width: 7.5rem;
-    height: 7.5rem;
-    border-radius: 50%;
-    transition: all .2s ease-in-out;
+    &-One {
+      grid-column: 3;
+      grid-row: 2;
+      height: 25rem;
+      width: 25rem;
+      @include imageGalleryImages;
+      &:hover {
+        z-index: 50;
+      }
+    }
+    &-Two {
+      width: 20rem;
+      height: 20rem;
+      grid-column: 4;
+      grid-row: 3;
+      @include imageGalleryImages;
+    }
+    &-Three {
+      width: 10rem;
+      height: 10rem;
+      grid-column: 2;
+      grid-row: 2;
+      @include imageGalleryImages;
+    }
     @include respond(tabLand) {
       width: 5rem;
       height: 5rem;
-    }
-    &:hover {
-      transform: scale(1.5);
-      @include respond(tabLand) {
-        transform: scale(1.2);
-      }
     }
   }
 }

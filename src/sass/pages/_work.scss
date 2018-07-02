@@ -3,30 +3,26 @@
 // Of the grid I've created. Pretty cool stuff.
 
 .Work {
-  font-size: 2rem;
-  height: 100vh;
-  width: 100%;
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 5rem 1fr 10rem 1fr;
   margin: 0;
   padding: 0;
  }
 
 .image-gallery-image {
   img {
-    width: 90vw;
-    height: 99vh;
+    width: 100vw;
+    height: 90vh;
     @include respond(tabLand) {
-      width: 90vw;
-      height: 100vh;
+      width: 75vw;
+      height: 80vh;
     }
   }
 }
 
-.image-gallery-play-button {
-  margin-right: 1rem;
-}
-
-.image-gallery-fullscreen-button {
-  margin-right: 1rem;
+.Work-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 3;
 }

@@ -4,7 +4,7 @@
   color: white;
   display: grid;
   height: 100vh;
-  grid-template-rows: 1fr;
+  grid-template-rows: 5rem 1fr;
   @include respond(tabLand) {
     height: 100%;
   }

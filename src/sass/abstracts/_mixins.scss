@@ -1,3 +1,13 @@
+@mixin imageGalleryImages {
+  transition: all .3s ease-in-out;
+  &:hover {
+    transform: scale(1.5);
+    @include respond(tabLand) {
+      transform: scale(1.2);
+    }
+  }
+}
+
 @mixin accordionLayout {
   cursor: auto;
   text-align: center;
