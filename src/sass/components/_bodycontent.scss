@@ -11,7 +11,8 @@
 // }
 
 .BodyContent {
-  background: rgb(52, 46, 80);
+  background: darken($palePurple, 6%);
+  // background: rgb(52, 46, 80);
   color: black;
   font-size: 2.2rem;
   grid-column: 1 / span 7;
