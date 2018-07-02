@@ -11,13 +11,20 @@
 
 .image-gallery-image {
   img {
-    width: 100vw;
-    height: 90vh;
+    height: 88vh;
     @include respond(tabLand) {
-      width: 75vw;
-      height: 80vh;
+      width: 60vw;
+      height: 70vh;
+    }
+    @include respond(tabPort) {
+      width: 50vw;
+      height: 60vh;
     }
   }
+}
+
+.image-gallery-content {
+  width: 90vw;
 }
 
 .Work-Container {

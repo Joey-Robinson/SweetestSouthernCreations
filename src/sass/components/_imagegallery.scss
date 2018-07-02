@@ -1,12 +1,11 @@
 // Styling for ImageGallery Component. Will be shown on main page. Here I'm creating a nested grid to showcase images
 .ImageGallery {
-  background: $burntOrange;
-  color: black;
+  background: linear-gradient(to top right, $lightSilver, darken($lightBlue, 10%));
   grid-column: 8 / -1;
   grid-row: 4 / 10;
   display: grid;
   grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(5, 20%);
+  grid-template-rows: repeat(4, 25%);
   @include respond(customSmall) {
     display: none;
   }
@@ -20,8 +19,11 @@
       height: 25rem;
       width: 25rem;
       @include imageGalleryImages;
-      &:hover {
-        z-index: 50;
+      @include respond(tabLand) {
+        width: 15rem;
+        height: 15rem;
+        grid-column: 3;
+        grid-row: 1;
       }
     }
     &-Two {
@@ -30,6 +32,12 @@
       grid-column: 4;
       grid-row: 3;
       @include imageGalleryImages;
+      @include respond(tabLand) {
+        width: 15rem;
+        height: 15rem;
+        grid-column: 3;
+        grid-row: 2;
+      }
     }
     &-Three {
       width: 10rem;

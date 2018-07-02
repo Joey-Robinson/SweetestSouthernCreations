@@ -3,7 +3,7 @@
   &:hover {
     transform: scale(1.5);
     @include respond(tabLand) {
-      transform: scale(1.2);
+      transform: scale(1.35);
     }
   }
 }
@@ -116,6 +116,7 @@
     }
     & p {
       transition-delay: .375s;
+      margin-top: 5rem;
       font-size: 1.65rem;
       font-weight: bold;
       color: $white;

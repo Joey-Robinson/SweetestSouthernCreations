@@ -7,12 +7,11 @@
 //   grid-row: 2 / -1;
 //   display: grid;
 //   grid-template-columns: repeat(5, 20%);
-//   grid-template-rows: repeat(3, 1fr) 10rem;
+//   grid-template-rows: repeat(3, 1fr) 10rem; 
 // }
 
 .BodyContent {
-  background: darken($palePurple, 6%);
-  // background: rgb(52, 46, 80);
+  background: linear-gradient(to right bottom, $mediumPurple, darken($mediumPink, 30%));
   color: black;
   font-size: 2.2rem;
   grid-column: 1 / span 7;
