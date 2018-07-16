@@ -73,3 +73,6 @@
 // I want to add more to the header. Maybe some succulents spanning the entire header. 
 
 // Right now I'm just making things ready for deployment. >MOST OF THE SITE IS DONE. I NEED TO MAKE A FINAL PASS BEFORE STAGE 1 OF DEPLOYMENT<
+
+
+// Add testing, because fuck it, why not?
