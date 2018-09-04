@@ -1,0 +1,20 @@
+.creations {
+  grid-row: 2;
+  grid-column: 2 / -1;
+  display: grid;
+  background: $primaryColor;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  margin: 0;
+  padding: 0;
+  grid-gap: .5rem;
+
+  & img {
+    display: block;
+    width: 100%;
+    max-height: 20rem;
+
+    &:hover {
+      @include imageHover;
+    }
+  }
+}

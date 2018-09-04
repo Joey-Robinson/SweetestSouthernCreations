@@ -1,28 +1,35 @@
-// Header Component. Will only be shown on main page, I think
-.Header {
-  background: darken($specialPurple, 10%);
-  color: black;
-  font-size: 2.2rem;
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
-  padding: 0;
-  margin: 0;
+.header {
+  grid-column: 1;
+  background: rgba(220, 224, 223, .45);
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 35%;
   display: grid;
-  grid-template-columns: 1fr;
-  & h1 {
-    grid-column: 1;
-    justify-content: center;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 400;
-    letter-spacing: .4rem;
-    line-height: 1;
+  grid-template-rows: repeat(5, 10rem);
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem;
+  scroll-behavior: smooth;
+
+  & a {
+    display: inline-block;
+    height: 30%;
   }
-  @include respond(tabLand) {
-    & h1 {
-      font-size: 1.4rem;
-      padding: 0;
-      margin: 0;
-    }
+
+  &-home {
+    grid-row: 1;
+  }
+
+  &-creations {
+    grid-row: 2;
+  }
+
+  &-about {
+    grid-row: 3;
+  }
+
+  &-contact {
+    grid-row: 4;
   }
 }

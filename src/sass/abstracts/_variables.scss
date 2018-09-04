@@ -1,36 +1,8 @@
-// Colors
-$white: #ffffff;
-$black: #0c0606;
-$grey: #757474;
-$lightSilver: #cac7c7;
-$darkGrey: #999;
-$darkerGrey: #333;
-$lightGrey: #f7f7f7;
-$lighterGrey: #eee;
-$lightBlue: #2998ff;
-$powderBlue: rgb(23, 180, 185);
-$lightYellow: #fdfd61;
-$burntOrange: #cc5500;
-$mediumPurple: #5643fa;
-$specialPurple: #bebed6;
-$lightGreen: #0ee70e;
-$darkGreen: #095209;
-$mediumPink: #d47c8a;
-$brightPink: #ff8ea0;
-$palePurple: #5101f0;
-// Font-Sizes
-$smallFont: 1.6rem;
-
-// Box Shadows
-$darkShadow: 0 2rem 6rem rgba(0, 0, 0, 0.47);
-$darkShadowOne: 0 2rem 5rem rgba(0, 0, 0, .06);
-$midnightShadow: 1rem 2rem 5rem $black;
-// Borders
-$greyBorder: 1px solid $lightGrey;
-$blackBorder: 1px solid $black;
-// breakPoints
-$breakPointLargest: 75em;   // 1200px
-$breakPointLarge: 68.75em;  // 1100px
-$breakPointMedium: 56.25em; // 900px
-$breakPointSmall: 37.5em;   // 600px
-$breakPointSmallest: 31.25em  // 500px
+$headerWhite: #f0f0f0;
+$primaryColor: #dce0df;
+$highlighting: #bb523d;
+$mintLight: lighten(#255448, 10%);
+$mint: #255448;
+$mintDark: darken($mint, 10%);
+$darkness: 12px 0 15px -4px black,
+-12px 0 8px -4px black;

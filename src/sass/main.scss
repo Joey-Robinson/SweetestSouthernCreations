@@ -8,24 +8,12 @@
 @import './base/typography';
 @import './base/utilities';
 // Components
-@import './components/accordion';
-@import './components/bodycontent';
-@import './components/button';
-@import './components/collapsingsidebar';
 @import './components/footer';
 @import './components/header';
-@import './components/imagegallery';
-@import './components/modal';
-@import './components/rotatingcard';
-@import './components/routes';
 // Layouts
-@import './layouts/gridlayout';
-@import './layouts/rotatingcardcontainer';
+@import './layouts/primary';
 // Pages
 @import './pages/about';
 @import './pages/contact';
-@import './pages/fourohfour';
+@import './pages/creations';
 @import './pages/home';
-@import './pages/work';
-
-@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";

@@ -1,0 +1,6 @@
+.primary {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-template-rows: repeat(4, 102vh) 2.5rem;
+  grid-gap: .7rem;
+}
