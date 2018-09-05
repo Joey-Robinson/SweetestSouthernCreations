@@ -7,6 +7,10 @@
   grid-template-rows: repeat(3, 1fr);
   font-size: 1.8rem;
 
+  @include respond(bigDesktop) {
+    grid-row: 4;
+  }
+
   @include respond(tabLand) {
     grid-row: 5;
     grid-column: 1;

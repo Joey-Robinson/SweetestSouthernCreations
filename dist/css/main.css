@@ -84,7 +84,7 @@ a {
   padding: 2rem 2rem 2rem 2rem; }
   @media only screen and (max-width: 56.25em) {
     .header {
-      background: rgba(220, 224, 223, 0.75);
+      background: rgba(220, 224, 223, 0.95);
       z-index: 3;
       grid-row: 1;
       grid-column: 1;
@@ -96,7 +96,7 @@ a {
       padding: 1.3rem 1rem 2rem 2rem; } }
   @media only screen and (max-width: 37.5em) {
     .header {
-      background: rgba(220, 224, 223, 0.75);
+      background: rgba(220, 224, 223, 0.95);
       z-index: 3;
       grid-row: 1;
       grid-column: 1;
@@ -149,10 +149,18 @@ a {
   grid-template-columns: 15rem 1fr;
   grid-template-rows: repeat(4, 102vh) 2.5rem;
   grid-gap: .7rem; }
+  @media only screen and (max-width: 112.5em) {
+    .primary {
+      grid-template-columns: 1fr;
+      grid-template-rows: 102vh max-content 102vh 102vh 2.5rem; } }
   @media only screen and (max-width: 56.25em) {
     .primary {
       grid-template-columns: 100vw;
       grid-template-rows: 5rem 102vh min-content 102vh 102vh 2.5rem; } }
+  @media only screen and (max-width: 75em) {
+    .primary {
+      grid-template-columns: 100vw;
+      grid-template-rows: 5rem 102vh max-content 102vh 102vh 2.5rem; } }
 
 .about {
   grid-column: 2 / -1;
@@ -161,6 +169,10 @@ a {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr); }
+  @media only screen and (max-width: 112.5em) {
+    .about {
+      grid-row: 3;
+      grid-column: 2; } }
   @media only screen and (max-width: 56.25em) {
     .about {
       grid-row: 4;
@@ -169,6 +181,9 @@ a {
   .about-bubbles {
     grid-column: 1 / -1;
     grid-row: 1 / -1; }
+    @media only screen and (max-width: 112.5em) {
+      .about-bubbles {
+        display: none; } }
     @media only screen and (max-width: 56.25em) {
       .about-bubbles {
         display: none; } }
@@ -193,6 +208,10 @@ a {
     outline: none;
     cursor: pointer;
     box-shadow: .25rem .35rem black; }
+    @media only screen and (max-width: 112.5em) {
+      .about-button {
+        margin-bottom: 1rem;
+        grid-row: 1; } }
     @media only screen and (max-width: 56.25em) {
       .about-button {
         margin-bottom: 1rem;
@@ -221,6 +240,14 @@ a {
     grid-row: 3 / 5;
     justify-self: center;
     z-index: 2; }
+    @media only screen and (max-width: 112.5em) {
+      .about-us {
+        font-weight: normal;
+        grid-row: 2 / 4;
+        grid-column: 1 / -1;
+        font-size: 1.6rem;
+        border: none;
+        box-shadow: none; } }
     @media only screen and (max-width: 56.25em) {
       .about-us {
         font-weight: normal;
@@ -238,6 +265,9 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   font-size: 1.8rem; }
+  @media only screen and (max-width: 112.5em) {
+    .contact {
+      grid-row: 4; } }
   @media only screen and (max-width: 75em) {
     .contact {
       grid-row: 5;
@@ -292,6 +322,10 @@ a {
     .creations {
       grid-row: 3;
       grid-column: 1; } }
+  @media only screen and (max-width: 112.5em) {
+    .creations {
+      grid-row: 2;
+      grid-column: 2; } }
   .creations img {
     display: block;
     width: 100%;
@@ -325,7 +359,10 @@ a {
     grid-row: 5;
     grid-column: 1 / 6;
     z-index: 2; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
+      .home-right {
+        display: none; } }
+    @media only screen and (max-width: 112.5em) {
       .home-right {
         display: none; } }
   .home-left {
@@ -340,6 +377,12 @@ a {
     display: grid;
     grid-template-rows: 10rem 1fr 1fr 10rem 1rem;
     background: rgba(37, 84, 72, 0.65); }
+    @media only screen and (max-width: 112.5em) {
+      .home-left {
+        padding: 1rem;
+        grid-row: 1 / -1;
+        grid-column: 1 / -1;
+        grid-template-rows: 5rem 30rem 1fr 1fr; } }
     @media only screen and (max-width: 75em) {
       .home-left {
         padding: 1rem;
@@ -351,10 +394,20 @@ a {
       font-size: 5rem; }
       @media only screen and (max-width: 75em) {
         .home-left__banner {
-          font-size: 2rem; } }
+          font-size: 4rem; } }
+      @media only screen and (max-width: 112.5em) {
+        .home-left__banner {
+          font-size: 3.5rem; } }
     .home-left__cta {
       grid-row: 2;
       padding: 1.5rem 1rem 0 1rem; }
+      @media only screen and (max-width: 37.5em) {
+        .home-left__cta {
+          font-size: 1rem; } }
+      @media only screen and (max-width: 112.5em) {
+        .home-left__cta {
+          font-size: 2rem;
+          padding-bottom: 1.3rem; } }
     .home-left__image {
       grid-row: 3 / 5;
       box-shadow: 1px 1px black;
