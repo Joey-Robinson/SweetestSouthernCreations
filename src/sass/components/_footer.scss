@@ -5,6 +5,11 @@
   text-align: center;
   font-size: 1.3rem;
 
+  @include respond(tabPort) {
+    grid-row: -1;
+    grid-column: 1;
+  }
+
   & a {
     color: black;
     text-decoration: underline;

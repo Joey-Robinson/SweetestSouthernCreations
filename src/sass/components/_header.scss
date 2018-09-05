@@ -10,26 +10,86 @@
   font-size: 1.8rem;
   text-align: center;
   padding: 2rem 2rem 2rem 2rem;
-  scroll-behavior: smooth;
+
+  @include respond(tabPort) {
+    background: rgba($primaryColor, .75);
+    z-index: 3;
+    grid-row: 1;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.4rem;
+    padding: 1.3rem 1rem 2rem 2rem;
+    // background: #000;
+  }
+
+  @include respond(phone) {
+    background: rgba($primaryColor, .75);
+    z-index: 3;
+    // background: orangered;
+    grid-row: 1;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 8rem);
+    font-size: 1.4rem;
+    padding: 1.3rem 1rem 2rem 2rem;
+  }
+
+  @include respond(tabPort) {
+    grid-row: 1;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 8rem);
+    font-size: 1.4rem;
+    padding: 1.3rem 1rem 2rem 2rem;
+  }
 
   & a {
     display: inline-block;
     height: 30%;
+
+    @include respond(tabPort) {}
   }
 
   &-home {
     grid-row: 1;
+
+    @include respond(tabPort) {
+      grid-column: 1;
+      float: left;
+    }
   }
 
   &-creations {
     grid-row: 2;
+
+    @include respond(tabPort) {
+      grid-column: 2;
+      grid-row: 1;
+    }
   }
 
   &-about {
     grid-row: 3;
+
+    @include respond(tabPort) {
+      grid-column: 3;
+      grid-row: 1;
+    }
   }
 
   &-contact {
     grid-row: 4;
+
+    @include respond(tabPort) {
+      grid-column: 4;
+      grid-row: 1;
+    }
   }
 }

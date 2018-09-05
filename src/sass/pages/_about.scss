@@ -6,9 +6,19 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
 
+  @include respond(tabPort) {
+    grid-row: 4;
+    grid-column: 1;
+    width: 100%;
+  }
+
   &-bubbles {
     grid-column: 1 / -1;
     grid-row: 1 / -1;
+
+    @include respond(tabPort) {
+      display: none;
+    }
 
     circle {
       fill: $primaryColor;
@@ -34,6 +44,11 @@
     outline: none;
     cursor: pointer;
     box-shadow: .25rem .35rem black;
+
+    @include respond(tabPort) {
+      margin-bottom: 1rem;
+      grid-row: 1;
+    }
 
     &:hover {
       transform: translateY(-.2rem);
@@ -64,5 +79,14 @@
     grid-row: 3 / 5;
     justify-self: center;
     z-index: 2;
+
+    @include respond(tabPort) {
+      font-weight: normal;
+      grid-row: 2 / 6;
+      grid-column: 1 / -1;
+      font-size: 1.2rem;
+      border: none;
+      box-shadow: none;
+    }
   }
 }

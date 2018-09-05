@@ -61,6 +61,10 @@ a {
   background: #dce0df;
   text-align: center;
   font-size: 1.3rem; }
+  @media only screen and (max-width: 56.25em) {
+    .footer {
+      grid-row: -1;
+      grid-column: 1; } }
   .footer a {
     color: black;
     text-decoration: underline;
@@ -77,25 +81,78 @@ a {
   grid-template-rows: repeat(5, 10rem);
   font-size: 1.8rem;
   text-align: center;
-  padding: 2rem 2rem 2rem 2rem;
-  scroll-behavior: smooth; }
+  padding: 2rem 2rem 2rem 2rem; }
+  @media only screen and (max-width: 56.25em) {
+    .header {
+      background: rgba(220, 224, 223, 0.75);
+      z-index: 3;
+      grid-row: 1;
+      grid-column: 1;
+      height: 100%;
+      width: 100%;
+      grid-template-rows: 1fr;
+      grid-template-columns: repeat(4, 1fr);
+      font-size: 1.4rem;
+      padding: 1.3rem 1rem 2rem 2rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      background: rgba(220, 224, 223, 0.75);
+      z-index: 3;
+      grid-row: 1;
+      grid-column: 1;
+      height: 100%;
+      width: 100%;
+      grid-template-rows: 1fr;
+      grid-template-columns: repeat(4, 8rem);
+      font-size: 1.4rem;
+      padding: 1.3rem 1rem 2rem 2rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .header {
+      grid-row: 1;
+      grid-column: 1;
+      height: 100%;
+      width: 100%;
+      grid-template-rows: 1fr;
+      grid-template-columns: repeat(4, 8rem);
+      font-size: 1.4rem;
+      padding: 1.3rem 1rem 2rem 2rem; } }
   .header a {
     display: inline-block;
     height: 30%; }
   .header-home {
     grid-row: 1; }
+    @media only screen and (max-width: 56.25em) {
+      .header-home {
+        grid-column: 1;
+        float: left; } }
   .header-creations {
     grid-row: 2; }
+    @media only screen and (max-width: 56.25em) {
+      .header-creations {
+        grid-column: 2;
+        grid-row: 1; } }
   .header-about {
     grid-row: 3; }
+    @media only screen and (max-width: 56.25em) {
+      .header-about {
+        grid-column: 3;
+        grid-row: 1; } }
   .header-contact {
     grid-row: 4; }
+    @media only screen and (max-width: 56.25em) {
+      .header-contact {
+        grid-column: 4;
+        grid-row: 1; } }
 
 .primary {
   display: grid;
   grid-template-columns: 15rem 1fr;
   grid-template-rows: repeat(4, 102vh) 2.5rem;
   grid-gap: .7rem; }
+  @media only screen and (max-width: 56.25em) {
+    .primary {
+      grid-template-columns: 100vw;
+      grid-template-rows: 5rem 102vh min-content 102vh 102vh 2.5rem; } }
 
 .about {
   grid-column: 2 / -1;
@@ -104,9 +161,17 @@ a {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr); }
+  @media only screen and (max-width: 56.25em) {
+    .about {
+      grid-row: 4;
+      grid-column: 1;
+      width: 100%; } }
   .about-bubbles {
     grid-column: 1 / -1;
     grid-row: 1 / -1; }
+    @media only screen and (max-width: 56.25em) {
+      .about-bubbles {
+        display: none; } }
     .about-bubbles circle {
       fill: #dce0df;
       stroke: #255448;
@@ -128,6 +193,10 @@ a {
     outline: none;
     cursor: pointer;
     box-shadow: .25rem .35rem black; }
+    @media only screen and (max-width: 56.25em) {
+      .about-button {
+        margin-bottom: 1rem;
+        grid-row: 1; } }
     .about-button:hover {
       transform: translateY(-0.2rem);
       transition: all .05s ease-in; }
@@ -152,6 +221,14 @@ a {
     grid-row: 3 / 5;
     justify-self: center;
     z-index: 2; }
+    @media only screen and (max-width: 56.25em) {
+      .about-us {
+        font-weight: normal;
+        grid-row: 2 / 6;
+        grid-column: 1 / -1;
+        font-size: 1.2rem;
+        border: none;
+        box-shadow: none; } }
 
 .contact {
   grid-column: 2 / -1;
@@ -161,10 +238,18 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   font-size: 1.8rem; }
+  @media only screen and (max-width: 75em) {
+    .contact {
+      grid-row: 5;
+      grid-column: 1; } }
   .contact img {
     display: inline-block;
     width: 11.4rem;
     height: 11.4rem; }
+    @media only screen and (max-width: 75em) {
+      .contact img {
+        width: 5.6rem;
+        height: 5.6rem; } }
     .contact img:hover {
       animation: pulsate .5s infinite; }
   .contact-main {
@@ -203,6 +288,10 @@ a {
   margin: 0;
   padding: 0;
   grid-gap: .5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .creations {
+      grid-row: 3;
+      grid-column: 1; } }
   .creations img {
     display: block;
     width: 100%;
@@ -221,6 +310,11 @@ a {
   color: #f0f0f0;
   font-size: 2rem;
   text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .home {
+      grid-row: 2;
+      grid-column: 1;
+      font-size: 1.45rem; } }
   .home-right {
     padding: 1.5rem;
     animation: fadeInLeft 0.375s backwards;
@@ -231,6 +325,9 @@ a {
     grid-row: 5;
     grid-column: 1 / 6;
     z-index: 2; }
+    @media only screen and (max-width: 75em) {
+      .home-right {
+        display: none; } }
   .home-left {
     box-shadow: 1px 1px black;
     border: 0.5px solid black;
@@ -243,9 +340,18 @@ a {
     display: grid;
     grid-template-rows: 10rem 1fr 1fr 10rem 1rem;
     background: rgba(37, 84, 72, 0.65); }
+    @media only screen and (max-width: 75em) {
+      .home-left {
+        padding: 1rem;
+        grid-row: 1 / -1;
+        grid-column: 1 / -1;
+        grid-template-rows: 5rem 30rem 1fr 1fr; } }
     .home-left__banner {
       grid-row: 1;
       font-size: 5rem; }
+      @media only screen and (max-width: 75em) {
+        .home-left__banner {
+          font-size: 2rem; } }
     .home-left__cta {
       grid-row: 2;
       padding: 1.5rem 1rem 0 1rem; }
