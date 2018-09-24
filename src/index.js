@@ -1,8 +1,9 @@
-// const openUrl = (url) => {
-//   const newTab = window.open();
-//   newTab.opener = null;
-//   newTab.location = url;
-// }
+const openUrl = (url) => {
+  const newTab = window.open();
+  newTab.opener = null;
+  newTab.location = url;
+}
+
 const openSlide = document
   .getElementById("openSlideMenu")
   .addEventListener("click", () => {
@@ -18,22 +19,22 @@ const closeSlide = document
     slide.style.width = "0";
   });
 
-// const hide = () => {
-//   const bubblediv = document.getElementById("bubblediv");
-//   const button = document.getElementById('hide');
-//   if (button.innerHTML === 'Read') {
-//     button.textContent = 'Play';
-//   } else {
-//     button.textContent = 'Read';
-//   }
-//   if (bubblediv.style.display === "none") {
-//     bubblediv.style.display = "block";
-//   } else {
-//     bubblediv.style.display = "none";
-//   }
-// };
+const hide = () => {
+  const hiddenDiv = document.getElementById("hiddenDiv");
+  const button = document.getElementById('hide');
+  if (button.innerHTML === 'Read') {
+    button.textContent = 'Play';
+  } else {
+    button.textContent = 'Read';
+  }
+  if (hiddenDiv.style.display === "none") {
+    hiddenDiv.style.display = "block";
+  } else {
+    hiddenDiv.style.display = "none";
+  }
+};
 
-// const hidediv = document.getElementById("hide").addEventListener("click", hide);
+const hidediv = document.getElementById("hide").addEventListener("click", hide);
 
 // var bubbles = document.getElementById("bubbles"),
 //   screenWidth = window.innerWidth,

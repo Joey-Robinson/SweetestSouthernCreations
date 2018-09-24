@@ -55,7 +55,7 @@ button {
   display: grid;
   grid-template-columns: 70% repeat(4, 1fr); }
   .nav-slide {
-    padding: 1rem 0 0 1rem;
+    padding: 1rem 0 0 1.1rem;
     width: 5rem; }
     .nav-slide svg {
       stroke: #e2e1e1; }
@@ -63,7 +63,7 @@ button {
       height: 100%;
       width: 0;
       position: fixed;
-      z-index: 5;
+      z-index: 2;
       top: 0;
       left: 0;
       background: #222;
@@ -77,11 +77,11 @@ button {
       grid-template-rows: repeat(8, 1fr); }
       .nav-slide__menu a {
         margin-top: 5rem;
-        font-size: 2rem;
+        font-size: 2.2rem;
         grid-column: 2;
         height: 1rem;
         width: 1rem;
-        padding: 1rem 5rem 0 0;
+        padding: 1rem 8rem 0 0;
         justify-self: center; }
     .nav-slide__close {
       text-align: center;
@@ -92,10 +92,6 @@ button {
       right: .5rem;
       font-size: 4rem;
       margin-left: 7rem; }
-      .nav-slide__close:hover {
-        animation: pulsate .5s infinite; }
-    .nav-slide:hover {
-      animation: pulsate .5s infinite; }
   @media only screen and (max-width: 37.5em) {
     .nav-primary {
       display: none;
@@ -120,7 +116,7 @@ button {
   @media only screen and (max-width: 37.5em) {
     .container {
       grid-template-columns: 1fr;
-      grid-template-rows: min-content 100vh max-content; } }
+      grid-template-rows: min-content 120vh max-content; } }
 
 .home {
   grid-column: 1 / -1;

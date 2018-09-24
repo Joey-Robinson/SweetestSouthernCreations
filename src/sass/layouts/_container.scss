@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 100vw min-content;
+
   @include respond(phone) {
-    grid-template-columns: 1fr; 
-    grid-template-rows: min-content 100vh max-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 120vh max-content;
   }
 }
