@@ -1,9 +1,10 @@
-.content {
+.home {
   grid-column: 1 / -1;
   grid-row: 2;
-  background: purple;
+  background: $headerWhite;
+  color: $textBlack;
   font-size: $mediumFont;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 30rem 1fr;
+  grid-template-rows: 1fr 30rem 40rem;
 }

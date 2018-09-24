@@ -1,8 +1,28 @@
 .nav {
   grid-column: 1 / -1;
   grid-row: 1;
-  background: orangered;
+  background: #222;
+  position: sticky;
+  top: 0;
+  color: $headerWhite;
   font-size: $base;
   display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-template-columns: 70% repeat(4, 1fr);
+  & div {
+    padding: 1rem 0 1rem 0;
+    justify-items: center;
+    text-align: center;
+  }
+  &-home {
+    grid-column: 2;
+  }
+  &-about {
+    grid-column: 3;
+  }
+  &-work {
+    grid-column: 4;
+  }
+  &-contact {
+    grid-column: 5;
+  }
 }

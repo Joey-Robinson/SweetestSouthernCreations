@@ -2,7 +2,8 @@
   grid-column: 1 / -1;
   grid-row: 3;
   font-size: $base;
-  background: powderblue;
+  background: #222;
+  color: $headerWhite;
   display: grid;
   grid-template-columns: 1fr;
 }
