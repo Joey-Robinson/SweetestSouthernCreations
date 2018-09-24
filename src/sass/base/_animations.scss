@@ -1,0 +1,15 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    color: $headerWhite;
+  }
+
+  50% {
+    transform: scaleX(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+    color: $headerWhite;
+  }
+}

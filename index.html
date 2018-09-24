@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,31 @@
   <link rel="stylesheet" href="./dist/css/main.css" type="text/css">
   <title>SSC</title>
 </head>
+
 <body>
   <div class="container">
     <!-- Header -->
     <nav class="nav">
-      <div class="nav-home">Home</div>
-      <div class="nav-about">About</div>
-      <div class="nav-work">Work</div>
-      <div class="nav-contact">Contact</div>
+      <div class="nav-home nav-primary">Home</div>
+      <div class="nav-about nav-primary">About</div>
+      <div class="nav-work nav-primary">Work</div>
+      <div class="nav-contact nav-primary">Contact</div>
+      <span id="pls" class="nav-slide">
+        <a href="#" id="openSlideMenu">
+          <svg width="30" height="30" id="svg">
+            <path class="path" d="M0,5 30,5" stroke-width="5" />
+            <path class="path" d="M0,14 30,14" stroke-width="5" />
+            <path class="path" d="M0,23 30,23" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+      <div class="nav-slide__menu" id="slide">
+        <button href="#" class="nav-slide__close" id="closeSlideMenu">&times;</button>
+        <a class="nav-slide-home" href="#">Home</a>
+        <a class="nav-slide-portfolio" href="#">Portfolio</a>
+        <a class="nav-slide-skills" href="#">Skills</a>
+        <a class="nav-slide-contact" href="#">Contact</a>
+      </div>
     </nav>
     <!-- Header End -->
 
@@ -27,5 +45,7 @@
       From Footer
     </footer>
   </div>
+  <script src="./src/index.js"></script>
 </body>
+
 </html>

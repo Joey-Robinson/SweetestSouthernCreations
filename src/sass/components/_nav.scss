@@ -8,20 +8,90 @@
   font-size: $base;
   display: grid;
   grid-template-columns: 70% repeat(4, 1fr);
+
+  &-slide {
+    padding: 1rem 0 0 1rem;
+    width: 5rem;
+
+    & svg {
+      stroke: $headerWhite;
+    }
+
+    &__menu {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 5;
+      top: 0;
+      left: 0;
+      background: #222;
+      opacity: 0.97;
+      overflow-x: hidden;
+      padding-top: 5rem;
+      transition: 0.5s;
+      display: grid;
+      grid-row-gap: 8rem;
+      grid-template-columns: 5rem 1fr 5rem;
+      grid-template-rows: repeat(8, 1fr);
+
+
+      & a {
+        margin-top: 5rem;
+        // margin-left: 4rem;
+        font-size: 2rem;
+        grid-column: 2;
+        height: 1rem;
+        width: 1rem;
+        padding: 1rem 5rem 0 0;
+        justify-self: center;
+      }
+    }
+
+    &__close {
+      text-align: center;
+      color: $headerWhite;
+      background: #222;
+      position: absolute;
+      top: 0;
+      right: .5rem;
+      font-size: 4rem;
+      margin-left: 7rem;
+
+      &:hover {
+        animation: pulsate .5s infinite;
+      }
+    }
+
+    &:hover {
+      animation: pulsate .5s infinite;
+    }
+  }
+
+  @include respond(phone) {
+    &-primary {
+      display: none;
+      grid-template-columns: 1fr;
+    }
+  }
+
   & div {
     padding: 1rem 0 1rem 0;
     justify-items: center;
     text-align: center;
   }
+
   &-home {
     grid-column: 2;
   }
+
   &-about {
     grid-column: 3;
   }
+
   &-work {
     grid-column: 4;
   }
+
   &-contact {
     grid-column: 5;
   }
