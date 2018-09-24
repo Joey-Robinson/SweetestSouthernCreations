@@ -58,12 +58,20 @@
     }
   }
 
+  @include respond(tabLand) {
+    &-primary {
+      display: none;
+      grid-template-columns: 1fr;
+    }
+  }
+
   @include respond(phone) {
     &-primary {
       display: none;
       grid-template-columns: 1fr;
     }
   }
+
 
   & div {
     padding: 1rem 0 1rem 0;
@@ -85,5 +93,11 @@
 
   &-contact {
     grid-column: 5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-slide {
+    display: none;
   }
 }
