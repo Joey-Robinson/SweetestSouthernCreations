@@ -1,6 +1,3 @@
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
-
 const hide = () => {
   const bubblediv = document.getElementById("bubblediv");
   const button = document.getElementById('hide');
