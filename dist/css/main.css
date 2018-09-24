@@ -15,35 +15,32 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto; }
-
 .footer {
-  font-size: 2.3rem;
-  grid-row: 3;
   grid-column: 1 / -1;
+  grid-row: 3;
+  font-size: 2.3rem;
+  background: powderblue;
   display: grid;
-  grid-template-columns: 1fr;
-  background: powderblue; }
+  grid-template-columns: 1fr; }
 
 .nav {
-  grid-row: 1;
   grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-row: 1;
+  background: orangered;
   font-size: 2.3rem;
-  background: orangered; }
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr); }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: max-content 1fr min-content; }
+  grid-template-rows: min-content 100vh min-content; }
 
-.home {
-  font-size: 2.2rem;
-  grid-row: 2;
+.content {
   grid-column: 1 / -1;
+  grid-row: 2;
+  background: purple;
+  font-size: 2.2rem;
   display: grid;
-  background: purple; }
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 30rem 1fr; }

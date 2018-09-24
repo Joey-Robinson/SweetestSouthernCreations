@@ -1,7 +1,9 @@
-.home {
-  font-size: 2.2rem;
-  grid-row: 2;
+.content {
   grid-column: 1 / -1;
-  display: grid;
+  grid-row: 2;
   background: purple;
+  font-size: $mediumFont;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 30rem 1fr;
 }

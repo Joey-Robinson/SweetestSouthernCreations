@@ -1,8 +1,8 @@
 .nav {
-  grid-row: 1;
   grid-column: 1 / -1;
+  grid-row: 1;
+  background: orangered;
+  font-size: $base;
   display: grid;
   grid-template-columns: 2fr repeat(4, 1fr);
-  font-size: $base;
-  background: orangered;
 }
