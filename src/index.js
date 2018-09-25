@@ -1,3 +1,17 @@
+const imageArray = [{
+    name: 'imageone',
+    img: '../images/owl001.jpg'
+  },
+  {
+    name: 'imagetwo',
+    img: '../images/owl002.jpg'
+  }
+];
+
+const image = document.createElement('img'); // Image Element for CTA
+const homeImages = document.getElementById('homeImages'); // Div container for the above.
+image.setAttribute('class', 'home-image');
+
 const openUrl = (url) => {
   const newTab = window.open();
   newTab.opener = null;

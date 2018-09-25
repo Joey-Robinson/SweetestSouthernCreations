@@ -25,6 +25,11 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
 a {
   color: #e2e1e1;
   text-decoration: none; }
@@ -55,7 +60,7 @@ button {
   display: grid;
   grid-template-columns: 70% repeat(4, 1fr); }
   .nav-slide {
-    padding: 1rem 0 0 1.1rem;
+    padding: 1rem 0 .5rem 1.1rem;
     width: 5rem; }
     .nav-slide svg {
       height: 2.5rem;
@@ -123,7 +128,7 @@ button {
   @media only screen and (max-width: 37.5em) {
     .container {
       grid-template-columns: 1fr;
-      grid-template-rows: 5rem 130vh max-content; } }
+      grid-template-rows: max-content max-content max-content; } }
 
 .home {
   grid-column: 1 / -1;
@@ -137,7 +142,24 @@ button {
   @media only screen and (max-width: 37.5em) {
     .home {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr max-content 20rem; }
+      grid-template-rows: 100vh min-content max-content; }
+      .home-greeting {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        background-image: url(../../../images/owl001.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .home-image {
+        grid-row: 2;
+        grid-column: 2; }
+      .home-cta {
+        grid-row: 2;
+        padding: 1.3rem 1.5rem 1.3rem 2rem; }
+      .home-additional {
+        grid-column: 1 / -1;
+        grid-row: -1;
+        padding: 1.3rem 1.5rem 1.3rem 1.5rem; }
       .home h1 {
         font-size: 2.5rem;
         grid-column: 1 / 3; } }
