@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
 @keyframes pulsate {
   0% {
     transform: scale(1);
@@ -20,6 +21,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  font-family: 'Karla', sans-serif;
   background: #0e362c;
   color: white;
   font-weight: 300;
@@ -144,6 +146,8 @@ button {
       grid-template-columns: 1fr 10rem;
       grid-template-rows: 100vh max-content max-content;
       font-size: 1.7rem; }
+      .home h1 {
+        font-size: 1.9rem; }
       .home-greeting {
         grid-column: 1 / -1;
         grid-row: 1; }

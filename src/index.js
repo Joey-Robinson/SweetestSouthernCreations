@@ -1,16 +1,16 @@
-const imageArray = [
-  '../images/owl002.jpg',
-  '../images/owl001.jpg',
-  '../images/owl002.jpg',
-  '../images/owl001.jpg'
-];
+// const imageArray = [
+//   '../images/owl002.jpg',
+//   '../images/owl001.jpg',
+//   '../images/owl002.jpg',
+//   '../images/owl001.jpg'
+// ];
 
-imageArray.forEach((image) => {
-  const homeImages = document.getElementById('home');
-  const images = document.createElement('img');
-  images.src = image;
-  homeImages.appendChild(images);
-})
+// imageArray.forEach((image) => {
+//   const homeImages = document.getElementById('home');
+//   const images = document.createElement('img');
+//   images.src = image;
+//   homeImages.appendChild(images);
+// })
 
 const openUrl = (url) => {
   const newTab = window.open();

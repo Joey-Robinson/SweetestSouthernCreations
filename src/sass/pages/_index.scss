@@ -13,6 +13,10 @@
     grid-template-rows: 100vh max-content max-content;
     font-size: $smallFont;
 
+    & h1 {
+      font-size: $smallHeading;
+    }
+
     &-greeting {
       grid-column: 1 / -1;
       grid-row: 1;
