@@ -9,27 +9,43 @@
   grid-template-rows: 1fr 30rem 40rem;
 
   @include respond(phone) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh min-content max-content;
+    grid-template-columns: 1fr 10rem;
+    grid-template-rows: 100vh max-content max-content;
+    font-size: $smallFont;
 
     &-greeting {
       grid-column: 1 / -1;
       grid-row: 1;
-      background-image: url(../../../images/owl001.jpg);
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
     }
 
     &-cta {
+      grid-column: 1 / -1;
       grid-row: 2;
-      padding: 1.3rem 1.5rem 1.3rem 2rem;
+      padding: 0 1rem 2rem 1rem;
+
+      & p {
+        padding: 1rem 1.5rem 2rem 1.2rem;
+      }
+
+      & h1 {
+        background: $primaryColor;
+        color: $headerWhite;
+      }
     }
 
     &-additional {
       grid-column: 1 / -1;
       grid-row: -1;
-      padding: 1.3rem 1.5rem 1.3rem 1.5rem;
+      padding: 0 1rem 0 1rem;
+
+      & p {
+        padding: 1rem 1.5rem 2rem 1.2rem;
+      }
+
+      & h1 {
+        background: $primaryColor;
+        color: $headerWhite;
+      }
     }
 
     & h1 {
