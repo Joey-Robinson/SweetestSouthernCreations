@@ -12,6 +12,9 @@
 //   homeImages.appendChild(images);
 // })
 
+const welcome = document.querySelector('.greeting');
+welcome.style.backgroundImage = "url(../images/owl002.jpg)";
+
 const openUrl = (url) => {
   const newTab = window.open();
   newTab.opener = null;

@@ -13,8 +13,9 @@ html {
 
 
 body {
+  scroll-behavior: smooth;
   font-family: 'Karla', sans-serif;
-  background: #0e362c;
+  background: $primaryColor;
   color: white;
   font-weight: 300;
   line-height: 1.6;

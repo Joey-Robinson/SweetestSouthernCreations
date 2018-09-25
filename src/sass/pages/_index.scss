@@ -14,18 +14,34 @@
     font-size: $smallFont;
 
     & h1 {
-      font-size: $smallHeading;
+      font-size: $mediumHeading;
     }
 
     &-greeting {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: $headerWhite;
       grid-column: 1 / -1;
       grid-row: 1;
+      padding: 2rem 1rem 2rem 1rem;
+
+      & h1 {
+
+        background: $primaryColor;
+        color: $headerWhite;
+      }
+    }
+
+    &-welcome {
+      padding: 1rem;
+      animation: fadeInLeft 1s ease-in-out;
     }
 
     &-cta {
       grid-column: 1 / -1;
       grid-row: 2;
-      padding: 0 1rem 2rem 1rem;
+      padding: 1rem 1rem 1rem 1rem;
 
       & p {
         padding: 1rem 1.5rem 2rem 1.2rem;
