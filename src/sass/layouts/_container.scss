@@ -3,8 +3,13 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 100vw min-content;
 
+  // @include respond(tabLand) {
+  //   grid-template-columns: 1fr;
+  //   grid-template-rows: min-content 130vh max-content;
+  // }
+
   @include respond(phone) {
     grid-template-columns: 1fr;
-    grid-template-rows: min-content 120vh max-content;
+    grid-template-rows: 5rem 130vh max-content;
   }
 }
