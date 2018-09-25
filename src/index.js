@@ -1,16 +1,20 @@
-const imageArray = [{
-    name: 'imageone',
-    img: '../images/owl001.jpg'
-  },
-  {
-    name: 'imagetwo',
-    img: '../images/owl002.jpg'
-  }
-];
+const imageArray = [
+  '../images/owl002.jpg',
+  '../images/owl001.jpg',
+  '../images/owl001.jpg',
+  '../images/owl001.jpg',
+  '../images/owl001.jpg',
+  '../images/owl001.jpg',
+  '../images/owl001.jpg',
+  '../images/owl001.jpg'
+]
 
-const image = document.createElement('img'); // Image Element for CTA
-const homeImages = document.getElementById('homeImages'); // Div container for the above.
-image.setAttribute('class', 'home-image');
+imageArray.forEach((image) => {
+  const homeImages = document.getElementById('home');
+  const images = document.createElement('img');
+  images.src = image;
+  homeImages.appendChild(images);
+})
 
 const openUrl = (url) => {
   const newTab = window.open();
@@ -33,22 +37,22 @@ const closeSlide = document
     slide.style.width = "0";
   });
 
-const hide = () => {
-  const hiddenDiv = document.getElementById("hiddenDiv");
-  const button = document.getElementById('hide');
-  if (button.innerHTML === 'Read') {
-    button.textContent = 'Play';
-  } else {
-    button.textContent = 'Read';
-  }
-  if (hiddenDiv.style.display === "none") {
-    hiddenDiv.style.display = "block";
-  } else {
-    hiddenDiv.style.display = "none";
-  }
-};
+// const hide = () => {
+//   const hiddenDiv = document.getElementById("hiddenDiv");
+//   const button = document.getElementById('hide');
+//   if (button.innerHTML === 'Read') {
+//     button.textContent = 'Play';
+//   } else {
+//     button.textContent = 'Read';
+//   }
+//   if (hiddenDiv.style.display === "none") {
+//     hiddenDiv.style.display = "block";
+//   } else {
+//     hiddenDiv.style.display = "none";
+//   }
+// };
 
-const hidediv = document.getElementById("hide").addEventListener("click", hide);
+// const hidediv = document.getElementById("hide").addEventListener("click", hide);
 
 // var bubbles = document.getElementById("bubbles"),
 //   screenWidth = window.innerWidth,
