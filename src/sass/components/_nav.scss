@@ -10,7 +10,9 @@
   grid-template-columns: 70% repeat(4, 1fr);
 
   &-slide {
-    padding: 1rem 0 .5rem 1.1rem;
+    justify-self: center;
+    align-self: center;
+    padding: 0 0 0 1rem;
     width: 5rem;
 
     & svg {
@@ -65,13 +67,14 @@
 
     & h1 {
       text-align: center;
-      padding: 1rem 1rem 0 0;
+      padding: .5rem 1rem 1rem 0;
       grid-row: 1;
       grid-column: 2;
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
 
     &-slide {
+      padding: .45rem 0 0 1rem;
       grid-row: 1;
       grid-column: 1;
     }

@@ -31,9 +31,12 @@ changeFavIcon(favImage);
 // const greetingImage = document.createElement("img");
 // greetingImage.src = greetingImageSource;
 // greeting.appendChild(greetingImage);
+
 const welcome = document.querySelector(".greeting");
-welcome.style.backgroundImage = "url(../images/owl001.jpg)";
-// welcome.style.marginTop = "1rem";
+const welcomeImage = document.createElement("img");
+const welcomeImageSource = "../images/owl002.jpg";
+welcomeImage.src = welcomeImageSource;
+welcome.appendChild(welcomeImage);
 
 const openUrl = url => {
   const newTab = window.open();

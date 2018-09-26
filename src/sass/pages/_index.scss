@@ -9,36 +9,32 @@
   grid-template-rows: 1fr 30rem 40rem;
 
   @include respond(phone) {
-    grid-template-columns: 1fr 10rem;
+    grid-template-columns: 1fr;
     grid-template-rows: 100vh max-content max-content;
     font-size: $smallFont;
+
+    & p {
+      padding: 1.3rem 1rem 1.3rem 1rem;
+    }
 
     & h1 {
       font-size: $mediumHeading;
     }
 
     &-greeting {
-      grid-column: 1 / -1;
+      grid-column: 1;
       grid-row: 1;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: auto;
+      animation: fadeInLeft 1s ease-in-out;
 
-      & h1 {
-        background: $primaryColor;
-        color: $headerWhite;
+      & img {
+        padding: 1rem 1rem 2rem 1rem;
       }
     }
 
-    &-welcome {
-      height: 100%;
-      animation: fadeInLeft 1s ease-in-out;
-    }
-
     &-cta {
-      grid-column: 1 / -1;
+      grid-column: 1;
       grid-row: 2;
-
+      padding: 1rem 0 0 0;
 
       & h1 {
         background: $primaryColor;
@@ -47,7 +43,7 @@
     }
 
     &-additional {
-      grid-column: 1 / -1;
+      grid-column: 1;
       grid-row: -1;
 
       & h1 {
@@ -58,7 +54,7 @@
 
     & h1 {
       font-size: $bigHeading;
-      grid-column: 1 / 3;
+      grid-column: 1;
     }
   }
 
