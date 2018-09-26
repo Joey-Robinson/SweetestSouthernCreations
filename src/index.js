@@ -31,9 +31,9 @@ changeFavIcon(favImage);
 // const greetingImage = document.createElement("img");
 // greetingImage.src = greetingImageSource;
 // greeting.appendChild(greetingImage);
-const welcome = document.querySelector(".welcome");
+const welcome = document.querySelector(".greeting");
 welcome.style.backgroundImage = "url(../images/owl001.jpg)";
-welcome.style.marginTop = "1rem";
+// welcome.style.marginTop = "1rem";
 
 const openUrl = url => {
   const newTab = window.open();
