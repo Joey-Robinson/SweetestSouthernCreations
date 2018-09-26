@@ -60,6 +60,21 @@
   }
 
   @include respond(tabLand) {
+    grid-template-columns: 5rem 1fr;
+    grid-template-rows: 1fr;
+
+    & h1 {
+      text-align: center;
+      padding: 1rem 1rem 0 0;
+      grid-row: 1;
+      grid-column: 2;
+      font-size: 2rem;
+    }
+
+    &-slide {
+      grid-row: 1;
+      grid-column: 1;
+    }
 
     &-primary {
       display: none;
