@@ -96,7 +96,7 @@ button {
   display: grid;
   grid-template-columns: 70% repeat(4, 1fr); }
   .nav-slide {
-    padding: 1rem 0 .5rem 1.1rem;
+    padding: .5rem 0 .5rem 1.1rem;
     width: 5rem; }
     .nav-slide svg {
       height: 2.5rem;
@@ -136,7 +136,8 @@ button {
       margin-left: 7rem; }
   @media only screen and (max-width: 75em) {
     .nav {
-      opacity: .85; }
+      position: absolute;
+      background: transparent; }
       .nav-primary {
         display: none;
         grid-template-columns: 1fr; } }
@@ -183,22 +184,23 @@ button {
       .home h1 {
         font-size: 2rem; }
       .home-greeting {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         grid-column: 1 / -1;
         grid-row: 1;
-        padding: 2rem 1rem 2rem 1rem; }
+        padding: 0 0 1rem 0; }
         .home-greeting h1 {
           background: #222;
           color: #e2e1e1; }
       .home-welcome {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 100%;
         padding: 1rem;
         animation: fadeInLeft 1s ease-in-out; }
       .home-cta {
         grid-column: 1 / -1;
         grid-row: 2;
-        padding: 1rem 1rem 1rem 1rem; }
+        padding: 5rem 1rem 1rem 1rem; }
         .home-cta p {
           padding: 1rem 1.5rem 2rem 1.2rem; }
         .home-cta h1 {
@@ -207,7 +209,7 @@ button {
       .home-additional {
         grid-column: 1 / -1;
         grid-row: -1;
-        padding: 0 1rem 0 1rem; }
+        padding: 0 1rem 1rem 1rem; }
         .home-additional p {
           padding: 1rem 1.5rem 2rem 1.2rem; }
         .home-additional h1 {

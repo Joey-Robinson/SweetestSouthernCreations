@@ -10,7 +10,7 @@
   grid-template-columns: 70% repeat(4, 1fr);
 
   &-slide {
-    padding: 1rem 0 .5rem 1.1rem;
+    padding: .5rem 0 .5rem 1.1rem;
     width: 5rem;
 
     & svg {
@@ -60,8 +60,8 @@
   }
 
   @include respond(tabLand) {
-    // position: relative;
-    opacity: .85;
+    position: absolute;
+    background: transparent;
 
     &-primary {
       display: none;

@@ -12,28 +12,34 @@
 //   homeImages.appendChild(images);
 // })
 
-const changeFavIcon = (img) => {
+const changeFavIcon = img => {
   let favIcon = document.querySelector('link[rel="shortcut icon"]');
   if (!favIcon) {
-    favIcon = document.createElement('link');
-    favIcon.setAttribute('rel', 'shortcut icon');
-    const head = document.querySelector('head');
+    favIcon = document.createElement("link");
+    favIcon.setAttribute("rel", "shortcut icon");
+    const head = document.querySelector("head");
     head.appendChild(favIcon);
   }
-  favIcon.setAttribute('type', 'image/jpg');
-  favIcon.setAttribute('href', img);
-}
-const favImage = '../images/sscfavicon.jpg';
+  favIcon.setAttribute("type", "image/jpg");
+  favIcon.setAttribute("href", img);
+};
+const favImage = "../images/sscfavicon.jpg";
 changeFavIcon(favImage);
 
-// const greeting = document.querySelector('.greeting');
-// greeting.style.backgroundImage = "url(../images/ssc041.jpg)";
+// const greetingImageSource = "../images/owl001.jpg";
+// const greeting = document.querySelector(".greeting");
+// const greetingImage = document.createElement("img");
+// greetingImage.src = greetingImageSource;
+// greeting.appendChild(greetingImage);
+const welcome = document.querySelector(".welcome");
+welcome.style.backgroundImage = "url(../images/owl001.jpg)";
+welcome.style.marginTop = "1rem";
 
-const openUrl = (url) => {
+const openUrl = url => {
   const newTab = window.open();
   newTab.opener = null;
   newTab.location = url;
-}
+};
 
 const openSlide = document
   .getElementById("openSlideMenu")
@@ -41,7 +47,6 @@ const openSlide = document
     const slide = document.getElementById("slide");
     slide.style.width = "60vw";
   });
-
 
 const closeSlide = document
   .getElementById("closeSlideMenu")
