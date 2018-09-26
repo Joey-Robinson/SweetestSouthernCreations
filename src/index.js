@@ -12,8 +12,22 @@
 //   homeImages.appendChild(images);
 // })
 
-const welcome = document.querySelector('.greeting');
-welcome.style.backgroundImage = "url(../images/owl002.jpg)";
+const changeFavIcon = (img) => {
+  let favIcon = document.querySelector('link[rel="shortcut icon"]');
+  if (!favIcon) {
+    favIcon = document.createElement('link');
+    favIcon.setAttribute('rel', 'shortcut icon');
+    const head = document.querySelector('head');
+    head.appendChild(favIcon);
+  }
+  favIcon.setAttribute('type', 'image/jpg');
+  favIcon.setAttribute('href', img);
+}
+const favImage = '../images/sscfavicon.jpg';
+changeFavIcon(favImage);
+
+// const greeting = document.querySelector('.greeting');
+// greeting.style.backgroundImage = "url(../images/ssc041.jpg)";
 
 const openUrl = (url) => {
   const newTab = window.open();
