@@ -81,20 +81,20 @@ const closeSlide = document
 
 // const hidediv = document.getElementById("hide").addEventListener("click", hide);
 
-// var bubbles = document.getElementById("bubbles"),
-//   screenWidth = window.innerWidth,
-//   screenHeight = window.innerHeight,
-//   containerWidth = 100,
-//   marginWidth = (screenWidth - containerWidth - 100) / 2;
-// (totalCircles = 2000), (svgNS = "http://www.w3.org/2000/svg");
+var bubbles = document.getElementById("bubbles"),
+  screenWidth = window.innerWidth,
+  screenHeight = window.innerHeight,
+  containerWidth = 100,
+  marginWidth = (screenWidth - containerWidth - 100) / 2;
+(totalCircles = 100), (svgNS = "http://www.w3.org/2000/svg");
 
-// //Set viewBox for bubble container
-// bubbles.setAttributeNS(null, "viewbox", `0 0 ${screenWidth} ${screenHeight}`);
+//Set viewBox for bubble container
+bubbles.setAttributeNS(null, "viewbox", `0 0 ${screenWidth} ${screenHeight}`);
 
-// // For total number of circles, create circles
-// for (let k = 0; k < totalCircles; k++) {
-//   createCircle();
-// }
+// For total number of circles, create circles
+for (let k = 0; k < totalCircles; k++) {
+  createCircle();
+}
 
 // //Fill circle with color
 // function createCircle() {
