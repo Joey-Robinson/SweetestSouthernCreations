@@ -192,7 +192,7 @@ button {
     .home {
       grid-template-columns: 1fr;
       grid-template-rows: max-content max-content max-content;
-      font-size: 1.75rem; }
+      font-size: 1.85rem; }
       .home p {
         padding: 1.3rem 1rem 1.3rem 1.3rem; }
       .home h1 {

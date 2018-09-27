@@ -11,7 +11,7 @@
   @include respond(phone) {
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content max-content;
-    font-size: $smallFont;
+    font-size: $testBase;
 
     & p {
       padding: 1.3rem 1rem 1.3rem 1.3rem;
