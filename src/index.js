@@ -48,7 +48,7 @@ const openSlide = document
   .getElementById("openSlideMenu")
   .addEventListener("click", () => {
     const slide = document.getElementById("slide");
-    slide.style.width = "60vw";
+    slide.style.width = "100%";
   });
 
 const closeSlide = document

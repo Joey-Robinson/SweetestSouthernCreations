@@ -104,30 +104,29 @@ button {
     .nav-slide svg {
       height: 2.5rem;
       stroke: #e2e1e1; }
+    .nav-slide__current {
+      text-decoration: underline; }
     .nav-slide__menu {
       height: 100%;
       width: 0;
       position: fixed;
       z-index: 2;
+      opacity: .95;
       top: 0;
       left: 0;
       background: #222;
-      opacity: 0.97;
       overflow-x: hidden;
       padding-top: 5rem;
       transition: 0.5s;
       display: grid;
-      grid-row-gap: 8rem;
-      grid-template-columns: 5rem 1fr 5rem;
-      grid-template-rows: repeat(8, 1fr); }
+      grid-template-columns: 1fr; }
       .nav-slide__menu a {
         margin-top: 5rem;
-        font-size: 2.2rem;
-        grid-column: 2;
+        font-size: 3rem;
+        grid-column: 1;
         height: 1rem;
         width: 1rem;
-        padding: 1rem 8rem 0 0;
-        justify-self: center; }
+        padding: 1rem 12.5rem 0 0; }
     .nav-slide__close {
       text-align: center;
       color: #e2e1e1;
@@ -137,7 +136,7 @@ button {
       right: .5rem;
       font-size: 4rem;
       margin-left: 7rem; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 37.5em) {
     .nav {
       grid-template-columns: 5rem 1fr;
       grid-template-rows: 1fr; }
@@ -193,24 +192,27 @@ button {
     .home {
       grid-template-columns: 1fr;
       grid-template-rows: max-content max-content max-content;
-      font-size: 1.85rem; }
+      font-size: 1.75rem; }
       .home p {
-        padding: 1.3rem 1rem 1.3rem 1rem; }
+        padding: 1.3rem 1rem 1.3rem 1.3rem; }
       .home h1 {
         background: #222;
         color: #e2e1e1;
         font-size: 2.5rem;
+        box-shadow: 5px 3px #920e0e;
         width: 50%;
         margin: 0 auto;
         text-align: center;
         transition: all 0.3s ease-out; }
         .home h1:hover {
-          width: 95%;
+          width: 90%;
           transition: all 0.3s ease-in; }
       .home-greeting {
         grid-column: 1;
         grid-row: 1;
         animation: fadeInLeft 1s ease-in-out; }
+        .home-greeting h1 {
+          margin-top: 1rem; }
         .home-greeting img {
           padding: 1rem 1rem 1rem 1rem; }
       .home-cta {
