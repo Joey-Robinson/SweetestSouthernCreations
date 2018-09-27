@@ -26,17 +26,17 @@ const changeFavIcon = img => {
 const favImage = "../images/sscfavicon.jpg";
 changeFavIcon(favImage);
 
-// const greetingImageSource = "../images/owl001.jpg";
-// const greeting = document.querySelector(".greeting");
-// const greetingImage = document.createElement("img");
-// greetingImage.src = greetingImageSource;
-// greeting.appendChild(greetingImage);
-
 const welcome = document.querySelector(".greeting");
 const welcomeImage = document.createElement("img");
 const welcomeImageSource = "../images/owl002.jpg";
 welcomeImage.src = welcomeImageSource;
 welcome.appendChild(welcomeImage);
+
+const cta = document.querySelector(".cta");
+const ctaImage = document.createElement("img");
+const ctaImageSource = "../images/owl001.jpg";
+ctaImage.src = ctaImageSource;
+cta.appendChild(ctaImage);
 
 const openUrl = url => {
   const newTab = window.open();
@@ -57,6 +57,12 @@ const closeSlide = document
     const slide = document.getElementById("slide");
     slide.style.width = "0";
   });
+
+// const greetingImageSource = "../images/owl001.jpg";
+// const greeting = document.querySelector(".greeting");
+// const greetingImage = document.createElement("img");
+// greetingImage.src = greetingImageSource;
+// greeting.appendChild(greetingImage);
 
 // const hide = () => {
 //   const hiddenDiv = document.getElementById("hiddenDiv");

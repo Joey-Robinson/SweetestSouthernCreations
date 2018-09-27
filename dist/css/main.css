@@ -83,7 +83,8 @@ button {
   background: #222;
   color: #e2e1e1;
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  text-align: center; }
 
 .nav {
   grid-column: 1 / -1;
@@ -191,33 +192,34 @@ button {
   @media only screen and (max-width: 37.5em) {
     .home {
       grid-template-columns: 1fr;
-      grid-template-rows: 100vh max-content max-content;
+      grid-template-rows: max-content max-content max-content;
       font-size: 1.85rem; }
       .home p {
         padding: 1.3rem 1rem 1.3rem 1rem; }
       .home h1 {
-        font-size: 2rem; }
+        background: #222;
+        color: #e2e1e1;
+        font-size: 2.5rem;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        transition: all 0.3s ease-out; }
+        .home h1:hover {
+          width: 95%;
+          transition: all 0.3s ease-in; }
       .home-greeting {
         grid-column: 1;
         grid-row: 1;
         animation: fadeInLeft 1s ease-in-out; }
         .home-greeting img {
-          padding: 1rem 1rem 2rem 1rem; }
+          padding: 1rem 1rem 1rem 1rem; }
       .home-cta {
         grid-column: 1;
-        grid-row: 2;
-        padding: 1rem 0 0 0; }
-        .home-cta h1 {
-          background: #222;
-          color: #e2e1e1; }
+        grid-row: 2; }
+        .home-cta img {
+          padding: 1rem 1rem 1rem 1rem; }
       .home-additional {
         grid-column: 1;
-        grid-row: -1; }
-        .home-additional h1 {
-          background: #222;
-          color: #e2e1e1; }
-      .home h1 {
-        font-size: 2.5rem;
-        grid-column: 1; } }
+        grid-row: -1; } }
   .home h1 {
     text-align: center; }
