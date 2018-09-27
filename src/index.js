@@ -26,11 +26,11 @@ const changeFavIcon = img => {
 const favImage = "../images/sscfavicon.jpg";
 changeFavIcon(favImage);
 
-const welcome = document.querySelector(".greeting");
-const welcomeImage = document.createElement("img");
-const welcomeImageSource = "../images/owl002.jpg";
-welcomeImage.src = welcomeImageSource;
-welcome.appendChild(welcomeImage);
+// const welcome = document.querySelector(".greeting");
+// const welcomeImage = document.createElement("img");
+// const welcomeImageSource = "../images/owl002.jpg";
+// welcomeImage.src = welcomeImageSource;
+// welcome.appendChild(welcomeImage);
 
 const cta = document.querySelector(".cta");
 const ctaImage = document.createElement("img");
@@ -48,7 +48,7 @@ const openSlide = document
   .getElementById("openSlideMenu")
   .addEventListener("click", () => {
     const slide = document.getElementById("slide");
-    slide.style.width = "100%";
+    slide.style.width = "100vw";
   });
 
 const closeSlide = document

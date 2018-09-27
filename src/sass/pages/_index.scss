@@ -12,6 +12,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content max-content;
     font-size: $testBase;
+    grid-row-gap: 1rem;
 
     & p {
       padding: 1.3rem 1rem 1.3rem 1.3rem;
@@ -21,7 +22,7 @@
       background: $primaryColor;
       color: $headerWhite;
       font-size: $bigHeading;
-      box-shadow: 5px 3px $secondaryColor;
+      box-shadow: 5px 3px #757575;
       width: 50%;
       margin: 0 auto;
       text-align: center;
@@ -34,12 +35,18 @@
     }
 
     &-greeting {
+      background: url('../../../images/ssc064banner.jpg') no-repeat center center / cover;
       grid-column: 1;
+      color: $headerWhite;
       grid-row: 1;
-      animation: fadeInLeft 1s ease-in-out;
+      padding: 0 0 2.5rem 0;
 
       & h1 {
         margin-top: 1rem;
+      }
+
+      & p {
+        animation: fadeInLeft 1s ease-in-out;
       }
 
       & img {
@@ -48,6 +55,7 @@
     }
 
     &-cta {
+      margin-top: 1rem;
       grid-column: 1;
       grid-row: 2;
 
