@@ -84,6 +84,9 @@ button {
   cursor: pointer;
   background: #222; }
 
+ul {
+  list-style: none; }
+
 .footer {
   grid-column: 1 / -1;
   grid-row: 3;
@@ -109,11 +112,15 @@ button {
     align-self: center;
     padding: 0 0 0 1rem;
     width: 5rem; }
+    .nav-slide ul {
+      display: grid; }
     .nav-slide svg {
       height: 2.5rem;
       stroke: #e2e1e1; }
     .nav-slide__current {
-      text-decoration: underline; }
+      text-decoration: underline;
+      background: #e2e1e1;
+      color: #222; }
     .nav-slide__menu {
       height: 100%;
       width: 0;
@@ -129,13 +136,11 @@ button {
       display: grid;
       grid-template-columns: 1fr; }
       .nav-slide__menu a {
-        display: block;
+        display: inline-block;
         margin-top: 5rem;
         font-size: 3rem;
         grid-column: 1;
-        height: 5rem;
-        width: 5rem;
-        padding: 1rem 10rem 0 0; }
+        padding: 1rem 1.2rem 1rem 1.2rem; }
     .nav-slide__close {
       text-align: center;
       color: #e2e1e1;
