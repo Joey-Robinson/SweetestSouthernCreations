@@ -17,7 +17,6 @@
 
     & ul {
       display: grid;
-
     }
 
     & svg {
@@ -29,6 +28,12 @@
       text-decoration: underline;
       background: $headerWhite;
       color: $primaryColor;
+      width: 100%;
+      border-radius: 5rem;
+
+      &:hover {
+        animation: shake 2s infinite;
+      }
     }
 
     &__menu {
@@ -36,7 +41,7 @@
       width: 0;
       position: fixed;
       z-index: 2;
-      opacity: .95;
+      opacity: .985;
       top: 0;
       left: 0;
       background: $primaryColor;
@@ -47,11 +52,10 @@
       grid-template-columns: 1fr;
 
       & a {
-        display: inline-block;
-        margin-top: 5rem;
+        display: block;
+        margin: 10rem 0 2.5rem 0;
         font-size: $largeHeading;
         grid-column: 1;
-        // background: orangered;
         padding: 1rem 1.2rem 1rem 1.2rem;
       }
     }
@@ -65,6 +69,15 @@
       right: .5rem;
       font-size: 4rem;
       margin-left: 7rem;
+    }
+  }
+
+  @include respond(tabLand) {
+    grid-template-columns: 5rem 1fr;
+    grid-template-rows: 1fr;
+
+    &-primary {
+      display: none;
     }
   }
 

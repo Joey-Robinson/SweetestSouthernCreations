@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
 @keyframes pulsate {
   0% {
-    transform: scale(1);
-    color: #e2e1e1; }
+    transform: scale(1); }
   50% {
     transform: scaleX(1.2); }
   100% {
-    transform: scale(1);
-    color: #e2e1e1; } }
+    transform: scale(1); } }
 
 @keyframes slide {
   0% {
@@ -120,13 +118,17 @@ ul {
     .nav-slide__current {
       text-decoration: underline;
       background: #e2e1e1;
-      color: #222; }
+      color: #222;
+      width: 100%;
+      border-radius: 5rem; }
+      .nav-slide__current:hover {
+        animation: shake 2s infinite; }
     .nav-slide__menu {
       height: 100%;
       width: 0;
       position: fixed;
       z-index: 2;
-      opacity: .95;
+      opacity: .985;
       top: 0;
       left: 0;
       background: #222;
@@ -136,8 +138,8 @@ ul {
       display: grid;
       grid-template-columns: 1fr; }
       .nav-slide__menu a {
-        display: inline-block;
-        margin-top: 5rem;
+        display: block;
+        margin: 10rem 0 2.5rem 0;
         font-size: 3rem;
         grid-column: 1;
         padding: 1rem 1.2rem 1rem 1.2rem; }
@@ -150,6 +152,12 @@ ul {
       right: .5rem;
       font-size: 4rem;
       margin-left: 7rem; }
+  @media only screen and (max-width: 75em) {
+    .nav {
+      grid-template-columns: 5rem 1fr;
+      grid-template-rows: 1fr; }
+      .nav-primary {
+        display: none; } }
   @media only screen and (max-width: 37.5em) {
     .nav {
       grid-template-columns: 5rem 1fr;
@@ -202,6 +210,54 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 30rem 40rem; }
+  @media only screen and (max-width: 75em) {
+    .home {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: max-content max-content max-content; }
+      .home h1 {
+        box-shadow: 5px 5px #696969;
+        background: #222;
+        color: #e2e1e1;
+        font-size: 2.5rem;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        transition: all 0.3s ease-out; }
+        .home h1:hover {
+          width: 90%;
+          transition: all 0.3s ease-in; }
+      .home p {
+        hyphens: auto;
+        padding: 1rem 1.2rem 1.3rem 2rem; }
+      .home img {
+        padding: 1rem 2rem 1rem 1rem; }
+      .home-greeting {
+        margin-top: 1rem;
+        grid-column: 1;
+        color: #222;
+        grid-row: 1;
+        padding: 0 0 2.5rem 0; }
+        .home-greeting p {
+          animation: fadeInLeft 1s ease-in-out; }
+      .home-image {
+        display: block;
+        height: auto; }
+      .home-cta {
+        margin-top: 1rem;
+        grid-column: 2;
+        grid-row: 2; }
+        .home-cta img {
+          padding-right: 1.5rem;
+          display: none; }
+      .home-ctaimage {
+        grid-column: 1; }
+      .home-additional {
+        grid-column: 1;
+        grid-row: -1;
+        color: #222;
+        padding: 0 0 1.3rem 0; }
+        .home-additional p {
+          animation: fadeInRight 1s ease-in-out; } }
   @media only screen and (max-width: 37.5em) {
     .home {
       grid-template-columns: 1fr;
@@ -225,13 +281,16 @@ ul {
         .home h1:hover {
           width: 90%;
           transition: all 0.3s ease-in; }
+      .home-image {
+        display: none; }
       .home-greeting {
         background: url("../../../images/ssc064banner.jpg") no-repeat center center/cover;
         grid-column: 1;
         color: #e2e1e1;
         grid-row: 1;
         padding: 0 0 2.5rem 0;
-        font-weight: 700; }
+        font-weight: 700;
+        margin: 0; }
         .home-greeting h1 {
           margin-top: 1rem;
           background: #e2e1e1;
