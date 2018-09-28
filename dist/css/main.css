@@ -87,7 +87,7 @@ button {
 .footer {
   grid-column: 1 / -1;
   grid-row: 3;
-  font-size: 2.3rem;
+  font-size: 2rem;
   background: #222;
   color: #e2e1e1;
   display: grid;
@@ -101,7 +101,7 @@ button {
   position: sticky;
   top: 0;
   color: #e2e1e1;
-  font-size: 2.3rem;
+  font-size: 2rem;
   display: grid;
   grid-template-columns: 70% repeat(4, 1fr); }
   .nav-slide {
@@ -129,11 +129,12 @@ button {
       display: grid;
       grid-template-columns: 1fr; }
       .nav-slide__menu a {
+        display: block;
         margin-top: 5rem;
         font-size: 3rem;
         grid-column: 1;
-        height: 1rem;
-        width: 1rem;
+        height: 5rem;
+        width: 5rem;
         padding: 1rem 10rem 0 0; }
     .nav-slide__close {
       text-align: center;
@@ -200,15 +201,17 @@ button {
     .home {
       grid-template-columns: 1fr;
       grid-template-rows: max-content max-content max-content;
-      font-size: 1.85rem;
-      grid-row-gap: 1rem; }
+      grid-row-gap: 1rem;
+      font-size: 1.85rem; }
       .home p {
-        padding: 1.3rem 1rem 1.3rem 1.3rem; }
+        hyphens: auto;
+        padding: 1rem 1.2rem 1.3rem 2rem; }
+      .home img {
+        padding: 1rem 1rem 1rem 1rem; }
       .home h1 {
         background: #222;
         color: #e2e1e1;
         font-size: 2.5rem;
-        box-shadow: 5px 3px #757575;
         width: 50%;
         margin: 0 auto;
         text-align: center;
@@ -221,27 +224,34 @@ button {
         grid-column: 1;
         color: #e2e1e1;
         grid-row: 1;
-        padding: 0 0 2.5rem 0; }
+        padding: 0 0 2.5rem 0;
+        font-weight: 700; }
         .home-greeting h1 {
-          margin-top: 1rem; }
+          margin-top: 1rem;
+          background: #e2e1e1;
+          color: #222;
+          box-shadow: 5px 5px #222; }
         .home-greeting p {
           animation: fadeInLeft 1s ease-in-out; }
-        .home-greeting img {
-          padding: 1rem 1rem 1rem 1rem; }
       .home-cta {
         margin-top: 1rem;
         grid-column: 1;
         grid-row: 2; }
+        .home-cta h1 {
+          box-shadow: 5px 5px #696969; }
         .home-cta img {
-          padding: 1rem 1rem 1rem 1rem; }
+          padding-right: 1.5rem; }
       .home-additional {
         grid-column: 1;
         grid-row: -1;
-        background: url("../../../images/ssc064banner.jpg") no-repeat center center/cover;
-        color: #e2e1e1; }
+        background: url("../../../images/ssc041banner.jpg") no-repeat center center/cover;
+        color: #e2e1e1;
+        font-weight: 700;
+        padding: 0 0 1.3rem 0; }
         .home-additional h1 {
-          margin-top: 1rem; }
+          margin-top: 2rem;
+          background: #e2e1e1;
+          color: #222;
+          box-shadow: 5px 3px #222; }
         .home-additional p {
           animation: fadeInRight 1s ease-in-out; } }
-  .home h1 {
-    text-align: center; }

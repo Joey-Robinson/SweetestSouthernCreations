@@ -34,7 +34,7 @@ changeFavIcon(favImage);
 
 const cta = document.querySelector(".cta");
 const ctaImage = document.createElement("img");
-const ctaImageSource = "../images/owl001.jpg";
+const ctaImageSource = "../images/ssc042.jpg";
 ctaImage.src = ctaImageSource;
 cta.appendChild(ctaImage);
 

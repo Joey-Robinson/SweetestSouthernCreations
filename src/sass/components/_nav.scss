@@ -40,11 +40,12 @@
       grid-template-columns: 1fr;
 
       & a {
+        display: block;
         margin-top: 5rem;
         font-size: $largeHeading;
         grid-column: 1;
-        height: 1rem;
-        width: 1rem;
+        height: 5rem;
+        width: 5rem;
         padding: 1rem 10rem 0 0;
       }
     }
