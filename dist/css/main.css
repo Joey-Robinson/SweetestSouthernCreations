@@ -231,7 +231,7 @@ ul {
         hyphens: auto;
         padding: 1rem 1.2rem 1.3rem 2rem; }
       .home img {
-        padding: 1rem 2rem 1rem 1rem; }
+        padding: 1rem 1rem 1rem 1.5rem; }
       .home-greeting {
         margin-top: 1rem;
         grid-column: 1;
@@ -248,17 +248,16 @@ ul {
         grid-column: 2;
         grid-row: 3; }
         .home-cta img {
-          padding: 0 0 0 2rem;
           display: none; }
       .home-ctaimage {
         grid-column: 1;
-        grid-row: 2; }
+        grid-row: 3; }
       .home-additional {
         grid-column: 1;
-        grid-row: -1;
+        grid-row: 5;
         color: #222;
         padding: 0 0 1.3rem 0;
-        margin: 2rem 0 0 0; }
+        margin: 1rem 0 0 0; }
         .home-additional p {
           animation: fadeInRight 1s ease-in-out; } }
   @media only screen and (max-width: 37.5em) {
@@ -345,3 +344,7 @@ ul {
   @media only screen and (max-width: 37.5em) {
     .emptytwo {
       display: none; } }
+
+.additionalImage {
+  grid-column: 2;
+  grid-row: 5; }
