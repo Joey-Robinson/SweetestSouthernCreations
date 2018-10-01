@@ -259,13 +259,18 @@ ul {
         padding: 0 0 1.3rem 0;
         margin: 1rem 0 0 0; }
         .home-additional p {
-          animation: fadeInRight 1s ease-in-out; } }
+          animation: fadeInRight 1s ease-in-out; }
+      .home-additionalImage {
+        grid-column: 2;
+        grid-row: 5; } }
   @media only screen and (max-width: 37.5em) {
     .home {
       grid-template-columns: 1fr;
       grid-template-rows: max-content max-content max-content;
       grid-row-gap: 1rem;
       font-size: 1.85rem; }
+      .home-additionalImage {
+        display: none; }
       .home p {
         hyphens: auto;
         padding: 1rem 1.2rem 1.3rem 2rem; }
@@ -344,7 +349,3 @@ ul {
   @media only screen and (max-width: 37.5em) {
     .emptytwo {
       display: none; } }
-
-.additionalImage {
-  grid-column: 2;
-  grid-row: 5; }

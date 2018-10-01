@@ -82,6 +82,10 @@
         animation: fadeInRight 1s ease-in-out;
       }
     }
+    &-additionalImage {
+      grid-column: 2;
+      grid-row: 5;
+    }
   }
 
   // Content End for tablet MQ
@@ -90,7 +94,9 @@
     grid-template-rows: max-content max-content max-content;
     grid-row-gap: 1rem;
     font-size: $testBase;
-
+    &-additionalImage {
+      display: none;
+    }
     & p {
       hyphens: auto;
       padding: 1rem 1.2rem 1.3rem 2rem;
@@ -205,8 +211,8 @@
   }
 }
 
-.additionalImage {
-  grid-column: 2;
-  grid-row: 5;
-  // align-self: center;
-}
+// .additionalImage {
+//   grid-column: 2;
+//   grid-row: 5;
+//   // align-self: center;
+// }

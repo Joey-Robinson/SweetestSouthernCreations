@@ -40,7 +40,7 @@ ctaTwo.appendChild(ctaImageTwo);
 
 const additional = document.querySelector('.additionalImage');
 const additionalImage = document.createElement('img');
-const additionalImageSource = '../images/owl002.jpg';
+const additionalImageSource = '../images/ssc041.jpg';
 additionalImage.src = additionalImageSource;
 additional.appendChild(additionalImage);
 
