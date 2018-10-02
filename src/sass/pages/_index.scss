@@ -13,9 +13,10 @@
     grid-row: 1;
   }
 
-  &-greetingImage {
-    grid-column: 3;
+  &-image {
+    grid-column: 1;
     grid-row: 1;
+    display: none;
   }
 
   &-cta {
@@ -86,9 +87,12 @@
     }
 
     &-image {
+      grid-column: 2;
+      grid-row: 1;
       align-self: center;
       display: block;
-      height: auto;
+      // height: auto;
+      padding: 0;
     }
 
     &-cta {
@@ -104,6 +108,8 @@
     &-imagine {
       grid-column: 1;
       grid-row: 3;
+      align-self: center;
+      padding-top: 0;
     }
 
     &-additional {
@@ -119,6 +125,7 @@
     }
 
     &-additionalImage {
+      align-self: center;
       grid-column: 2;
       grid-row: 5;
     }

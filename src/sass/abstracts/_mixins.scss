@@ -61,7 +61,18 @@
 
     ;
   }
+
+  @if $breakpoint==huge {
+    @media only screen and (max-width: 200.5em) {
+      // 1800px
+      @content
+    }
+
+    ;
+  }
 }
+
+
 
 @include respond(phone) {}
 
@@ -72,3 +83,5 @@
 @include respond(tabLand) {}
 
 @include respond(bigDesktop) {}
+
+@include respond(huge) {}

@@ -231,9 +231,10 @@ ul {
   .home-greeting {
     grid-column: 2;
     grid-row: 1; }
-  .home-greetingImage {
-    grid-column: 3;
-    grid-row: 1; }
+  .home-image {
+    grid-column: 1;
+    grid-row: 1;
+    display: none; }
   .home-cta {
     grid-column: 2;
     grid-row: 3; }
@@ -278,9 +279,11 @@ ul {
         .home-greeting p {
           animation: fadeInLeft 1s ease-in-out; }
       .home-image {
+        grid-column: 2;
+        grid-row: 1;
         align-self: center;
         display: block;
-        height: auto; }
+        padding: 0; }
       .home-cta {
         margin-top: 1rem;
         grid-column: 2;
@@ -289,7 +292,9 @@ ul {
           display: none; }
       .home-imagine {
         grid-column: 1;
-        grid-row: 3; }
+        grid-row: 3;
+        align-self: center;
+        padding-top: 0; }
       .home-additional {
         grid-column: 1;
         grid-row: 5;
@@ -299,6 +304,7 @@ ul {
         .home-additional p {
           animation: fadeInRight 1s ease-in-out; }
       .home-additionalImage {
+        align-self: center;
         grid-column: 2;
         grid-row: 5; } }
   @media only screen and (max-width: 37.5em) {
