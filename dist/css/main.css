@@ -104,7 +104,14 @@ ul {
   color: #e2e1e1;
   font-size: 2rem;
   display: grid;
-  grid-template-columns: 70% repeat(4, 1fr); }
+  grid-template-columns: 70% repeat(3, 1fr); }
+  .nav h1 {
+    text-align: left;
+    padding: 0 1rem 0 5rem;
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 3rem;
+    width: 100%; }
   .nav-slide {
     justify-self: center;
     align-self: center;
@@ -178,15 +185,26 @@ ul {
   .nav div {
     padding: 1rem 0 1rem 0;
     justify-items: center;
-    text-align: center; }
+    text-align: center;
+    transition: all .3s ease-out; }
   .nav-home {
     grid-column: 2; }
-  .nav-about {
-    grid-column: 3; }
+    .nav-home:hover {
+      background: #e2e1e1; }
+      .nav-home:hover a {
+        color: #222; }
   .nav-work {
-    grid-column: 4; }
+    grid-column: 3; }
+    .nav-work:hover {
+      background: #e2e1e1; }
+      .nav-work:hover a {
+        color: #222; }
   .nav-contact {
-    grid-column: 5; }
+    grid-column: 4; }
+    .nav-contact:hover {
+      background: #e2e1e1; }
+      .nav-contact:hover a {
+        color: #222; }
 
 @media (min-width: 1200px) {
   .nav-slide {

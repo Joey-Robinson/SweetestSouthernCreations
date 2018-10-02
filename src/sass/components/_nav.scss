@@ -7,7 +7,16 @@
   color: $headerWhite;
   font-size: $base;
   display: grid;
-  grid-template-columns: 70% repeat(4, 1fr);
+  grid-template-columns: 70% repeat(3, 1fr);
+
+  & h1 {
+    text-align: left;
+    padding: 0 1rem 0 5rem;
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 3rem;
+    width: 100%;
+  }
 
   &-slide {
     justify-self: center;
@@ -109,22 +118,43 @@
     padding: 1rem 0 1rem 0;
     justify-items: center;
     text-align: center;
+    transition: all .3s ease-out;
   }
 
   &-home {
     grid-column: 2;
-  }
 
-  &-about {
-    grid-column: 3;
+    &:hover {
+      background: $headerWhite;
+
+      & a {
+        color: $primaryColor;
+      }
+    }
   }
 
   &-work {
-    grid-column: 4;
+    grid-column: 3;
+
+    &:hover {
+      background: $headerWhite;
+
+      & a {
+        color: $primaryColor;
+      }
+    }
   }
 
   &-contact {
-    grid-column: 5;
+    grid-column: 4;
+
+    &:hover {
+      background: $headerWhite;
+
+      & a {
+        color: $primaryColor;
+      }
+    }
   }
 }
 
