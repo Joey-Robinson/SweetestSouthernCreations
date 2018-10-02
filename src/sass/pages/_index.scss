@@ -7,10 +7,30 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: max-content 1rem max-content 1rem max-content;
+  // grid-row-gap: 2rem;
 
   &-greeting {
-    grid-column: 2;
+    width: 90%;
+    margin: 0 auto;
+    grid-column: 1 / -1;
     grid-row: 1;
+    margin-top: 1rem;
+
+    & p {
+      padding: 1rem 1.2rem 1rem 1.2rem;
+    }
+
+    & h1 {
+      text-align: center;
+    }
+
+    & h1:before {
+      content: "- ";
+    }
+
+    & h1:after {
+      content: " -";
+    }
   }
 
   &-image {
@@ -172,6 +192,7 @@
     }
 
     &-greeting {
+      width: 100%;
       background: url("../../../images/ssc064banner.jpg") no-repeat center center / cover;
       grid-column: 1;
       color: $headerWhite;
