@@ -26,14 +26,6 @@
     & h1 {
       text-align: center;
     }
-
-    & h1:before {
-      content: "- ";
-    }
-
-    & h1:after {
-      content: " -";
-    }
   }
 
   &-image {
@@ -45,22 +37,14 @@
   &-cta {
     grid-column: 1 / 3;
     grid-row: 3;
-    padding: 0 1rem 2rem 1rem;
 
     & p {
-      padding: 1rem 1.5rem 1.5rem 10rem;
+      hyphens: auto;
+      padding: 0 2rem 0 10rem;
     }
 
     & h1 {
       text-align: center;
-    }
-
-    & h1:before {
-      content: "- ";
-    }
-
-    & h1:after {
-      content: " -";
     }
 
     & img {
@@ -75,13 +59,33 @@
   }
 
   &-additional {
-    grid-column: 2;
+    grid-column: 1 / -1;
     grid-row: 5;
+    // padding: 0 7rem 7rem 8rem;
+    background: url("../../../images/ssc041.jpg") no-repeat center center / cover;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    & p {
+      hyphens: auto;
+      padding: 0 2rem 0 2rem;
+    }
+
+    & h1 {
+      text-align: center;
+    }
   }
 
   &-additionalImage {
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 5;
+    padding: 0 0 2.5rem 9.5rem;
+    display: none;
+
+    & img {
+      display: none;
+    }
   }
 
   // This MQ is for tablets.
@@ -117,6 +121,7 @@
 
     // Content Start for class="home"
     &-greeting {
+      background: none;
       margin-top: 1rem;
       grid-column: 1;
       color: $primaryColor;
@@ -133,13 +138,15 @@
       align-self: center;
       display: block;
       // height: auto;
-      padding: 0;
+      margin: 0;
+      padding: 0 1rem 0 0;
     }
 
     &-cta {
       margin-top: 1rem;
       grid-column: 2;
       grid-row: 3;
+      padding: 0;
 
       & img {
         display: none;
@@ -150,7 +157,7 @@
       grid-column: 1;
       grid-row: 3;
       align-self: center;
-      padding-top: 0;
+      padding: 0;
     }
 
     &-additional {
@@ -169,6 +176,7 @@
       align-self: center;
       grid-column: 2;
       grid-row: 5;
+      padding: 0 1rem 0 0;
     }
   }
 
@@ -248,6 +256,10 @@
       }
     }
 
+    &-imagine {
+      padding: 0;
+    }
+
     &-additional {
       grid-column: 1;
       grid-row: -1;
@@ -297,7 +309,7 @@
 .emptytwo {
   grid-row: 4;
   grid-column: 1 / -1;
-  background: orangered;
+  background: $primaryColor;
   height: 2.5px;
   margin: 0 auto;
   width: 90%;
