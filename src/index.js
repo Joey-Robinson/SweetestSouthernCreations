@@ -38,11 +38,11 @@ const ctaImageTwoSource = "../images/ssc046banner.jpg";
 ctaImageTwo.src = ctaImageTwoSource;
 ctaTwo.appendChild(ctaImageTwo);
 
-const additional = document.querySelector('.additionalImage');
-const additionalImage = document.createElement('img');
-const additionalImageSource = '../images/ssc041.jpg';
-additionalImage.src = additionalImageSource;
-additional.appendChild(additionalImage);
+// const additional = document.querySelector('.additionalImage');
+// const additionalImage = document.createElement('img');
+// const additionalImageSource = '../images/ssc041.jpg';
+// additionalImage.src = additionalImageSource;
+// additional.appendChild(additionalImage);
 
 const cta = document.querySelector(".cta");
 const ctaImage = document.createElement("img");
@@ -70,8 +70,8 @@ const closeSlide = document
     slide.style.width = "0";
   });
 
-const greetingImageSource = "../images/owl002.jpg";
-const greeting = document.getElementById("grettingImage");
+const greetingImageSource = "../images/ssc061banner.jpg";
+const greeting = document.getElementById("homeImageTwo");
 const greetingImage = document.createElement("img");
 greetingImage.src = greetingImageSource;
 greeting.appendChild(greetingImage);
