@@ -32,9 +32,9 @@ changeFavIcon(favImage);
 // welcomeImage.src = welcomeImageSource;
 // welcome.appendChild(welcomeImage);
 
-const ctaTwo = document.querySelector('.ctaimage');
+const ctaTwo = document.querySelector('.home-imagine');
 const ctaImageTwo = document.createElement("img");
-const ctaImageTwoSource = "../images/owl002.jpg";
+const ctaImageTwoSource = "../images/ssc046banner.jpg";
 ctaImageTwo.src = ctaImageTwoSource;
 ctaTwo.appendChild(ctaImageTwo);
 
