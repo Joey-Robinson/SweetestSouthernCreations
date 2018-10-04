@@ -261,24 +261,24 @@ ul {
     grid-row: 3;
     padding: 0 10rem 0 0; }
   .home-additional {
-    grid-column: 1 / -1;
+    grid-column: 2 / -1;
     grid-row: 5;
-    background: url("../../../images/ssc041.jpg") no-repeat center center/cover;
-    width: 90%;
+    padding: 0 7rem 0 2rem;
     margin: 0 auto;
+    width: 90%;
     margin-bottom: 2rem; }
     .home-additional p {
       hyphens: auto;
-      padding: 0 2rem 0 2rem; }
+      padding: 0 2rem 2rem 2rem; }
     .home-additional h1 {
       text-align: center; }
   .home-additionalImage {
+    display: none; }
+  .home-additionalImageDesktop {
     grid-column: 1;
     grid-row: 5;
-    padding: 0 0 2.5rem 9.5rem;
-    display: none; }
-    .home-additionalImage img {
-      display: none; }
+    padding: 0 0 2rem 9.5rem;
+    align-self: center; }
   @media only screen and (max-width: 75em) {
     .home {
       grid-template-columns: 1fr 1fr;
@@ -328,6 +328,8 @@ ul {
         grid-row: 3;
         align-self: center;
         padding: 0; }
+      .home-additionalImageDesktop {
+        display: none; }
       .home-additional {
         grid-column: 1;
         grid-row: 5;
@@ -340,7 +342,8 @@ ul {
         align-self: center;
         grid-column: 2;
         grid-row: 5;
-        padding: 0 1rem 0 0; } }
+        padding: 0 1rem 0 0;
+        display: block; } }
   @media only screen and (max-width: 37.5em) {
     .home {
       grid-template-columns: 1fr;
@@ -394,7 +397,10 @@ ul {
           padding-right: 1.5rem; }
       .home-imagine {
         padding: 0; }
+      .home-additionalImageDesktop {
+        display: none; }
       .home-additional {
+        width: 100%;
         grid-column: 1;
         grid-row: -1;
         background: url("../../../images/ssc041banner.jpg") no-repeat center center/cover;
