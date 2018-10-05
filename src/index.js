@@ -4,7 +4,15 @@ const imageArray = [
   '../images/owl002.jpg',
   '../images/owl001.jpg'
 ];
-
+imageArray.map((image, index) => {
+  const creation = document.getElementById('creations'); // Good
+  const creationList = document.createElement('li'); // Good
+  const creationImages = document.createElement('img'); // Good 
+  creationImages.className = `image-${index}`; // Good
+  creationImages.src = image;
+  creationList.appendChild(creationImages);
+  creation.appendChild(creationList);
+})
 // imageArray.forEach((image) => {
 //   const homeImages = document.getElementById('home');
 //   const images = document.createElement('img');

@@ -224,8 +224,13 @@ ul {
   grid-row: 2;
   background: #e2e1e1;
   color: #130f0f;
-  font-size: 2.2rem;
-  display: grid; }
+  font-size: 2.2rem; }
+  .creations ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
+    justify-content: center; }
+    .creations ul img {
+      padding: .5rem .5rem .5rem .5rem; }
 
 .home {
   grid-column: 1 / -1;

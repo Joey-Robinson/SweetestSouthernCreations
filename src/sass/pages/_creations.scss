@@ -4,5 +4,14 @@
   background: $headerWhite;
   color: $textBlack;
   font-size: $mediumFont;
-  display: grid;
+
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
+    justify-content: center;
+
+    & img {
+      padding: .5rem .5rem .5rem .5rem;
+    }
+  }
 }
