@@ -38,11 +38,11 @@ const ctaImageTwoSource = "../images/ssc046banner.jpg";
 ctaImageTwo.src = ctaImageTwoSource;
 ctaTwo.appendChild(ctaImageTwo);
 
-// const additional = document.querySelector('.additionalImage');
-// const additionalImage = document.createElement('img');
-// const additionalImageSource = '../images/ssc041.jpg';
-// additionalImage.src = additionalImageSource;
-// additional.appendChild(additionalImage);
+const additional = document.querySelector('.additionalImage');
+const additionalImage = document.createElement('img');
+const additionalImageSource = '../images/ssc041banner.jpg';
+additionalImage.src = additionalImageSource;
+additional.appendChild(additionalImage);
 
 const cta = document.querySelector(".cta");
 const ctaImage = document.createElement("img");

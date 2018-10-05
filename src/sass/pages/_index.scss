@@ -184,6 +184,7 @@
         background-image: none;
       }
       & img {
+        // display: block;
         display: none;
       }
     }
@@ -193,7 +194,8 @@
       grid-row: 3;
       align-self: center;
       padding: 0;
-      display: none;
+      display: block;
+      // display: none;
     }
 
     &-additional {
@@ -213,7 +215,7 @@
     }
 
     &-additionalImage {
-      align-self: center;
+      // align-self: center;
       grid-column: 2;
       grid-row: 5;
       padding: 0 1rem 0 0;
