@@ -203,8 +203,8 @@
       grid-column: 1;
       grid-row: 5;
       color: $primaryColor;
-      padding: 0 0 1.3rem 0;
-      margin: 1rem 0 0 0;
+      padding: 0 0 1.3rem 1rem;
+      margin: 0 0 0 0;
       background-image: none;
       &:hover {
         background: none;
@@ -219,7 +219,17 @@
       grid-column: 2;
       grid-row: 5;
       padding: 0 1rem 0 0;
+      margin: 0;
       display: block;
+      & a {
+        padding: 0;
+        margin: 0;
+        height: 1rem;
+      }
+      & img {
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 

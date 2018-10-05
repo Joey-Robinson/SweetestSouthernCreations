@@ -32,7 +32,7 @@ changeFavIcon(favImage);
 // welcomeImage.src = welcomeImageSource;
 // welcome.appendChild(welcomeImage);
 
-const ctaTwo = document.querySelector('.home-imagine');
+const ctaTwo = document.querySelector('.ctaImage');
 const ctaImageTwo = document.createElement("img");
 const ctaImageTwoSource = "../images/ssc046banner.jpg";
 ctaImageTwo.src = ctaImageTwoSource;
