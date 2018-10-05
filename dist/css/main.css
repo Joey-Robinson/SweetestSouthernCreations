@@ -330,7 +330,6 @@ ul {
       .home-image {
         grid-column: 2;
         grid-row: 1;
-        align-self: center;
         display: block;
         margin: 0;
         padding: 1rem 1rem 0 0; }
@@ -342,7 +341,6 @@ ul {
           height: auto; }
       .home-cta {
         height: 100%;
-        margin-top: 1rem;
         grid-column: 2;
         grid-row: 3;
         padding: 0;
@@ -351,6 +349,8 @@ ul {
         .home-cta:hover {
           background-image: none; }
         .home-cta img {
+          padding: 0;
+          margin: 0;
           display: none; }
       .home-imagine {
         grid-column: 1;
@@ -358,6 +358,9 @@ ul {
         align-self: center;
         padding: 0;
         display: block; }
+        .home-imagine img {
+          margin: 0;
+          padding: 0 0 0 1.4rem; }
       .home-additional {
         height: 100%;
         grid-column: 1;

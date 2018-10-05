@@ -1,9 +1,9 @@
-// const imageArray = [
-//   '../images/owl002.jpg',
-//   '../images/owl001.jpg',
-//   '../images/owl002.jpg',
-//   '../images/owl001.jpg'
-// ];
+const imageArray = [
+  '../images/owl002.jpg',
+  '../images/owl001.jpg',
+  '../images/owl002.jpg',
+  '../images/owl001.jpg'
+];
 
 // imageArray.forEach((image) => {
 //   const homeImages = document.getElementById('home');
