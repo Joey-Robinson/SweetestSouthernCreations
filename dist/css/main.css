@@ -225,12 +225,15 @@ ul {
   background: #e2e1e1;
   color: #130f0f;
   font-size: 2.2rem; }
-  .creations ul {
+  .creations-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
     justify-content: center; }
-    .creations ul img {
+    .creations-list img {
       padding: .5rem .5rem .5rem .5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .creations-list {
+      grid-template-columns: 1fr 1fr; } }
 
 .home {
   grid-column: 1 / -1;

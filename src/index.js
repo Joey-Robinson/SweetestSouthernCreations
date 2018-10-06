@@ -8,13 +8,13 @@ const imageArray = [
 // Looking at creationImages.className = `image-${index}`; 
 // That specifically, I used this once before. The index (starting at 0) will
 // Interpolate on each image and its class. I really love this method of adding a class to the image. 
-// Very clean and efficient.
+// Very Niceu?
 
 imageArray.map((image, index) => {
   const creation = document.getElementById('creations'); // Good
   const creationList = document.createElement('li'); // Good
   const creationImages = document.createElement('img'); // Good 
-  creationImages.classList = `image-${index}`; // Good
+  creationImages.className = `image-${index}`; // Good
   creationImages.src = image;
   creationList.appendChild(creationImages);
   creation.appendChild(creationList);
