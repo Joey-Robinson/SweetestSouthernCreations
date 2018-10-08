@@ -1,9 +1,13 @@
-const imageArray = [
-  '../images/owl002.jpg',
-  '../images/owl001.jpg',
-  '../images/owl002.jpg',
-  '../images/owl001.jpg'
-];
+const imageArray = [{
+  thumbnail: "../images/thumbnailssc002.jpg",
+  largeImage: "../images/ssc002.jpg"
+}, {
+  thumbnail: "../images/thumbnailssc003.jpg",
+  largeImage: "../images/ssc003.jpg"
+}, {
+  thumbnail: "../images/thumbnailssc004.jpg",
+  largeImage: "../images/ssc004.jpg"
+}];
 
 // Looking at creationImages.className = `image-${index}`; 
 // That specifically, I used this once before. The index (starting at 0) will
@@ -26,8 +30,8 @@ imageArray.map((image, index) => {
   const creationLink = document.createElement('a'); // Good
   const creationImages = document.createElement('img'); // Good 
   creationImages.className = `image-${index}`; // Good
-  creationImages.src = image; // Good
-  creationLink.setAttribute('href', image); // Good
+  creationImages.src = image.thumbnail; // Good
+  creationLink.setAttribute('href', image.largeImage); // Good
   creationList.appendChild(creationLink); // Good
   creationLink.appendChild(creationImages); // Good
   creation.appendChild(creationList); // Good 
