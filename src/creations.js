@@ -9,6 +9,16 @@ const imageArray = [
 // That specifically, I used this once before. The index (starting at 0) will
 // Interpolate on each image and its class. I really love this method of adding a class to the image. 
 // Very Niceu?
+// So in the HTML, I have an empty ul with the ID #creations.
+// From there, I'm creating a list, followed by a link, then an image
+// <li><a><img></img></a></li>
+// Each element contains an image that sources out to the large image (Will use thumbnails for viewing)
+// So the break down looks like this:
+// <li>
+// <a href=${image}>
+// <img class="image-{index}">
+// </a>
+// </li>
 
 imageArray.map((image, index) => {
   const creation = document.getElementById('creations'); // Good
@@ -18,11 +28,9 @@ imageArray.map((image, index) => {
   creationImages.className = `image-${index}`; // Good
   creationImages.src = image; // Good
   creationLink.setAttribute('href', image); // Good
-
-  creationList.appendChild(creationLink);
-
-  creationLink.appendChild(creationImages);
-  creation.appendChild(creationList);
+  creationList.appendChild(creationLink); // Good
+  creationLink.appendChild(creationImages); // Good
+  creation.appendChild(creationList); // Good 
 })
 
 const openUrl = url => {
