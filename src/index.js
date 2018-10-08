@@ -1,31 +1,3 @@
-const imageArray = [
-  '../images/owl002.jpg',
-  '../images/owl001.jpg',
-  '../images/owl002.jpg',
-  '../images/owl001.jpg'
-];
-
-// Looking at creationImages.className = `image-${index}`; 
-// That specifically, I used this once before. The index (starting at 0) will
-// Interpolate on each image and its class. I really love this method of adding a class to the image. 
-// Very Niceu?
-
-imageArray.map((image, index) => {
-  const creation = document.getElementById('creations'); // Good
-  const creationList = document.createElement('li'); // Good
-  const creationImages = document.createElement('img'); // Good 
-  creationImages.className = `image-${index}`; // Good
-  creationImages.src = image;
-  creationList.appendChild(creationImages);
-  creation.appendChild(creationList);
-})
-// imageArray.forEach((image) => {
-//   const homeImages = document.getElementById('home');
-//   const images = document.createElement('img');
-//   images.src = image;
-//   homeImages.appendChild(images);
-// })
-
 const changeFavIcon = img => {
   let favIcon = document.querySelector('link[rel="shortcut icon"]');
   if (!favIcon) {
