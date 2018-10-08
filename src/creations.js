@@ -13,10 +13,15 @@ const imageArray = [
 imageArray.map((image, index) => {
   const creation = document.getElementById('creations'); // Good
   const creationList = document.createElement('li'); // Good
+  const creationLink = document.createElement('a'); // Good
   const creationImages = document.createElement('img'); // Good 
   creationImages.className = `image-${index}`; // Good
-  creationImages.src = image;
-  creationList.appendChild(creationImages);
+  creationImages.src = image; // Good
+  creationLink.setAttribute('href', image); // Good
+
+  creationList.appendChild(creationLink);
+
+  creationLink.appendChild(creationImages);
   creation.appendChild(creationList);
 })
 
