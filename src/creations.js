@@ -7,11 +7,17 @@ const imageArray = [{
 }, {
   thumbnail: "../images/thumbnailssc004.jpg",
   largeImage: "../images/ssc004.jpg"
+}, {
+  thumbnail: "../images/thumbnailssc005.jpg",
+  largeImage: "../images/ssc005.jpg"
+}, {
+  thumbnail: "../images/thumbnailssc009.jpg",
+  largeImage: "../images/ssc009.jpg"
 }];
 
 // Looking at creationImages.className = `image-${index}`; 
 // That specifically, I used this once before. The index (starting at 0) will
-// Interpolate on each image and its class. I really love this method of adding a class to the image. 
+// Iterate on each image and its class. I really love this method of adding a class to the image. 
 // Very Niceu?
 // So in the HTML, I have an empty ul with the ID #creations.
 // From there, I'm creating a list, followed by a link, then an image
