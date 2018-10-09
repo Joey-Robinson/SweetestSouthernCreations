@@ -62,8 +62,30 @@ const imageArray = [
   {
     thumbnail: "../images/thumbnailssc024.jpg",
     largeImage: "../images/ssc024.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc025.jpg",
+    largeImage: "../images/ssc025.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc026.jpg",
+    largeImage: "../images/ssc026.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc027.jpg",
+    largeImage: "../images/ssc027.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc028.jpg",
+    largeImage: "../images/ssc028.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc029.jpg",
+    largeImage: "../images/ssc029.jpg"
   }
 ];
+
+imageArray.sort(() => 0.75 - Math.random());
 
 // Looking at creationImages.className = `image-${index}`;
 // That specifically, I used this once before. The index (starting at 0) will
