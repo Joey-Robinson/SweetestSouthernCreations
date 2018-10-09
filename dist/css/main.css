@@ -225,19 +225,15 @@ ul {
   background: #e2e1e1;
   color: #130f0f;
   font-size: 2.2rem; }
+  .creations img {
+    width: 25rem;
+    height: 20rem;
+    padding: 1rem; }
   .creations-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 20rem));
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 25rem));
     justify-content: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    grid-column-gap: 5px; }
-    .creations-list img {
-      height: 100%;
-      width: 100%;
-      padding: 0;
-      margin: 0; }
+    grid-gap: 1rem; }
   @media only screen and (max-width: 37.5em) {
     .creations-list {
       grid-template-columns: 1fr 1fr; } }
