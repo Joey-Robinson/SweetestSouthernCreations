@@ -82,6 +82,130 @@ const imageArray = [
   {
     thumbnail: "../images/thumbnailssc029.jpg",
     largeImage: "../images/ssc029.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc030.jpg",
+    largeImage: "../images/ssc030.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc031.jpg",
+    largeImage: "../images/ssc031.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc033.jpg",
+    largeImage: "../images/ssc033.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc034.jpg",
+    largeImage: "../images/ssc034.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc035.jpg",
+    largeImage: "../images/ssc035.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc036.jpg",
+    largeImage: "../images/ssc036.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc037.jpg",
+    largeImage: "../images/ssc037.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc041.jpg",
+    largeImage: "../images/ssc041.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc042.jpg",
+    largeImage: "../images/ssc042.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc043.jpg",
+    largeImage: "../images/ssc043.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc045.jpg",
+    largeImage: "../images/ssc045.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc046.jpg",
+    largeImage: "../images/ssc046.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc047.jpg",
+    largeImage: "../images/ssc047.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc048.jpg",
+    largeImage: "../images/ssc048.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc049.jpg",
+    largeImage: "../images/ssc049.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc050.jpg",
+    largeImage: "../images/ssc050.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc051.jpg",
+    largeImage: "../images/ssc051.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc052.jpg",
+    largeImage: "../images/ssc052.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc053.jpg",
+    largeImage: "../images/ssc053.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc054.jpg",
+    largeImage: "../images/ssc054.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc055.jpg",
+    largeImage: "../images/ssc055.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc056.jpg",
+    largeImage: "../images/ssc056.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc057.jpg",
+    largeImage: "../images/ssc057.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc058.jpg",
+    largeImage: "../images/ssc058.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc059.jpg",
+    largeImage: "../images/ssc059.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc060.jpg",
+    largeImage: "../images/ssc060.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc061.jpg",
+    largeImage: "../images/ssc061.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc062.jpg",
+    largeImage: "../images/ssc062"
+  },
+  {
+    thumbnail: "../images/thumbnailssc063.jpg",
+    largeImage: "../images/ssc063.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc064.jpg",
+    largeImage: "../images/ssc064.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc065.jpg",
+    largeImage: "../images/ssc065.jpg"
   }
 ];
 
