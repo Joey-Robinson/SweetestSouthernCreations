@@ -168,7 +168,8 @@ ul {
   @media only screen and (max-width: 37.5em) {
     .nav {
       grid-template-columns: 5rem 1fr;
-      grid-template-rows: 1fr; }
+      grid-template-rows: 1fr;
+      z-index: 3; }
       .nav h1 {
         text-align: center;
         padding: .5rem 1rem 1rem 0;
@@ -237,8 +238,7 @@ ul {
       filter: none;
       transform: scale(1.2);
       transition: all 0.2s ease-in;
-      padding: 2rem;
-      z-index: 2; }
+      padding: 2rem; }
   .creations-list {
     padding: 0;
     margin: 2rem 1rem 2rem 2rem;
