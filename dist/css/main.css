@@ -229,8 +229,8 @@ ul {
   .creations li {
     padding: 5px 2px 5px 2px; }
   .creations img {
-    width: 25rem;
-    height: 30rem;
+    width: 20rem;
+    height: 20rem;
     transition: all .1s ease-out; }
     .creations img:hover {
       transform: scale(1.2);
@@ -240,7 +240,7 @@ ul {
     padding: 0;
     margin: 2rem 1rem 2rem 2.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); }
   @media only screen and (max-width: 37.5em) {
     .creations-list {
       grid-template-columns: 1fr 1fr; } }

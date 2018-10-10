@@ -51,7 +51,7 @@ const imageArray = [{
     largeImage: "../images/ssc015.jpg"
   },
   {
-    thumbnail: "../images/ssc016.jpg",
+    thumbnail: "../images/thumbnailssc016.jpg",
     largeImage: "../images/ssc016.jpg"
   },
   {
@@ -163,7 +163,7 @@ const imageArray = [{
     largeImage: "../images/ssc048.jpg"
   },
   {
-    thumbnail: "../images/ssc049.jpg",
+    thumbnail: "../images/thumbnailssc049.jpg",
     largeImage: "../images/ssc049.jpg"
   },
   {
@@ -175,7 +175,7 @@ const imageArray = [{
     largeImage: "../images/ssc051.jpg"
   },
   {
-    thumbnail: "../images/ssc052.jpg",
+    thumbnail: "../images/thumbnailssc052.jpg",
     largeImage: "../images/ssc052.jpg"
   },
   {

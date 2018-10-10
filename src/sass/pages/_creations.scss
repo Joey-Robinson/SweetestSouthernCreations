@@ -11,8 +11,8 @@
   }
 
   & img {
-    width: 25rem;
-    height: 30rem;
+    width: 20rem;
+    height: 20rem;
     transition: all .1s ease-out;
 
     &:hover {
@@ -26,7 +26,7 @@
     padding: 0;
     margin: 2rem 1rem 2rem 2.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 
   @include respond(phone) {
