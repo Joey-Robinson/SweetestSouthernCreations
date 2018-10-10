@@ -245,6 +245,19 @@ ul {
     margin: 2rem 1rem 2rem 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); }
+  @media only screen and (max-width: 75em) {
+    .creations img {
+      width: 25rem;
+      height: 25rem;
+      padding: 5px;
+      margin: 0; }
+    .creations li {
+      padding: 0;
+      margin: 0; }
+    .creations-list {
+      padding: 0;
+      margin: 0;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); } }
   @media only screen and (max-width: 37.5em) {
     .creations li {
       padding: 0;
