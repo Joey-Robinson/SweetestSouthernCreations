@@ -1,5 +1,4 @@
-const imageArray = [
-  {
+const imageArray = [{
     thumbnail: "../images/thumbnailssc002.jpg",
     largeImage: "../images/ssc002.jpg"
   },
@@ -14,6 +13,18 @@ const imageArray = [
   {
     thumbnail: "../images/thumbnailssc005.jpg",
     largeImage: "../images/ssc005.jpg"
+  },
+  {
+    thumbnail: "../images/ssc006.jpg",
+    largeImage: "../images/ssc006.jpg"
+  },
+  {
+    thumbnail: "../images/ssc007.jpg",
+    largeImage: "../images/ssc007.jpg"
+  },
+  {
+    thumbnail: "../images/ssc008.jpg",
+    largeImage: "../images/ssc008.jpg"
   },
   {
     thumbnail: "../images/thumbnailssc009.jpg",
@@ -32,11 +43,15 @@ const imageArray = [
     largeImage: "../images/ssc013.jpg"
   },
   {
+    thumbnail: "../images/thumbnailssc014.png",
+    largeImage: "../images/ssc014.png"
+  },
+  {
     thumbnail: "../images/thumbnailssc015.jpg",
     largeImage: "../images/ssc015.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc016.jpg",
+    thumbnail: "../images/ssc016.jpg",
     largeImage: "../images/ssc016.jpg"
   },
   {
@@ -48,11 +63,19 @@ const imageArray = [
     largeImage: "../images/ssc018.jpeg"
   },
   {
+    thumbnail: "../images/thumbnailssc019.jpg",
+    largeImage: "../images/ssc019.jpg"
+  },
+  {
+    thumbnail: "../images/thumbnailssc020.jpg",
+    largeImage: "../images/ssc020.jpg"
+  },
+  {
     thumbnail: "../images/thumbnailssc021.jpg",
     largeImage: "../images/ssc021.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc022.jpg",
+    thumbnail: "../images/ssc022.jpg",
     largeImage: "../images/ssc022.jpg"
   },
   {
@@ -140,7 +163,7 @@ const imageArray = [
     largeImage: "../images/ssc048.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc049.jpg",
+    thumbnail: "../images/ssc049.jpg",
     largeImage: "../images/ssc049.jpg"
   },
   {
@@ -152,7 +175,7 @@ const imageArray = [
     largeImage: "../images/ssc051.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc052.jpg",
+    thumbnail: "../images/ssc052.jpg",
     largeImage: "../images/ssc052.jpg"
   },
   {
@@ -180,15 +203,11 @@ const imageArray = [
     largeImage: "../images/ssc058.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc059.jpg",
-    largeImage: "../images/ssc059.jpg"
-  },
-  {
     thumbnail: "../images/thumbnailssc060.jpg",
     largeImage: "../images/ssc060.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc061.jpg",
+    thumbnail: "../images/ssc061.jpg",
     largeImage: "../images/ssc061.jpg"
   },
   {

@@ -224,16 +224,23 @@ ul {
   grid-row: 2;
   background: #e2e1e1;
   color: #130f0f;
-  font-size: 2.2rem; }
+  font-size: 2.2rem;
+  overflow: hidden; }
+  .creations li {
+    padding: 5px 2px 5px 2px; }
   .creations img {
-    width: 15rem;
-    height: 15rem;
-    padding: 5px; }
+    width: 25rem;
+    height: 30rem;
+    transition: all .1s ease-out; }
+    .creations img:hover {
+      transform: scale(1.2);
+      transition: all .1s ease-in;
+      border: 2mm ridge rgba(34, 34, 34, 0.95); }
   .creations-list {
+    padding: 0;
+    margin: 2rem 1rem 2rem 2.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10rem, 15rem));
-    justify-content: center;
-    grid-gap: 1rem; }
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
   @media only screen and (max-width: 37.5em) {
     .creations-list {
       grid-template-columns: 1fr 1fr; } }
