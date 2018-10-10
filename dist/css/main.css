@@ -162,7 +162,8 @@ ul {
   @media only screen and (max-width: 75em) {
     .nav {
       grid-template-columns: 5rem 1fr;
-      grid-template-rows: 1fr; }
+      grid-template-rows: 1fr;
+      z-index: 3; }
       .nav-primary {
         display: none; } }
   @media only screen and (max-width: 37.5em) {
@@ -245,8 +246,16 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); }
   @media only screen and (max-width: 37.5em) {
+    .creations li {
+      padding: 0;
+      margin: 0; }
     .creations-list {
-      grid-template-columns: 1fr 1fr; } }
+      grid-template-columns: 1fr 1fr;
+      padding: 0;
+      margin: 0; }
+      .creations-list:hover {
+        padding: 0;
+        margin: 0; } }
 
 .home {
   grid-column: 1 / -1;

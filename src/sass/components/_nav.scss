@@ -84,6 +84,7 @@
   @include respond(tabLand) {
     grid-template-columns: 5rem 1fr;
     grid-template-rows: 1fr;
+    z-index: 3;
 
     &-primary {
       display: none;
