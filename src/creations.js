@@ -163,7 +163,7 @@ const imageArray = [{
     largeImage: "../images/ssc048.jpg"
   },
   {
-    thumbnail: "../images/thumbnailssc049.jpg",
+    thumbnail: "../images/ssc049.jpg",
     largeImage: "../images/ssc049.jpg"
   },
   {

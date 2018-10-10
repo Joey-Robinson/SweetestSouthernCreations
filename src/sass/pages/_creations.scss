@@ -11,14 +11,18 @@
   }
 
   & img {
-    width: 25rem;
-    height: 25rem;
-    transition: all .1s ease-out;
+    filter: grayscale(100%);
+    width: 20rem;
+    height: 20rem;
+    transition: all 0.2s ease-out;
 
     &:hover {
+      filter: none;
       transform: scale(1.2);
-      transition: all .1s ease-in;
-      border: 2mm ridge rgba(34, 34, 34, .95);
+      transition: all 0.2s ease-in;
+      padding: 2rem;
+      z-index: 2;
+      // border: 1mm ridge rgba(34, 34, 34, 0.95);
     }
   }
 
@@ -26,7 +30,7 @@
     padding: 0;
     margin: 2rem 1rem 2rem 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
 
   @include respond(phone) {
