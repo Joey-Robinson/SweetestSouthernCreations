@@ -222,6 +222,13 @@ ul {
       grid-template-columns: 1fr;
       grid-template-rows: max-content max-content max-content; } }
 
+.contact {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  background: #e2e1e1;
+  color: #130f0f;
+  font-size: 2.2rem; }
+
 .creations {
   grid-column: 1 / -1;
   grid-row: 2;
