@@ -252,6 +252,7 @@ imageArray.map((image, index) => {
   const creationImages = document.createElement("img"); // Good
   creationImages.className = `image-${index}`; // Good
   creationImages.src = image.thumbnail; // Good
+  creationImages.alt = `Sweetest Southern Creations - Image ${index}`
   creationLink.setAttribute("href", image.largeImage); // Good
   creationList.appendChild(creationLink); // Good
   creationLink.appendChild(creationImages); // Good
