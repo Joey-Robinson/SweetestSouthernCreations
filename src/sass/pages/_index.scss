@@ -11,8 +11,8 @@
 
   &-greeting {
     color: $headerWhite;
-    background: url("../../../images/ssc064banner.jpg") no-repeat center center /
-      cover;
+    background: url("../../../images/ssc064.jpg") no-repeat center center / cover;
+    filter: grayscale(100%);
     width: 90%;
     margin: 0 auto;
     grid-column: 1 / -1;
@@ -20,9 +20,11 @@
     margin-top: 2rem;
     padding: 0 1rem 2rem 1rem;
     height: 30vh;
+    transition: all .3s ease-out;
+
     &:hover {
-      background: url("../../../images/ssc064.jpg") no-repeat center center /
-        cover;
+      transition: all .3s ease-in;
+      filter: none;
       color: $primaryColor;
     }
 
@@ -44,17 +46,21 @@
   &-cta {
     grid-column: 1 / -1;
     grid-row: 3;
-    background: url("../../../images/ssc061banner.jpg") no-repeat center center /
-      cover;
+    background: url("../../../images/ssc061.jpg") no-repeat center center / cover;
+    filter: grayscale(100%);
     height: 30vh;
     color: $headerWhite;
     width: 90%;
     margin: 0 auto;
+    transition: all .3s ease-out;
+
     &:hover {
-      background: url("../../../images/ssc061.jpg") no-repeat center center /
-        cover;
+      transition: all .3s ease-in;
+      filter: none;
     }
+
     padding: 0 1rem 2rem 1rem;
+
     & p {
       hyphens: auto;
       padding: 1rem 1.5rem 1.5rem 1.5rem;
@@ -77,8 +83,8 @@
   }
 
   &-additional {
-    background: url("../../../images/ssc046banner.jpg") no-repeat center center /
-      cover;
+    background: url("../../../images/ssc046.jpg") no-repeat center center / cover;
+    filter: grayscale(100%);
     grid-column: 1 / -1;
     height: 30vh;
     grid-row: 5;
@@ -86,12 +92,16 @@
     margin: 0 auto;
     width: 90%;
     margin-bottom: 2rem;
+    transition: all .3s ease-out;
+
     &:hover {
-      background: url("../../../images/ssc046.jpg") no-repeat center center /
-        cover;
+      transition: all .3s ease-in;
+      filter: none;
       color: $primaryColor;
     }
+
     padding: 0 1rem 2rem 1rem;
+
     & p {
       hyphens: auto;
       padding: 1rem 1.5rem 1.5rem 1.5rem;
@@ -146,9 +156,11 @@
       background-image: none;
       height: 100%;
       padding: 1rem 0 0 0;
+
       &:hover {
         background-image: none;
       }
+
       & p {
         animation: fadeInLeft 1s ease-in-out;
       }
@@ -162,9 +174,11 @@
       // height: auto;
       margin: 0;
       padding: 1rem 1rem 0 0;
+
       & a {
         height: 1px;
       }
+
       & img {
         margin: 1rem 1rem 0 0;
         padding: 0;
@@ -180,9 +194,11 @@
       padding: 0;
       background-image: none;
       color: $primaryColor;
+
       &:hover {
         background-image: none;
       }
+
       & img {
         padding: 0;
         margin: 0;
@@ -197,6 +213,7 @@
       align-self: center;
       padding: 0;
       display: block;
+
       // display: none;
       & img {
         margin: 0;
@@ -212,9 +229,11 @@
       padding: 0 0 1.3rem 1rem;
       margin: 0 0 0 0;
       background-image: none;
+
       &:hover {
         background: none;
       }
+
       & p {
         animation: fadeInRight 1s ease-in-out;
       }
@@ -227,11 +246,13 @@
       padding: 0 1rem 0 0;
       margin: 0;
       display: block;
+
       & a {
         padding: 0;
         margin: 0;
         height: 1rem;
       }
+
       & img {
         padding: 0;
         margin: 0;
@@ -281,8 +302,7 @@
 
     &-greeting {
       width: 100%;
-      background: url("../../../images/ssc064banner.jpg") no-repeat center
-        center / cover;
+      background: url("../../../images/ssc064banner.jpg") no-repeat center center / cover;
       grid-column: 1;
       color: $headerWhite;
       grid-row: 1;
@@ -290,11 +310,12 @@
       margin: 0;
       height: 100%;
       padding: 0 0 2.5rem 0;
+
       &:hover {
-        background: url("../../../images/ssc064banner.jpg") no-repeat center
-          center / cover;
+        background: url("../../../images/ssc064banner.jpg") no-repeat center center / cover;
         color: $headerWhite;
       }
+
       & h1 {
         margin-top: 1rem;
         background: $headerWhite;
@@ -315,9 +336,11 @@
       background: none;
       height: 100%;
       width: 100%;
+
       &:hover {
         background: none;
       }
+
       & h1 {
         box-shadow: 5px 5px #696969;
         width: 60%;
@@ -331,6 +354,7 @@
     &-imagine {
       padding: 0;
       display: block;
+
       &img {
         display: block;
       }
@@ -345,16 +369,16 @@
       width: 100%;
       grid-column: 1;
       grid-row: -1;
-      background: url("../../../images/ssc041banner.jpg") no-repeat center
-        center / cover;
+      background: url("../../../images/ssc041banner.jpg") no-repeat center center / cover;
       color: $headerWhite;
       font-weight: 700;
       padding: 0 0 1.3rem 0;
+
       &:hover {
-        background: url("../../../images/ssc041banner.jpg") no-repeat center
-          center / cover;
+        background: url("../../../images/ssc041banner.jpg") no-repeat center center / cover;
         color: $headerWhite;
       }
+
       & h1 {
         margin-top: 2rem;
         background: $headerWhite;
