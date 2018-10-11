@@ -4,24 +4,19 @@
   background: $headerWhite;
   color: $textBlack;
   font-size: $mediumFont;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10vh);
 
-  & svg {
-    fill: purple;
+  &-fb {
+    width: 10rem;
+    height: 10rem;
+
+    & circle {
+      fill: purple;
+      width: 50vw;
+      height: 50vh;
+    }
   }
 }
-
-// .magic {
-//   width: 10rem;
-//   height: 10rem;
-//   fill: yellow;
-//   stroke: green;
-//   stroke-width: 1rem;
-// }
-
-// .magicTwo {
-//   height: 25rem;
-//   width: 25rem;
-//   fill: purple;
-//   background: silver;
-//   stroke: maroon;
-// }

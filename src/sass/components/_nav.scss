@@ -10,6 +10,14 @@
   grid-template-columns: 70% repeat(3, 1fr);
   z-index: 3;
 
+  &-active {
+    background: $headerWhite;
+
+    & a {
+      color: $primaryColor;
+    }
+  }
+
   & h1 {
     text-align: left;
     padding: 0 1rem 0 5rem;
