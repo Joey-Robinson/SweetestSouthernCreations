@@ -4,4 +4,24 @@
   background: $headerWhite;
   color: $textBlack;
   font-size: $mediumFont;
+
+  & svg {
+    fill: purple;
+  }
 }
+
+// .magic {
+//   width: 10rem;
+//   height: 10rem;
+//   fill: yellow;
+//   stroke: green;
+//   stroke-width: 1rem;
+// }
+
+// .magicTwo {
+//   height: 25rem;
+//   width: 25rem;
+//   fill: purple;
+//   background: silver;
+//   stroke: maroon;
+// }
