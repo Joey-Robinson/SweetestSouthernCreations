@@ -60,7 +60,7 @@
   @include respond(tabLand) {
     & a {
       width: 110%;
-      padding: 0 1.3rem 0 1.3rem;
+      padding: 0 1.3rem 1rem 1.3rem;
     }
   }
 
@@ -73,6 +73,7 @@
       height: 35%;
       justify-self: center;
       align-self: center;
+      text-align: center;
 
       &:hover {
         width: 80%;

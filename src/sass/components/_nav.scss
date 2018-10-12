@@ -10,6 +10,13 @@
   grid-template-columns: 70% repeat(3, 1fr);
   z-index: 3;
 
+  &-banner {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    font-size: 3rem;
+  }
+
   &-active {
     background: $headerWhite;
 
@@ -101,6 +108,7 @@
       align-self: center;
       justify-self: center;
       font-size: 3rem;
+      padding: 0 0 5px 0;
     }
 
     &-slide {
@@ -122,6 +130,7 @@
       grid-row: 1;
       grid-column: 2;
       text-align: center;
+      padding: 0 1rem 0 0;
       // align-self: center;
       // justify-self: center;
       font-size: 2rem;
