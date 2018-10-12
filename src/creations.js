@@ -1,3 +1,5 @@
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+
 const imageArray = [{
     thumbnail: "../images/thumbnailssc002.jpg",
     largeImage: "../images/ssc002.jpg"
@@ -245,13 +247,16 @@ imageArray.sort(() => 0.75 - Math.random());
 // </a>
 // </li>
 
+
+
 imageArray.map((image, index) => {
   const creation = document.getElementById("creations"); // Good
   const creationList = document.createElement("li"); // Good
   const creationLink = document.createElement("a"); // Good
   const creationImages = document.createElement("img"); // Good
-  creationImages.className = `image-${index}`; // Good
-  creationImages.src = image.thumbnail; // Good
+  creationImages.className = `image-${index} lozad`; // Good
+  // creationImages.src = image.thumbnail;
+  creationImages.dataset.src = image.thumbnail; // Good
   creationImages.alt = `Sweetest Southern Creations - Image ${index}`; // Good
   creationLink.setAttribute("href", image.largeImage); // Good
   creationList.appendChild(creationLink); // Good
@@ -307,3 +312,5 @@ const closeSlide = document
 //     }, 500);
 //   }
 // })();
+
+observer.observe();
