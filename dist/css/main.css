@@ -110,7 +110,8 @@ ul {
     grid-column: 1;
     grid-row: 1;
     align-self: center;
-    font-size: 3rem; }
+    font-size: 3rem;
+    padding: 0 0 0 9.5rem; }
   .nav-active {
     background: #e2e1e1; }
     .nav-active a {
