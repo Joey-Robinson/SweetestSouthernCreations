@@ -235,21 +235,74 @@ ul {
   display: grid;
   overflow: hidden;
   grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(10, 10vh); }
+  grid-template-rows: repeat(10, 10vh);
+  background: url("../../../images/ssc064banner.jpg") no-repeat center center/cover; }
   .contact-facebook {
     grid-column: 2 / 4;
     grid-row: 2;
+    background: #3b5998;
+    color: #e2e1e1;
+    transition: all .3s ease-in-out;
+    border-radius: 10rem;
+    text-align: center;
     width: 100%;
-    height: 100%; }
+    height: 70%;
+    filter: grayscale(100%); }
+    .contact-facebook:hover {
+      filter: none;
+      transition: all .3s ease-in;
+      width: 400%; }
   .contact-twitter {
     grid-column: 3 / 5;
-    grid-row: 3; }
+    grid-row: 3;
+    background: #1da1f2;
+    color: #e2e1e1;
+    transition: all .3s ease-in-out;
+    border-radius: 10rem;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    filter: grayscale(100%); }
+    .contact-twitter:hover {
+      filter: none;
+      transition: all .3s ease-in;
+      width: 400%; }
+    .contact-twitter:hover {
+      width: 350%; }
   .contact-instagram {
     grid-column: 5 / 7;
-    grid-row: 5; }
+    grid-row: 5;
+    background: linear-gradient(217deg, rgba(64, 93, 230, 0.8), rgba(88, 81, 219, 0) 70.71%), linear-gradient(127deg, rgba(131, 58, 180, 0.8), #c13584 70.71%), linear-gradient(336deg, rgba(225, 48, 108, 0.8), #fd1d1d 70.71%);
+    color: #e2e1e1;
+    transition: all .3s ease-in-out;
+    border-radius: 10rem;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    filter: grayscale(100%); }
+    .contact-instagram:hover {
+      filter: none;
+      transition: all .3s ease-in;
+      width: 400%; }
+    .contact-instagram:hover {
+      width: 250%; }
   .contact-pintrest {
+    color: #e2e1e1;
+    transition: all .3s ease-in-out;
+    border-radius: 10rem;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    filter: grayscale(100%);
+    background: #bd081c;
     grid-column: 4 / 6;
     grid-row: 4; }
+    .contact-pintrest:hover {
+      filter: none;
+      transition: all .3s ease-in;
+      width: 400%; }
+    .contact-pintrest:hover {
+      width: 300%; }
 
 .creations {
   grid-column: 1 / -1;
