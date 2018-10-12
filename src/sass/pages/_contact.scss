@@ -7,9 +7,13 @@
   display: grid;
   overflow: hidden;
   grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(10, 10vh);
+  grid-template-rows: repeat(5, 20vh);
   background: url("../../../images/ssc064banner.jpg") no-repeat center center / cover;
+
   // transition: all .3s ease-out;
+  & a {
+    width: 100%;
+  }
 
   &-facebook {
     grid-column: 2 / 4;
@@ -32,7 +36,6 @@
   &-instagram {
     grid-column: 5 / 7;
     grid-row: 5;
-    // background: #fd1d1d;
     background: linear-gradient(217deg, rgba(64, 93, 230, .8), rgba(88, 81, 219, 0) 70.71%),
       linear-gradient(127deg, rgba(131, 58, 180, .8), rgb(193, 53, 132) 70.71%),
       linear-gradient(336deg, rgba(225, 48, 108, .8), #fd1d1d 70.71%);
