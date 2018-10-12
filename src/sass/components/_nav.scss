@@ -92,8 +92,21 @@
 
   @include respond(tabLand) {
     grid-template-columns: 5rem 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 5rem;
     z-index: 3;
+
+    &-banner {
+      grid-row: 1;
+      grid-column: 2;
+      align-self: center;
+      justify-self: center;
+      font-size: 3rem;
+    }
+
+    &-slide {
+      grid-row: 1;
+      grid-column: 1;
+    }
 
     &-primary {
       display: none;
@@ -104,6 +117,15 @@
     grid-template-columns: 5rem 1fr;
     grid-template-rows: 1fr;
     z-index: 3;
+
+    &-banner {
+      grid-row: 1;
+      grid-column: 2;
+      text-align: center;
+      // align-self: center;
+      // justify-self: center;
+      font-size: 2rem;
+    }
 
     & h1 {
       text-align: center;

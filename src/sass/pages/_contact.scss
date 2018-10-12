@@ -56,4 +56,63 @@
       width: 300%;
     }
   }
+
+  @include respond(tabLand) {
+    & a {
+      width: 110%;
+      padding: 0 1.3rem 0 1.3rem;
+    }
+  }
+
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 20vh);
+
+    & a {
+      width: 50%;
+      height: 35%;
+      justify-self: center;
+      align-self: center;
+
+      &:hover {
+        width: 80%;
+      }
+    }
+
+    &-facebook {
+      grid-column: 1;
+      grid-row: 1;
+
+      &:hover {
+        width: 80%;
+      }
+    }
+
+    &-twitter {
+      grid-column: 1;
+      grid-row: 2;
+
+      &:hover {
+        width: 80%;
+      }
+    }
+
+    &-pintrest {
+      grid-column: 1;
+      grid-row: 3;
+
+      &:hover {
+        width: 80%;
+      }
+    }
+
+    &-instagram {
+      grid-column: 1;
+      grid-row: 4;
+
+      &:hover {
+        width: 80%;
+      }
+    }
+  }
 }

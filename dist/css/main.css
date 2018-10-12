@@ -167,8 +167,17 @@ ul {
   @media only screen and (max-width: 75em) {
     .nav {
       grid-template-columns: 5rem 1fr;
-      grid-template-rows: 1fr;
+      grid-template-rows: 5rem;
       z-index: 3; }
+      .nav-banner {
+        grid-row: 1;
+        grid-column: 2;
+        align-self: center;
+        justify-self: center;
+        font-size: 3rem; }
+      .nav-slide {
+        grid-row: 1;
+        grid-column: 1; }
       .nav-primary {
         display: none; } }
   @media only screen and (max-width: 37.5em) {
@@ -176,6 +185,11 @@ ul {
       grid-template-columns: 5rem 1fr;
       grid-template-rows: 1fr;
       z-index: 3; }
+      .nav-banner {
+        grid-row: 1;
+        grid-column: 2;
+        text-align: center;
+        font-size: 2rem; }
       .nav h1 {
         text-align: center;
         padding: .5rem 1rem 1rem 0;
@@ -309,6 +323,41 @@ ul {
       width: 400%; }
     .contact-pintrest:hover {
       width: 300%; }
+  @media only screen and (max-width: 75em) {
+    .contact a {
+      width: 110%;
+      padding: 0 1.3rem 0 1.3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .contact {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5, 20vh); }
+      .contact a {
+        width: 50%;
+        height: 35%;
+        justify-self: center;
+        align-self: center; }
+        .contact a:hover {
+          width: 80%; }
+      .contact-facebook {
+        grid-column: 1;
+        grid-row: 1; }
+        .contact-facebook:hover {
+          width: 80%; }
+      .contact-twitter {
+        grid-column: 1;
+        grid-row: 2; }
+        .contact-twitter:hover {
+          width: 80%; }
+      .contact-pintrest {
+        grid-column: 1;
+        grid-row: 3; }
+        .contact-pintrest:hover {
+          width: 80%; }
+      .contact-instagram {
+        grid-column: 1;
+        grid-row: 4; }
+        .contact-instagram:hover {
+          width: 80%; } }
 
 .creations {
   grid-column: 1 / -1;
