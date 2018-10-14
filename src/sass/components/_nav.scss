@@ -13,9 +13,13 @@
   &-banner {
     grid-column: 1;
     grid-row: 1;
-    align-self: center;
-    font-size: 3rem;
-    padding: 0 0 0 9.5rem;
+    padding: 0;
+    margin: 0 0 0 10rem;
+    // width: 40%;
+    height: 100%;
+    justify-self: left;
+    display: block;
+    // align-self: center;
   }
 
   &-active {
@@ -67,7 +71,7 @@
       width: 0;
       position: fixed;
       z-index: 2;
-      opacity: .985;
+      opacity: 0.985;
       top: 0;
       left: 0;
       background: $primaryColor;
@@ -92,7 +96,7 @@
       background: $primaryColor;
       position: absolute;
       top: 0;
-      right: .5rem;
+      right: 0.5rem;
       font-size: 4rem;
       margin-left: 7rem;
     }
@@ -139,14 +143,14 @@
 
     & h1 {
       text-align: center;
-      padding: .5rem 1rem 1rem 0;
+      padding: 0.5rem 1rem 1rem 0;
       grid-row: 1;
       grid-column: 2;
       font-size: 2.2rem;
     }
 
     &-slide {
-      padding: .45rem 0 0 1rem;
+      padding: 0.45rem 0 0 1rem;
       grid-row: 1;
       grid-column: 1;
     }
@@ -161,7 +165,7 @@
     padding: 1rem 0 1rem 0;
     justify-items: center;
     text-align: center;
-    transition: all .3s ease-out;
+    transition: all 0.3s ease-out;
   }
 
   &-home {
