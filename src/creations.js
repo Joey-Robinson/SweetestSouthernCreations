@@ -17,15 +17,15 @@ const imageArray = [{
     largeImage: "../images/ssc005.jpg"
   },
   {
-    thumbnail: "../images/ssc006.jpg",
+    thumbnail: "../images/thumbnailssc006.jpg",
     largeImage: "../images/ssc006.jpg"
   },
   {
-    thumbnail: "../images/ssc007.jpg",
+    thumbnail: "../images/thumbnailssc007.jpg",
     largeImage: "../images/ssc007.jpg"
   },
   {
-    thumbnail: "../images/ssc008.jpg",
+    thumbnail: "../images/thumbnailssc008.jpg",
     largeImage: "../images/ssc008.jpg"
   },
   {
@@ -77,7 +77,7 @@ const imageArray = [{
     largeImage: "../images/ssc021.jpg"
   },
   {
-    thumbnail: "../images/ssc022.jpg",
+    thumbnail: "../images/thumbnailssc022.jpg",
     largeImage: "../images/ssc022.jpg"
   },
   {
@@ -165,7 +165,7 @@ const imageArray = [{
     largeImage: "../images/ssc048.jpg"
   },
   {
-    thumbnail: "../images/ssc049.jpg",
+    thumbnail: "../images/thumbnailssc049.jpg",
     largeImage: "../images/ssc049.jpg"
   },
   {
@@ -209,7 +209,7 @@ const imageArray = [{
     largeImage: "../images/ssc060.jpg"
   },
   {
-    thumbnail: "../images/ssc061.jpg",
+    thumbnail: "../images/thumbnailssc061.jpg",
     largeImage: "../images/ssc061.jpg"
   },
   {
