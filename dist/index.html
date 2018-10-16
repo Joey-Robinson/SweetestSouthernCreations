@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./dist/css/main.css" type="text/css">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-  <title>Lorem - Creations</title>
+  <title>Lorem - Contact</title>
 </head>
 
 <body>
@@ -17,10 +16,10 @@
       <div class="nav-home nav-primary">
         <a href="index.html">Home</a>
       </div>
-      <div class="nav-work nav-primary nav-active">
+      <div class="nav-work nav-primary">
         <a href="creations.html">Creations</a>
       </div>
-      <div class="nav-contact nav-primary">
+      <div class="nav-contact nav-primary nav-active">
         <a href="contact.html">Contact</a>
       </div>
       <div class="nav-banner">
@@ -44,10 +43,10 @@
             <a class="nav-slide-home" href="index.html">Home</a>
           </li>
           <li>
-            <a class="nav-slide-creations nav-slide__current" href="creations.html">Creations</a>
+            <a class="nav-slide-creations" href="creations.html">Creations</a>
           </li>
           <li>
-            <a class="nav-slide-contact" href="contact.html">Contact</a>
+            <a class="nav-slide-contact nav-slide__current" href="#">Contact</a>
           </li>
         </ul>
 
@@ -56,24 +55,36 @@
     <!-- Header End -->
 
     <!-- Content Start -->
-    <div class="creations">
-      <ul id="creations" class="creations-list">
-      </ul>
+    <div id="contact" class="contact">
+      <!-- Something that I can do in JS -->
+      <!-- No Accordion Not enough content? -->
+      <!-- No SVG, looks awful -->
+      <!-- Possible Idea: Use 4 Blocks, :hover have it cover the other 3? -->
+      <!-- Keep It Simple Stupid: KISS. Have just a banner or some icons for the outgoing -->
+      <a href="https://facebook.com" target="_blank" class="contact-facebook">
+        Facebook
+      </a>
+      <a href="https://twitter.com/" target="_blank" class="contact-twitter">
+        Twitter
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" class="contact-instagram">
+        Instagram
+      </a>
+      <a href="https://www.google.com" target="_blank" class="contact-pintrest">
+        Pintrest
+      </a>
     </div>
     <!-- Content End -->
 
     <!-- Footer Start-->
     <footer class="footer">
-      <div class="footer-email">
-        <a href="mailto:joeyrobinsondev@gmail.com">
-          Joey Robinson &copy; 2018
-        </a>
-      </div>
+      From Footer
     </footer>
     <!-- Footer End -->
 
   </div>
-  <script src="./src/creations.js"></script>
-</body>
+  <script src="./src/contact.js"></script>
+
+<script type="text/javascript" src="/bundle.js"></script></body>
 
 </html>
