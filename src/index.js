@@ -17,24 +17,45 @@ changeFavIcon(favImage);
 // const welcomeImageSource = "../images/owl002.jpg";
 // welcomeImage.src = welcomeImageSource;
 // welcome.appendChild(welcomeImage);
+const ctaTwoImages = () => {
+  const ctaTwo = document.getElementById('ctaImage');
+  const ctaImageTwo = document.createElement("img");
+  const ctaImageTwoSource = "../images/ssc046banner.jpg";
+  ctaImageTwo.src = ctaImageTwoSource;
+  ctaTwo.appendChild(ctaImageTwo);
+}
 
-const ctaTwo = document.querySelector('.ctaImage');
-const ctaImageTwo = document.createElement("img");
-const ctaImageTwoSource = "../images/ssc046banner.jpg";
-ctaImageTwo.src = ctaImageTwoSource;
-ctaTwo.appendChild(ctaImageTwo);
+const additionalImageFunction = () => {
+  const additional = document.querySelector('.additionalImage');
+  const additionalImage = document.createElement('img');
+  const additionalImageSource = '../images/ssc041banner.jpg';
+  additionalImage.src = additionalImageSource;
+  additional.appendChild(additionalImage);
+}
 
-const additional = document.querySelector('.additionalImage');
-const additionalImage = document.createElement('img');
-const additionalImageSource = '../images/ssc041banner.jpg';
-additionalImage.src = additionalImageSource;
-additional.appendChild(additionalImage);
+const ctaImageFunction = () => {
+  const cta = document.querySelector(".cta");
+  const ctaImage = document.createElement("img");
+  const ctaImageSource = "../images/ssc042.jpg";
+  ctaImage.src = ctaImageSource;
+  cta.appendChild(ctaImage);
+}
 
-const cta = document.querySelector(".cta");
-const ctaImage = document.createElement("img");
-const ctaImageSource = "../images/ssc042.jpg";
-ctaImage.src = ctaImageSource;
-cta.appendChild(ctaImage);
+const greetingImageFunction = () => {
+  const greetingImageSource = "../images/ssc061banner.jpg";
+  const greeting = document.getElementById("homeImageTwo");
+  const greetingImage = document.createElement("img");
+  greetingImage.src = greetingImageSource;
+  greeting.appendChild(greetingImage);
+}
+
+
+if (document.URL === '/index.html') {
+  ctaTwoImages();
+  additionalImageFunction();
+  ctaImageFunction();
+  greetingImageFunction();
+}
 
 const openUrl = url => {
   const newTab = window.open();
@@ -56,11 +77,7 @@ const closeSlide = document
     slide.style.width = "0";
   });
 
-const greetingImageSource = "../images/ssc061banner.jpg";
-const greeting = document.getElementById("homeImageTwo");
-const greetingImage = document.createElement("img");
-greetingImage.src = greetingImageSource;
-greeting.appendChild(greetingImage);
+
 
 // const hide = () => {
 //   const hiddenDiv = document.getElementById("hiddenDiv");
