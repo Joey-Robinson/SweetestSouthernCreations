@@ -447,7 +447,7 @@ ul {
     grid-row: 1;
     margin-top: 2rem;
     padding: 0 1rem 2rem 1rem;
-    height: max-content;
+    height: auto;
     transition: all .3s ease-out;
     font-size: 2.5rem;
     font-weight: bold; }
@@ -466,13 +466,15 @@ ul {
   .home-cta {
     grid-column: 1 / -1;
     grid-row: 3;
-    background: url("../../../images/ssc061.jpg") no-repeat center center/cover;
+    background: url("../../../images/ssc041.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
-    height: min-content;
-    color: #e2e1e1;
+    height: auto;
+    color: #222;
     width: 90%;
     margin: 0 auto;
     transition: all .3s ease-out;
+    font-size: 2.5rem;
+    font-weight: bold;
     padding: 0 1rem 2rem 1rem; }
     .home-cta:hover {
       transition: all .3s ease-in;
@@ -493,13 +495,15 @@ ul {
     background: url("../../../images/ssc046.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
     grid-column: 1 / -1;
-    height: 30vh;
+    height: auto;
     grid-row: 5;
-    color: #e2e1e1;
+    color: #222;
     margin: 0 auto;
     width: 90%;
     margin-bottom: 2rem;
     transition: all .3s ease-out;
+    font-size: 2.5rem;
+    font-weight: bold;
     padding: 0 1rem 2rem 1rem; }
     .home-additional:hover {
       transition: all .3s ease-in;

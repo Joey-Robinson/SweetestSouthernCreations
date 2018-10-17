@@ -49,8 +49,8 @@ const greetingImageFunction = () => {
   greeting.appendChild(greetingImage);
 }
 
-
-if (document.URL === '/index.html') {
+// Change this to URL when pushing Prod.
+if (document.URL === 'http://127.0.0.1:8080/index.html') {
   ctaTwoImages();
   additionalImageFunction();
   ctaImageFunction();

@@ -19,7 +19,7 @@
     grid-row: 1;
     margin-top: 2rem;
     padding: 0 1rem 2rem 1rem;
-    height: max-content;
+    height: auto;
     transition: all .3s ease-out;
     font-size: $largeFont;
     font-weight: bold;
@@ -47,14 +47,15 @@
   &-cta {
     grid-column: 1 / -1;
     grid-row: 3;
-    background: url("../../../images/ssc061.jpg") no-repeat center center / cover;
+    background: url("../../../images/ssc041.jpg") no-repeat center center / cover;
     filter: grayscale(100%);
-    height: min-content;
-    color: $headerWhite;
+    height: auto;
+    color: $primaryColor;
     width: 90%;
     margin: 0 auto;
     transition: all .3s ease-out;
-
+    font-size: $largeFont;
+    font-weight: bold;
     &:hover {
       transition: all .3s ease-in;
       filter: none;
@@ -87,14 +88,15 @@
     background: url("../../../images/ssc046.jpg") no-repeat center center / cover;
     filter: grayscale(100%);
     grid-column: 1 / -1;
-    height: 30vh;
+    height: auto;
     grid-row: 5;
-    color: $headerWhite;
+    color: $primaryColor;
     margin: 0 auto;
     width: 90%;
     margin-bottom: 2rem;
     transition: all .3s ease-out;
-
+    font-size: $largeFont;
+    font-weight: bold;
     &:hover {
       transition: all .3s ease-in;
       filter: none;
