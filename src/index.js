@@ -1,3 +1,5 @@
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+
 const changeFavIcon = img => {
   let favIcon = document.querySelector('link[rel="shortcut icon"]');
   if (!favIcon) {
@@ -21,7 +23,8 @@ const ctaTwoImages = () => {
   const ctaTwo = document.getElementById('ctaImage');
   const ctaImageTwo = document.createElement("img");
   const ctaImageTwoSource = "../images/ssc046banner.jpg";
-  ctaImageTwo.src = ctaImageTwoSource;
+  ctaImageTwo.dataset.src = ctaImageTwoSource;
+  ctaImageTwo.classList.add('lozad');
   ctaTwo.appendChild(ctaImageTwo);
 }
 
@@ -29,7 +32,8 @@ const additionalImageFunction = () => {
   const additional = document.querySelector('.additionalImage');
   const additionalImage = document.createElement('img');
   const additionalImageSource = '../images/ssc041banner.jpg';
-  additionalImage.src = additionalImageSource;
+  additionalImage.dataset.src = additionalImageSource;
+  additionalImage.classList.add('lozad');
   additional.appendChild(additionalImage);
 }
 
@@ -37,7 +41,8 @@ const ctaImageFunction = () => {
   const cta = document.querySelector(".cta");
   const ctaImage = document.createElement("img");
   const ctaImageSource = "../images/ssc042.jpg";
-  ctaImage.src = ctaImageSource;
+  ctaImage.dataset.src = ctaImageSource;
+  ctaImage.classList.add('lozad');
   cta.appendChild(ctaImage);
 }
 
@@ -45,7 +50,8 @@ const greetingImageFunction = () => {
   const greetingImageSource = "../images/ssc061banner.jpg";
   const greeting = document.getElementById("homeImageTwo");
   const greetingImage = document.createElement("img");
-  greetingImage.src = greetingImageSource;
+  greetingImage.dataset.src = greetingImageSource;
+  greetingImage.classList.add('lozad');
   greeting.appendChild(greetingImage);
 }
 
@@ -78,7 +84,7 @@ const closeSlide = document
   });
 
 
-
+  observer.observe();
 // const hide = () => {
 //   const hiddenDiv = document.getElementById("hiddenDiv");
 //   const button = document.getElementById('hide');

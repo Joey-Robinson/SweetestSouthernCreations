@@ -447,7 +447,7 @@ ul {
     grid-row: 1;
     margin-top: 2rem;
     padding: 0 1rem 2rem 1rem;
-    height: auto;
+    height: 33vh;
     transition: all .3s ease-out;
     font-size: 2.5rem;
     font-weight: bold; }
@@ -495,7 +495,7 @@ ul {
     background: url("../../../images/ssc046.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
     grid-column: 1 / -1;
-    height: auto;
+    height: 33vh;
     grid-row: 5;
     color: #222;
     margin: 0 auto;
@@ -600,7 +600,7 @@ ul {
         grid-column: 2;
         grid-row: 5;
         padding: 0 1rem 0 0;
-        margin: 0;
+        margin: 0 0 2rem 0;
         display: block; }
         .home-additionalImage a {
           padding: 0;
