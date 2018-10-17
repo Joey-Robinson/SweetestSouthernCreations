@@ -438,7 +438,7 @@ ul {
   grid-template-rows: max-content 1rem max-content 1rem max-content;
   grid-row-gap: 2rem; }
   .home-greeting {
-    color: #e2e1e1;
+    color: #222;
     background: url("../../../images/ssc064.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
     width: 90%;
@@ -447,8 +447,10 @@ ul {
     grid-row: 1;
     margin-top: 2rem;
     padding: 0 1rem 2rem 1rem;
-    height: 30vh;
-    transition: all .3s ease-out; }
+    height: max-content;
+    transition: all .3s ease-out;
+    font-size: 2.5rem;
+    font-weight: bold; }
     .home-greeting:hover {
       transition: all .3s ease-in;
       filter: none;
@@ -466,7 +468,7 @@ ul {
     grid-row: 3;
     background: url("../../../images/ssc061.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
-    height: 30vh;
+    height: min-content;
     color: #e2e1e1;
     width: 90%;
     margin: 0 auto;
