@@ -262,7 +262,7 @@ ul {
   display: grid;
   overflow: hidden;
   grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(6, 10vh);
+  grid-template-rows: repeat(10, 10vh);
   background: url("../../../images/ssc064banner.jpg") no-repeat center center/cover; }
   .contact a {
     width: 100%; }
