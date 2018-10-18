@@ -494,6 +494,8 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: max-content 1rem max-content 1rem max-content;
   grid-row-gap: 2rem; }
+  .home img {
+    filter: grayscale(100%); }
   .home-greeting {
     color: #222;
     background: url("../../../images/ssc064.jpg") no-repeat center center/cover;

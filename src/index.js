@@ -22,7 +22,7 @@ changeFavIcon(favImage);
 const ctaTwoImages = () => {
   const ctaTwo = document.getElementById('ctaImage');
   const ctaImageTwo = document.createElement("img");
-  const ctaImageTwoSource = "../images/ssc046banner.jpg";
+  const ctaImageTwoSource = "../images/ssc046.jpg";
   ctaImageTwo.dataset.src = ctaImageTwoSource;
   ctaImageTwo.classList.add('lozad');
   ctaTwo.appendChild(ctaImageTwo);
@@ -31,7 +31,7 @@ const ctaTwoImages = () => {
 const additionalImageFunction = () => {
   const additional = document.querySelector('.additionalImage');
   const additionalImage = document.createElement('img');
-  const additionalImageSource = '../images/ssc041banner.jpg';
+  const additionalImageSource = '../images/ssc041.jpg';
   additionalImage.dataset.src = additionalImageSource;
   additionalImage.classList.add('lozad');
   additional.appendChild(additionalImage);
@@ -47,7 +47,7 @@ const ctaImageFunction = () => {
 }
 
 const greetingImageFunction = () => {
-  const greetingImageSource = "../images/ssc061banner.jpg";
+  const greetingImageSource = "../images/ssc061.jpg";
   const greeting = document.getElementById("homeImageTwo");
   const greetingImage = document.createElement("img");
   greetingImage.dataset.src = greetingImageSource;
