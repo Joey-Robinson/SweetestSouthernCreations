@@ -361,7 +361,7 @@ ul {
       grid-template-rows: repeat(6, 20vh); }
       .contact a {
         width: 50%;
-        height: 35%;
+        height: 25%;
         justify-self: center;
         align-self: center;
         text-align: center; }
@@ -753,6 +753,7 @@ ul {
         font-weight: 700;
         padding: 0 0 1.3rem 0; }
         .home-additional a {
+          color: #e2e1e1;
           text-decoration: underline; }
         .home-additional:hover {
           background: url("../../../images/ssc041banner.jpg") no-repeat center center/cover;
