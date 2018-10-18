@@ -177,12 +177,11 @@
     &-image {
       grid-column: 2;
       grid-row: 1;
-      // align-self: center;
       display: block;
-      // height: auto;
       margin: 0;
       padding: 1rem 1rem 0 0;
 
+      align-self: center;
       & a {
         height: 1px;
       }
@@ -190,13 +189,12 @@
       & img {
         margin: 1rem 1rem 0 0;
         padding: 0;
-        height: auto;
+        height: 100%;
       }
     }
 
     &-cta {
       height: 100%;
-      // margin-top: 1rem;
       grid-column: 2;
       grid-row: 3;
       padding: 0;
@@ -210,7 +208,6 @@
       & img {
         padding: 0;
         margin: 0;
-        // display: block;
         display: none;
       }
     }
@@ -221,8 +218,6 @@
       align-self: center;
       padding: 0;
       display: block;
-
-      // display: none;
       & img {
         margin: 0;
         padding: 0 0 0 1.4rem;
@@ -251,7 +246,6 @@
     }
 
     &-additionalImage {
-      // align-self: center;
       grid-column: 2;
       grid-row: 5;
       padding: 0 1rem 0 0;

@@ -617,13 +617,14 @@ ul {
         grid-row: 1;
         display: block;
         margin: 0;
-        padding: 1rem 1rem 0 0; }
+        padding: 1rem 1rem 0 0;
+        align-self: center; }
         .home-image a {
           height: 1px; }
         .home-image img {
           margin: 1rem 1rem 0 0;
           padding: 0;
-          height: auto; }
+          height: 100%; }
       .home-cta {
         height: 100%;
         grid-column: 2;
