@@ -469,7 +469,7 @@ ul {
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); } }
   @media only screen and (max-width: 37.5em) {
     .creations li {
-      padding: 0 0 0 1px;
+      padding: 0;
       margin: 0; }
     .creations img {
       width: 20rem;

@@ -230,7 +230,7 @@ const imageArray = [{
   }
 ];
 
-imageArray.sort(() => 0.75 - Math.random());
+imageArray.sort(() => 0.25 - Math.random());
 
 // Looking at creationImages.className = `image-${index}`;
 // That specifically, I used this once before. The index (starting at 0) will
