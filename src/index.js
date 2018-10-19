@@ -55,12 +55,22 @@ const greetingImageFunction = () => {
   greeting.appendChild(greetingImage);
 }
 
+const greetingImageFunctionTwo = () => {
+  const greetingImageSourceTwo = '../images/owl001.jpg';
+  const greetingTwo = document.getElementById('homeImageThree');
+  const greetingImageTwo = document.createElement('img');
+  greetingImageTwo.dataset.src = greetingImageSourceTwo;
+  greetingImageTwo.classList.add('lozad');
+  greetingTwo.appendChild(greetingImageTwo);
+}
+
 // Change this to URL when pushing Prod.
 if (document.URL === 'http://127.0.0.1:8080/index.html' || 'http://127.0.0.1:8080/') {
   ctaTwoImages();
   additionalImageFunction();
   ctaImageFunction();
   greetingImageFunction();
+  greetingImageFunctionTwo();
 }
 
 const openUrl = url => {

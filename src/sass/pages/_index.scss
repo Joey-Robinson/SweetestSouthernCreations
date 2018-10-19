@@ -180,8 +180,6 @@
       display: block;
       margin: 0;
       padding: 1rem 1rem 0 0;
-
-      align-self: center;
       & a {
         height: 1px;
       }
@@ -189,7 +187,7 @@
       & img {
         margin: 1rem 1rem 0 0;
         padding: 0;
-        height: 100%;
+        // height: 100%;
       }
     }
 
@@ -251,7 +249,7 @@
       padding: 0 1rem 0 0;
       margin: 0 0 2rem 0;
       display: block;
-
+      align-self: center;
       & a {
         padding: 0;
         margin: 0;

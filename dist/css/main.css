@@ -617,14 +617,12 @@ ul {
         grid-row: 1;
         display: block;
         margin: 0;
-        padding: 1rem 1rem 0 0;
-        align-self: center; }
+        padding: 1rem 1rem 0 0; }
         .home-image a {
           height: 1px; }
         .home-image img {
           margin: 1rem 1rem 0 0;
-          padding: 0;
-          height: 100%; }
+          padding: 0; }
       .home-cta {
         height: 100%;
         grid-column: 2;
@@ -667,7 +665,8 @@ ul {
         grid-row: 5;
         padding: 0 1rem 0 0;
         margin: 0 0 2rem 0;
-        display: block; }
+        display: block;
+        align-self: center; }
         .home-additionalImage a {
           padding: 0;
           margin: 0;
