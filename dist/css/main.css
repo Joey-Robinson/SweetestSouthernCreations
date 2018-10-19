@@ -429,6 +429,11 @@ ul {
         grid-row: 5; }
         .contact-instagram:hover {
           width: 80%; } }
+  @media (max-height: 500px) {
+    .contact a {
+      background: none;
+      margin: 1rem;
+      text-align: center; } }
 
 .creations {
   grid-column: 1 / -1;
@@ -736,6 +741,8 @@ ul {
           width: 60%; }
         .home-cta img {
           padding: 0 1.5rem 0 0; }
+      .home-ctaImageTwo {
+        display: none; }
       .home-imagine {
         padding: 0;
         display: block; }
@@ -765,6 +772,24 @@ ul {
           box-shadow: 5px 3px #222; }
         .home-additional p {
           animation: fadeInRight 1s ease-in-out; } }
+
+@media (max-height: 375px) {
+  #homeImageThree {
+    display: none; }
+    #homeImageThree img {
+      display: none; }
+  #homeImageFour {
+    display: none; } }
+
+@media (max-height: 768px) {
+  #homeImageThree {
+    display: none; }
+    #homeImageThree img {
+      display: none; }
+  #homeImageFour {
+    display: none; }
+  #ctaImageTwo {
+    display: none; } }
 
 .empty {
   grid-row: 2;

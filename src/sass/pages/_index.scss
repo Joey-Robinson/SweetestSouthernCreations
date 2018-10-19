@@ -269,7 +269,6 @@
     grid-template-rows: max-content max-content max-content;
     grid-row-gap: 1rem;
     font-size: $testBase;
-
     &-additionalImage {
       display: none;
     }
@@ -302,7 +301,6 @@
     &-image {
       display: none;
     }
-
     &-greeting {
       width: 100%;
       background: url("../../../images/ssc064banner.jpg") no-repeat center center / cover;
@@ -318,7 +316,6 @@
         background: url("../../../images/ssc064banner.jpg") no-repeat center center / cover;
         color: $headerWhite;
       }
-
       & h1 {
         margin-top: 1rem;
         background: $headerWhite;
@@ -353,7 +350,9 @@
         padding: 0 1.5rem 0 0;
       }
     }
-
+    &-ctaImageTwo {
+      display: none;
+    }
     &-imagine {
       padding: 0;
       display: block;
@@ -396,6 +395,33 @@
         animation: fadeInRight 1s ease-in-out;
       }
     }
+  }
+}
+
+@media(max-height: 375px) {
+  #homeImageThree {
+    display: none;
+    & img {
+      display: none;
+    }
+  }
+  #homeImageFour {
+    display: none;
+  }
+}
+
+@media(max-height: 768px) {
+  #homeImageThree {
+    display: none;
+    & img {
+      display: none;
+    }
+  }
+  #homeImageFour {
+    display: none;
+  }
+  #ctaImageTwo {
+    display: none;
   }
 }
 

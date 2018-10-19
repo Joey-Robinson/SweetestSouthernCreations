@@ -46,6 +46,15 @@ const ctaImageFunction = () => {
   cta.appendChild(ctaImage);
 }
 
+const ctaImageFunctionTwo = () => {
+  const cta = document.getElementById("ctaImageTwo");
+  const ctaImage = document.createElement("img");
+  const ctaImageSource = "../images/ssc042.jpg";
+  ctaImage.dataset.src = ctaImageSource;
+  ctaImage.classList.add('lozad');
+  cta.appendChild(ctaImage);
+}
+
 const greetingImageFunction = () => {
   const greetingImageSource = "../images/ssc061.jpg";
   const greeting = document.getElementById("homeImageTwo");
@@ -78,6 +87,7 @@ if (document.URL === 'http://127.0.0.1:8080/index.html' || 'http://127.0.0.1:808
   ctaTwoImages();
   additionalImageFunction();
   ctaImageFunction();
+  ctaImageFunctionTwo();
   greetingImageFunction();
   greetingImageFunctionTwo();
   greetingImageFunctionThree();

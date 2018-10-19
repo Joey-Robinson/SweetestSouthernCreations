@@ -121,7 +121,6 @@
         width: 80%;
       }
     }
-
   }
 
   @include respond(phone) {
@@ -180,6 +179,14 @@
       &:hover {
         width: 80%;
       }
+    }
+  }
+  @media(max-height: 500px) {
+    & a {
+      // width: 1px;
+      background: none;
+      margin: 1rem;
+      text-align: center;
     }
   }
 }
