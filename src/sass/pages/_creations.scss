@@ -12,13 +12,13 @@
 
   & img {
     filter: grayscale(100%);
-    width: 20rem;
-    height: 20rem;
+    width: 19rem;
+    height: 19rem;
     transition: all 0.2s ease-out;
 
     &:hover {
       filter: none;
-      transform: scale(1.2);
+      transform: scale(1.1);
       transition: all 0.2s ease-in;
       padding: 2rem;
     }
@@ -48,6 +48,18 @@
       padding: 0;
       margin: 0;
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+    @media(max-height: 37.5rem) {
+      & img {
+        width: 30rem;
+        height: 30rem;
+        padding: 1rem;
+        margin: 0;
+      }
+      &-list {
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmx(30rem, 30rem));
+      }
     }
   }
 
