@@ -377,19 +377,14 @@ ul {
         grid-row: 2; }
         .contact-facebook:hover {
           width: 80%; }
-      .contact-twitter {
-        grid-column: 1;
-        grid-row: 3; }
-        .contact-twitter:hover {
-          width: 80%; }
       .contact-pintrest {
         grid-column: 1;
-        grid-row: 4; }
+        grid-row: 3; }
         .contact-pintrest:hover {
           width: 80%; }
       .contact-instagram {
         grid-column: 1;
-        grid-row: 5; }
+        grid-row: 4; }
         .contact-instagram:hover {
           width: 80%; } }
   @media only screen and (max-width: 37.5em) {
@@ -414,19 +409,14 @@ ul {
         grid-row: 2; }
         .contact-facebook:hover {
           width: 80%; }
-      .contact-twitter {
-        grid-column: 1;
-        grid-row: 3; }
-        .contact-twitter:hover {
-          width: 80%; }
       .contact-pintrest {
         grid-column: 1;
-        grid-row: 4; }
+        grid-row: 3; }
         .contact-pintrest:hover {
           width: 80%; }
       .contact-instagram {
         grid-column: 1;
-        grid-row: 5; }
+        grid-row: 4; }
         .contact-instagram:hover {
           width: 80%; } }
   @media (max-height: 500px) {
@@ -486,8 +476,8 @@ ul {
       padding: 0;
       margin: 0; }
     .creations img {
-      width: 20rem;
-      height: 20rem;
+      width: 20.5rem;
+      height: 20.5rem;
       padding: 0;
       margin: 0; }
     .creations-list {

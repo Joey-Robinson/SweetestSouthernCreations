@@ -95,7 +95,7 @@
       }
     }
 
-    &-twitter {
+    &-pintrest {
       grid-column: 1;
       grid-row: 3;
 
@@ -104,18 +104,9 @@
       }
     }
 
-    &-pintrest {
-      grid-column: 1;
-      grid-row: 4;
-
-      &:hover {
-        width: 80%;
-      }
-    }
-
     &-instagram {
       grid-column: 1;
-      grid-row: 5;
+      grid-row: 4;
 
       &:hover {
         width: 80%;
@@ -154,7 +145,7 @@
       }
     }
 
-    &-twitter {
+    &-pintrest {
       grid-column: 1;
       grid-row: 3;
 
@@ -163,18 +154,9 @@
       }
     }
 
-    &-pintrest {
-      grid-column: 1;
-      grid-row: 4;
-
-      &:hover {
-        width: 80%;
-      }
-    }
-
     &-instagram {
       grid-column: 1;
-      grid-row: 5;
+      grid-row: 4;
 
       &:hover {
         width: 80%;
