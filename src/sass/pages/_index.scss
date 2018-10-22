@@ -399,18 +399,18 @@
 }
 
 @media(max-height: 375px) {
-  #homeImageThree {
-    display: none;
-    & img {
-      display: none;
-    }
-  }
-  #homeImageFour {
-    display: none;
-  }
+  // #homeImageThree {
+  //   display: none;
+  //   & img {
+  //     display: none;
+  //   }
+  // }
+  // #homeImageFour {
+  //   display: none;
+  // }
 }
 
-@media(max-height: 768px) {
+@media(height: 768px) {
   #homeImageThree {
     display: none;
     & img {
