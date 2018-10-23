@@ -30,10 +30,12 @@
     @include contactDefaults;
   }
 
-  &-twitter {
+  &-instagram {
     grid-column: 3 / 5;
     grid-row: 5 / 7;
-    background: #1da1f2;
+    background: linear-gradient(217deg, rgba(64, 93, 230, .8), rgba(88, 81, 219, 0) 70.71%),
+      linear-gradient(127deg, rgba(131, 58, 180, .8), rgb(193, 53, 132) 70.71%),
+      linear-gradient(336deg, rgba(225, 48, 108, .8), #fd1d1d 70.71%);
     @include contactDefaults;
 
     &:hover {
@@ -41,27 +43,14 @@
     }
   }
 
-  &-instagram {
-    grid-column: 4 / 6;
-    grid-row: 7 / 9;
-    background: linear-gradient(217deg, rgba(64, 93, 230, .8), rgba(88, 81, 219, 0) 70.71%),
-      linear-gradient(127deg, rgba(131, 58, 180, .8), rgb(193, 53, 132) 70.71%),
-      linear-gradient(336deg, rgba(225, 48, 108, .8), #fd1d1d 70.71%);
-    @include contactDefaults;
-
-    &:hover {
-      width: 300%;
-    }
-  }
-
   &-pintrest {
     @include contactDefaults;
     background: #bd081c;
-    grid-column: 5 / 7;
-    grid-row: 9 / 11;
+    grid-column: 4 / 6;
+    grid-row: 7 / 9;
 
     &:hover {
-      width: 250%;
+      width: 300%;
     }
   }
 
