@@ -78,6 +78,7 @@ const greetingImageFunctionThree = () => {
   const greeting = document.getElementById("homeImageFour");
   const greetingImage = document.createElement("img");
   greetingImage.dataset.src = greetingImageSource;
+  greetingImage.alt = `Sweetest Southern Creations - Greeting Image Number Four`
   greetingImage.classList.add('lozad');
   greeting.appendChild(greetingImage);
 }
