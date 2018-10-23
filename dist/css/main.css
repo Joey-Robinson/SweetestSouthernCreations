@@ -455,10 +455,22 @@ ul {
     z-index: 2; }
   .creations-list {
     grid-template-columns: repeat(auto-fill, minmax(11rem, 11rem)); } }
+
+@media only screen and (max-width: 75em) and (height: 360px) {
+  .creations img {
+    width: 18rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: 0;
+    z-index: 2; }
+  .creations-list {
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); } }
   @media only screen and (max-width: 37.5em) {
     .creations li {
-      padding: 0;
-      margin: 0; }
+      padding: 0 0 5px 0;
+      margin: 0;
+      justify-self: center;
+      justify-items: center; }
     .creations img {
       width: 19rem;
       height: 19rem;
