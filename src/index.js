@@ -60,6 +60,7 @@ const greetingImageFunction = () => {
   const greeting = document.getElementById("homeImageTwo");
   const greetingImage = document.createElement("img");
   greetingImage.dataset.src = greetingImageSource;
+  greetingImage.alt = `Sweetest Southern Creations - Greeting Image Number 2`
   greetingImage.classList.add('lozad');
   greeting.appendChild(greetingImage);
 }
@@ -69,6 +70,7 @@ const greetingImageFunctionTwo = () => {
   const greetingTwo = document.getElementById('homeImageThree');
   const greetingImageTwo = document.createElement('img');
   greetingImageTwo.dataset.src = greetingImageSourceTwo;
+  greetingImageTwo.alt = `Sweetest Southern Creations - Greeting Image Number 3`
   greetingImageTwo.classList.add('lozad');
   greetingTwo.appendChild(greetingImageTwo);
 }
@@ -78,7 +80,7 @@ const greetingImageFunctionThree = () => {
   const greeting = document.getElementById("homeImageFour");
   const greetingImage = document.createElement("img");
   greetingImage.dataset.src = greetingImageSource;
-  greetingImage.alt = `Sweetest Southern Creations - Greeting Image Number Four`
+  greetingImage.alt = `Sweetest Southern Creations - Greeting Image Number 4`
   greetingImage.classList.add('lozad');
   greeting.appendChild(greetingImage);
 }
