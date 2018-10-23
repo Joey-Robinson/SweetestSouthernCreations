@@ -13,13 +13,18 @@
     "compile:sass": "node-sass src/sass/main.scss dist/css/style.comp.css",
     "concat:css": "concat -o dist/css/style.concat.css dist/css/style.comp.css",
     "prefix:css": "postcss -u autoprefixer -r dist/css/*",
-    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:sass"
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:sass",
+    "build:JS": "uglifyjs --compress --mangle -- index.js",
+    "babelBuild": "babel src -d dist"
   },
   "keywords": [],
   "author": "Joey Robinson <joeyrobinsondev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
     "autoprefixer": "^9.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
     "concat": "^1.0.3",
     "css-loader": "^1.0.0",
     "html-loader": "^0.5.5",
@@ -31,6 +36,7 @@
     "style-loader": "^0.23.1"
   },
   "dependencies": {
-    "lozad": "^1.6.0"
+    "lozad": "^1.6.0",
+    "uglify-js": "^3.4.9"
   }
 }
