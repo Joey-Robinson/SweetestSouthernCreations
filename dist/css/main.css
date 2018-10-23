@@ -425,7 +425,8 @@ ul {
       filter: none;
       transform: scale(1.1);
       transition: all 0.2s ease-in;
-      padding: 2rem; }
+      padding: 1px;
+      margin: 0; }
   .creations-list {
     padding: 0;
     margin: 2rem 1rem 2rem 2rem;
@@ -443,14 +444,15 @@ ul {
     .creations-list {
       padding: 0;
       margin: 0;
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); } }
+      grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); } }
 
 @media only screen and (max-width: 75em) and (height: 375px) {
   .creations img {
     width: 12rem;
     height: 15rem;
     padding: 1rem;
-    margin: 0; }
+    margin: 0;
+    z-index: 2; }
   .creations-list {
     grid-template-columns: repeat(auto-fill, minmax(11rem, 11rem)); } }
   @media only screen and (max-width: 37.5em) {
@@ -458,10 +460,14 @@ ul {
       padding: 0;
       margin: 0; }
     .creations img {
-      width: 20.5rem;
-      height: 20.5rem;
+      width: 19rem;
+      height: 19rem;
       padding: 0;
       margin: 0; }
+      .creations img:hover {
+        transform: none;
+        padding: 0;
+        margin: 0; }
     .creations-list {
       grid-template-columns: 1fr 1fr;
       padding: 0;

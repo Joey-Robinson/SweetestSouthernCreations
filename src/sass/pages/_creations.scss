@@ -20,7 +20,8 @@
       filter: none;
       transform: scale(1.1);
       transition: all 0.2s ease-in;
-      padding: 2rem;
+      padding: 1px;
+      margin: 0;
     }
   }
 
@@ -47,7 +48,7 @@
     &-list {
       padding: 0;
       margin: 0;
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     }
     @media(height: 375px) {
       & img {
@@ -55,6 +56,7 @@
         height: 15rem;
         padding: 1rem;
         margin: 0;
+        z-index: 2;
       }
       &-list {
         // justify-items: center;
@@ -69,10 +71,15 @@
       margin: 0;
     }
     & img {
-      width: 20.5rem;
-      height: 20.5rem;
+      width: 19rem;
+      height: 19rem;
       padding: 0;
       margin: 0;
+      &:hover {
+        transform: none;
+        padding: 0;
+        margin: 0;
+      }
     }
     &-list {
       grid-template-columns: 1fr 1fr;
