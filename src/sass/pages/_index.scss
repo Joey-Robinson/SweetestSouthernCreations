@@ -398,16 +398,13 @@
   }
 }
 
-@media(max-height: 375px) {
-  // #homeImageThree {
-  //   display: none;
-  //   & img {
-  //     display: none;
-  //   }
-  // }
-  // #homeImageFour {
-  //   display: none;
-  // }
+@media(height: 414px) {
+  #ctaImageTwo {
+    display: none;
+    & img {
+      display: none;
+    }
+  }
 }
 
 @media(height: 768px) {
