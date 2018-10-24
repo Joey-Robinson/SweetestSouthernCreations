@@ -24,6 +24,7 @@ const ctaTwoImages = () => {
   const ctaImageTwo = document.createElement("img");
   const ctaImageTwoSource = "../images/ssc046.jpg";
   ctaImageTwo.dataset.src = ctaImageTwoSource;
+  ctaImageTwo.alt = `Sweetest Southern Creations - Call to Action Image One`
   ctaImageTwo.classList.add('lozad');
   ctaTwo.appendChild(ctaImageTwo);
 }
@@ -33,6 +34,7 @@ const additionalImageFunction = () => {
   const additionalImage = document.createElement('img');
   const additionalImageSource = '../images/ssc041.jpg';
   additionalImage.dataset.src = additionalImageSource;
+  additionalImage.alt = `Sweetest Southern Creations - Additional Image One`
   additionalImage.classList.add('lozad');
   additional.appendChild(additionalImage);
 }
@@ -42,6 +44,7 @@ const ctaImageFunction = () => {
   const ctaImage = document.createElement("img");
   const ctaImageSource = "../images/ssc042.jpg";
   ctaImage.dataset.src = ctaImageSource;
+  ctaImage.alt = `Sweetest Southern Creations - Call to Action Image Two`
   ctaImage.classList.add('lozad');
   cta.appendChild(ctaImage);
 }
@@ -51,6 +54,7 @@ const ctaImageFunctionTwo = () => {
   const ctaImage = document.createElement("img");
   const ctaImageSource = "../images/ssc042.jpg";
   ctaImage.dataset.src = ctaImageSource;
+  ctaImage.alt = `Sweetest Southern Creations - Call to Action Image Three`
   ctaImage.classList.add('lozad');
   cta.appendChild(ctaImage);
 }
