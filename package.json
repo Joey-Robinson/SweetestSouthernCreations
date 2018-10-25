@@ -14,7 +14,7 @@
     "concat:css": "concat -o dist/css/style.concat.css dist/css/style.comp.css",
     "prefix:css": "postcss -u autoprefixer -r dist/css/*",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:sass",
-    "build:JS": "uglifyjs --compress --mangle -- dist/",
+    "build:JS": "uglifyjs --compress --mangle -- dist/index.js",
     "babelBuild": "babel src -d dist"
   },
   "keywords": [],
