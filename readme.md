@@ -24,4 +24,8 @@ I created this website for a friend and her business. I started this original pr
 
 # Version Five - La Version Finale:
 
-[Version Five.](http://sweetestsoutherncreations.com/) Current and final* version of this project. This took some time to do, as I wasn't too sure what I wanted to do or what I wanted coming out of this.
+[Version Five - The Final Version](http://sweetestsoutherncreations.com/) Current and final* version of this project. This took some time to do, as I wasn't too sure what I wanted to do or what I wanted coming out of this. Going into this, I wanted something simple that made use of heavy (relative) use of JavaScript. I think I accomplished that here. Not only that, but I feel like I was finally able to convey my idea(s) down and make something that I'm super proud of. 
+
+Despite my feelings of apathy in prior iterations, I felt fairly motivated with this. I also took my time. Not just with this version, but with this project as a whole. 200+ commits and several iterations later is all it took for me to get it right. :smiley:
+
+Some notes: Every version of this made use of CSS Grid. In prior iterations, even using React on 1-2 version, the use of JavaScript wasn't as prevalent as it is here. I wanted to cut out some of the excessive usage of HTML, so JS was (in my mind) the way to go. Also, I feel like I could have used less S/CSS overall. 
