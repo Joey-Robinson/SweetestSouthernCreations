@@ -67,3 +67,4 @@ Side Note: While this is certainly the final iteration of this, I would, in the 
 Final Thoughts: Not specific to this project, but keep going. I could have easily let this rot but I knew I was capable of making this look and feel great. I learned A LOT through making this and continously iterating upon it. 
 
 Anyone reading this: Make what you want. You're the one making it.
+
