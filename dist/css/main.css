@@ -559,7 +559,7 @@ ul {
     background: url("../../../images/ssc046.jpg") no-repeat center center/cover;
     filter: grayscale(100%);
     grid-column: 1 / -1;
-    height: 25vh;
+    height: auto;
     grid-row: 5;
     color: #222;
     margin: 0 auto;
