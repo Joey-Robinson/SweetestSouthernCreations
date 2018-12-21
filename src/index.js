@@ -70,7 +70,7 @@ const greetingImageFunction = () => {
 }
 
 const greetingImageFunctionTwo = () => {
-  const greetingImageSourceTwo = '../images/owl002.jpg';
+  const greetingImageSourceTwo = '../images/ssc064.jpg';
   const greetingTwo = document.getElementById('homeImageThree');
   const greetingImageTwo = document.createElement('img');
   greetingImageTwo.dataset.src = greetingImageSourceTwo;
@@ -121,7 +121,7 @@ const closeSlide = document
   });
 
 
-  observer.observe();
+observer.observe();
 // const hide = () => {
 //   const hiddenDiv = document.getElementById("hiddenDiv");
 //   const button = document.getElementById('hide');
